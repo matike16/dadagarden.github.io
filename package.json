@@ -1,0 +1,38 @@
+{
+  "name": "dada-garden",
+  "version": "1.0.0",
+  "description": "哒哒的数字花园",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@types/three": "^0.166.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/plugin-blog": "2.0.0-rc.38",
+    "@vuepress/plugin-search": "2.0.0-rc.37",
+    "@vuepress/utils": "2.0.0-rc.2",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-hope": "2.0.0-rc.50"
+  },
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@vuepress/utils": "2.0.0-rc.2",
+    "axios": "^1.7.2",
+    "mitt": "^3.0.1",
+    "three": "^0.166.1",
+    "utils": "^0.3.1",
+    "vanta": "^0.5.24",
+    "vue-router": "^4.4.0"
+  }
+}

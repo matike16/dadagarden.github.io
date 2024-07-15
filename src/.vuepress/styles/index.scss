@@ -1,0 +1,359 @@
+// place your custom styles here
+// 取消侧边滚动条
+body {
+    overflow-x: hidden;
+}
+
+/* 添加hover后旋转 */
+.vp-blogger-avatar {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.vp-blogger-avatar:hover {
+    transform: rotate(360deg);
+}
+
+/* 取消弹出提示框 */
+.vp-blogger::before {
+    display: none;
+}
+
+.vp-blogger::after {
+    display: none;
+}
+
+.vp-social-media::before {
+    display: none;
+}
+
+.vp-social-media::after {
+    display: none;
+}
+
+// hover后旋转
+.vp-social-media,
+.vp-nav-logo {
+    transition: transform 0.5s ease-in-out;
+}
+
+.vp-social-media:hover,
+.vp-nav-logo:hover {
+    transform: rotate(360deg);
+}
+
+.icon-wrapper::before {
+    display: none;
+}
+
+.icon-wrapper::after {
+    display: none;
+}
+
+//添加hover后变色
+.icon-wrapper {
+    transition: color 0.5s ease-in-out;
+}
+
+.icon-wrapper:hover {
+    background-color: #409EFF;
+}
+
+.vp-blog-hero.fullscreen {
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+//bing 图片相关
+.vp-blog-mask {
+    // display: none;
+    height: 100vh;
+}
+
+//添加首页图片遮罩
+.vp-blog-mask::before {
+    height: 100vh;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+// 取消after，因为带有白色遮罩影响图片色彩
+.vp-blog-mask::after {
+    display: none;
+}
+
+// 隐藏首页的内容区域
+.dada-blog-home {
+    .theme-hope-content {
+        display: none;
+    }
+}
+
+.vp-blog-hero-image {
+    width: 150px;
+    height: 150px;
+
+    //添加圆形边框
+    border-radius: 50%;
+    //模糊边框效果
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    // border: 1px solid #A7A7A7;
+}
+
+.vp-blog-hero-title,
+.vp-blog-hero-description {
+    // font-family: '华文楷体';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bing-location,
+.bing-info {
+    display: none;
+}
+
+.bing-switch-prev,
+.bing-switch-next {
+    top: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.bing-switch-prev:hover,
+.bing-switch-next:hover {
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.slide-down-button {
+    top: 92vh;
+}
+
+// 取消导航栏头部颜色
+.vp-navbar {
+    // display: none;
+    backdrop-filter: saturate(180%) blur(30px);
+    box-shadow: none;
+
+    html[data-theme="light"] & {
+        background: rgba(255, 255, 255, 0.2);
+        // box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    html[data-theme="dark"] & {
+        background: rgba(1, 1, 1, 0.2);
+        // box-shadow:0 0 10px rgba(255, 255, 255, 0.2);
+    }
+}
+
+.vp-navbar .auto-link {
+    html[data-theme="light"] & {
+        color: #404040;
+    }
+
+    html[data-theme="dark"] & {
+        color: #c1c1c1;
+    }
+}
+
+.auto-link.route-link-active {
+    html[data-theme="light"] & {
+        color: var(--theme-color);
+    }
+
+    html[data-theme="dark"] & {
+        color: var(--theme-color);
+    }
+}
+
+.vp-dropdown-title,
+.vp-outlook-button {
+    html[data-theme="light"] & {
+        color: #404040;
+    }
+
+    html[data-theme="dark"] & {
+        color: #c1c1c1;
+    }
+}
+
+// 取消主页面顶部留白
+.dada-blog-home {
+    padding-bottom: 0;
+
+    .vp-page {
+        padding-top: 0;
+    }
+}
+
+// 修改信息页与顶部的距离
+.dada-blog-home .blog-page-wrapper {
+    padding-top: 3.25rem;
+}
+
+// .search-box {
+//     html[data-theme="light"] & {
+//         --search-border-color: #000;
+//     }
+//     html[data-theme="dark"] & {
+//         --search-border-color: #fff;
+//     }
+// }
+
+.search-box input {
+    width: 35px;
+    height: 38px;
+    padding: 0 0 0 35px;
+    border: 2px solid;
+
+    html[data-theme="light"] & {
+        background-color: #404040;
+        color: #c1c1c1;
+    }
+
+    html[data-theme="dark"] & {
+        background-color: #c1c1c1;
+        color: #404040;
+    }
+}
+
+.search-box input:focus {
+    width: 150px;
+    background-color: #fff;
+}
+
+.search-box input:hover {
+    background-color: #fff;
+}
+
+.vp-site-name {
+
+    // font-family: '华文楷体';
+    html[data-theme="light"] & {
+        color: #404040;
+    }
+
+    html[data-theme="dark"] & {
+        color: #c1c1c1;
+    }
+
+    transition: all 0.3s ease-in-out;
+}
+
+.vp-footer-wrapper {
+    background: none;
+    padding-block: 0.2rem;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.vp-article-item {
+    overflow: hidden;
+}
+
+// .vp-article-cover {
+//     transition: transform 0.3s ease;
+// }
+
+// .vp-article-cover:hover {
+//     transform: scale(1.05);
+// }
+
+// .vp-blog-info-wrapper , .vp-project-panel , .vp-article-list {
+//     display: none;
+// }
+
+
+[data-theme="light"] .vp-article-wrapper .vp-article-item,
+[data-theme="light"] .vp-page .vp-blogger-info,
+[data-theme="light"] .vp-page .vp-blog-infos,
+[data-theme="light"] .back-to-top [data-theme="light"] .page-bg {
+    background-color: #ffffffb3;
+}
+
+[data-theme="dark"] .vp-article-wrapper .vp-article-item,
+[data-theme="dark"] .vp-page .vp-blogger-info,
+[data-theme="dark"] .vp-page .vp-blog-infos,
+[data-theme="dark"] .back-to-top [data-theme="dark"] .page-bg {
+    background-color: #1d2025b3;
+}
+
+.vp-article-wrapper .vp-article-item,
+.vp-page .vp-blogger-info,
+.vp-page .vp-blog-infos,
+.back-to-top {
+    -webkit-backdrop-filter: saturate(150%) blur(0.75rem);
+    backdrop-filter: saturate(150%) blur(0.75rem);
+}
+
+.vp-pagination-number .prev,
+.vp-pagination-number .next {
+    border-radius: 0;
+}
+
+.vp-project-panel {
+    margin-top: 1rem;
+}
+
+.theme-container .vp-sidebar {
+    transition: 0.3s;
+    top: var(--navbar-height);
+
+    @media (min-width: 1024px) {
+        z-index: 4;
+        background-color: transparent;
+    }
+}
+
+[data-theme="light"] .theme-container .vp-sidebar {
+    @media (max-width: 1024px) {
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: saturate(150%) blur(0.75rem);
+    }
+}
+
+[data-theme="dark"] .theme-container .vp-sidebar {
+    @media (max-width: 1024px) {
+        background-color: rgba(29, 32, 37, 0.8);
+        backdrop-filter: saturate(150%) blur(0.75rem);
+    }
+}
+
+[data-theme="light"] #main-content.vp-page {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] #main-content.vp-page {
+    background-color: #1d2025cc;
+}
+
+#main-content.vp-page {
+    backdrop-filter: saturate(150%) blur(0.75rem);
+    // z-index: 2;
+}
+
+#main-content.vp-project-home {
+    // z-index: 2;
+    backdrop-filter: saturate(150%) blur(0.5rem);
+}
+
+.vp-page.not-found {
+    max-width: none;
+    background-color: transparent;
+}
+
+.vp-pagination .vp-pagination-number div.active {
+    background-color: var(--theme-color) !important;
+}
+
+.page-cover {
+    margin-top: 1rem;
+}
+
+.vp-page-nav .prev,
+.vp-page-nav .next {
+    transition: all 0.3s ease-in-out;
+}
