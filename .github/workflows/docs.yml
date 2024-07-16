@@ -22,10 +22,6 @@ jobs:
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v2
-        with:
-          run_install: true
-          version: 8
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
@@ -45,5 +41,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
-          branch: master
+          branch: gh-pages
           folder: docs/.vuepress/dist

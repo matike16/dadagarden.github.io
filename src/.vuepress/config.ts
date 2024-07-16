@@ -7,7 +7,7 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/DadaGarden/",
+  base: "/dadagarden.github.io/",
 
   lang: "zh-CN",
   title: "哒哒的花园",
