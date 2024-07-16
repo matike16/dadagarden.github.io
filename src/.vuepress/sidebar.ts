@@ -8,19 +8,16 @@ export default sidebar({
       icon: "laptop-code",
       prefix: "demo/",
       link: "demo/",
+      collapsible: true,
       children: "structure",
     },
     {
-      text: "文章",
+      text: "测试页面",
       icon: "book",
-      prefix: "posts/",
+      prefix: "dada-page/",
+      collapsible: true,
       children: "structure",
     },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
   ],
 });

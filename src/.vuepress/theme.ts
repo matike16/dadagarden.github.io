@@ -44,7 +44,7 @@ export default hopeTheme(
     // pure: true,
 
     // 侧边栏
-    sidebar: "structure",
+    sidebar,
     // 页脚
     footer: "这是我的一场文字旅行",
     displayFooter: true,
@@ -54,10 +54,10 @@ export default hopeTheme(
       description: "这是我的一场文字旅行",
       intro: "/intro.html",
       medias: {
-        BiliBili: "https://example.com",
-        Email: "mailto:info@example.com",
-        Gitee: "https://example.com",
-        GitHub: "https://example.com",
+        BiliBili: "https://space.bilibili.com/20667502?spm_id_from=333.1007.0.0",
+        Email: "https://mail.qq.com/cgi-bin/frame_html?sid=Mds1CNCkf4ocwVcx&r=f066bcca50ce63aca0d22965eb3f53d4&lang=zh",
+        Gitee: "https://gitee.com/matike",
+        GitHub: "https://github.com/matike16",
         // VuePressThemeHope: {
         //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         //   link: "https://theme-hope.vuejs.press",
