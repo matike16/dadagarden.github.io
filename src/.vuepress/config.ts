@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
-import { blogPlugin } from "@vuepress/plugin-blog";
 
 import theme from "./theme.js";
 
@@ -12,6 +11,15 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "哒哒的花园",
   description: "哒哒的数字花园文档",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/favicon.ico",
+      },
+    ],
+  ],
 
   port: 80,
   theme,
@@ -25,10 +33,4 @@ export default defineUserConfig({
       "./components/BlogHero.vue",
     ),
   },
-
-  // plugins : [
-  //   blogPlugin({
-
-  //   })
-  // ]
 });
