@@ -6,7 +6,7 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/matike16.github.io/",
+  base: "/dadagarden.github.io/",
 
   lang: "zh-CN",
   title: "哒哒的花园",
@@ -16,11 +16,11 @@ export default defineUserConfig({
       "link",
       {
         rel: "icon",
-        href: "/matike16.github.io/favicon.ico",
+        href: "/dadagarden.github.io/favicon.ico",
       },
     ],
   ],
-
+  
   port: 80,
   theme,
 
