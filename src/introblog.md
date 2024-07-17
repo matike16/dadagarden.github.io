@@ -2,14 +2,16 @@
 title: 关于博客
 icon: blog
 date: 2024-07-17
-cover: /assets/images/cover3.jpg
+star: true
+category: 关于
+cover: /assets/images/cover2.jpg
 ---
 
 # 关于博客
 
 本博客基于vuepress-theme-hope主题，使用markdown语法进行编写。
 
-![上一任博客站点图](images/哒哒的花园第一版网站.png)
+![上一任博客站点图](images/the-first-blog.png)
 
 本人的上一个博客站点[哒哒的花园](https://www.dadagarden.fun/) ， 基于obsidian的插件Digital Garden实现： 
 

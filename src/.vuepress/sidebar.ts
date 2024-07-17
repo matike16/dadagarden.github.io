@@ -4,20 +4,42 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "测试目录",
+      icon: "book",
+      prefix: "dada-blog/",
       collapsible: true,
       children: "structure",
     },
     {
-      text: "测试页面",
-      icon: "book",
-      prefix: "dada-page/",
+      text: "后端",
+      icon: "laptop-code",
+      prefix: "backend-dev/",
       collapsible: true,
       children: "structure",
     },
-    "intro",
+    {
+      text: "前端",
+      icon: "file-code",
+      prefix: "frontend-dev/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "关于",
+      icon: "circle-info",
+      collapsible: true,
+      children: [
+        {
+          text: "关于我",
+          icon: "user",
+          link: "intro.md",
+        },
+        {
+          text: "关于博客",
+          icon: "blog",
+          link: "introblog.md",
+        }
+      ]
+    }
   ],
 });

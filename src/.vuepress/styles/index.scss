@@ -169,7 +169,7 @@ body {
         color: var(--theme-color);
     }
 }
-
+.vp-action-link,
 .vp-dropdown-title,
 .vp-outlook-button {
     html[data-theme="light"] & {
@@ -194,15 +194,6 @@ body {
 .dada-blog-home .blog-page-wrapper {
     padding-top: 3.25rem;
 }
-
-// .search-box {
-//     html[data-theme="light"] & {
-//         --search-border-color: #000;
-//     }
-//     html[data-theme="dark"] & {
-//         --search-border-color: #fff;
-//     }
-// }
 
 .search-box input {
     width: 35px;
@@ -254,18 +245,10 @@ body {
     overflow: hidden;
 }
 
-// .vp-article-cover {
-//     transition: transform 0.3s ease;
-// }
-
-// .vp-article-cover:hover {
-//     transform: scale(1.05);
-// }
-
-// .vp-blog-info-wrapper , .vp-project-panel , .vp-article-list {
-//     display: none;
-// }
-
+.vp-article-cover {
+    max-height: 30vh;
+    object-fit: cover;
+}
 
 [data-theme="light"] .vp-article-wrapper .vp-article-item,
 [data-theme="light"] .vp-page .vp-blogger-info,
@@ -355,6 +338,12 @@ body {
 
 .vp-page-nav .prev,
 .vp-page-nav .next {
+    transition: all 0.3s ease-in-out;
+}
+
+.vp-page-nav .prev:hover .hint,
+.vp-page-nav .next:hover .hint  {
+    color: #fff;
     transition: all 0.3s ease-in-out;
 }
 

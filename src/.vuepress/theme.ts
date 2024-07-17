@@ -12,7 +12,7 @@ export default hopeTheme(
 
     author: {
       name: "哒哒溜",
-      url: "https://mister-hope.com",
+      url: "https://github.com/matike16",
     },
 
     iconAssets: "fontawesome-with-brands",
@@ -20,8 +20,8 @@ export default hopeTheme(
     logo: "/logo1.png",
 
     // 仓库
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
-    repoDisplay: false,
+    repo: "https://github.com/matike16/dadagarden.github.io",
+    repoDisplay: true,
 
     docsDir: "src",
 
@@ -30,7 +30,7 @@ export default hopeTheme(
     navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
-      end: ["Outlook", "Search"],
+      end: ["Repo", "Outlook", "Search"],
     },
 
     // 深色模式

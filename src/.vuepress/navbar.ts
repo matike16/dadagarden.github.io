@@ -15,18 +15,18 @@ export default navbar([
         text: "后端框架",
         link: "后端框架/",
       },
-      // {
-      //   text: "数据库",
-      //   link: "数据库/",
-      // },
-      // {
-      //   text: "后端架构",
-      //   link: "后端架构/",
-      // },
-      // {
-      //   text: "后端面试题",
-      //   link: "后端面经/",
-      // }
+      {
+        text: "数据库",
+        link: "数据库/",
+      },
+      {
+        text: "后端架构",
+        link: "后端架构/",
+      },
+      {
+        text: "后端面试题",
+        link: "后端面经/",
+      }
     ]
   },
   {
@@ -50,10 +50,12 @@ export default navbar([
     children: [
       {
         text: "关于我",
+        icon: "user",
         link: "intro.md",
       },
       {
         text: "关于博客",
+        icon: "blog",
         link: "introblog.md",
       }
     ]

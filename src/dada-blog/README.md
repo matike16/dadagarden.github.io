@@ -1,5 +1,8 @@
 ---
-title: 博客相关
+title: 测试
 index: false
+article: false
 icon: circle-exclamation
 ---
+
+<Catalog />

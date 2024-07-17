@@ -1,7 +1,9 @@
 ---
 title: 关于我
-icon: circle-info
+icon: user
 date: 2024-07-17
+star: true
+category: 关于
 cover: /assets/images/cover3.jpg
 ---
 
