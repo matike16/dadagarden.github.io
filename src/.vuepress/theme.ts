@@ -6,7 +6,9 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme(
   {
-    hostname: "https://mister-hope.github.io",
+    hostname: "https://matike16.github.io/dadagarden.github.io/",
+    docsRepo: "https://github.com/matike16/dadagarden.github.io",
+    docsBranch: "master",
 
     author: {
       name: "哒哒溜",
