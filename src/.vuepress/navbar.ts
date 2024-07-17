@@ -2,55 +2,59 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
-  {
-    text: "关于博客",
-    link: "/dada-blog/",
-    icon: "laptop-code",
-    activeMatch: "/dada-blog/",
-    children: [
-      {
-        text: "测试",
-        link: "/dada-blog/测试.md",
-        activeMatch: "/dada-blog/",
-        icon: "vial",
-      },
-    ],
-  },
   {
     text: "后端",
-    link: "/backend-dev/",
-    icon: "server",
+    prefix: "/backend-dev/",
+    icon: "laptop-code",
     children: [
       {
         text: "基础技术",
-        link: "/backend-dev/基础技术.md",
-        activeMatch: "/backend-dev/",
-        icon: "laptop-code",
+        link: "基础技术/",
       },
       {
         text: "后端框架",
-        link: "/backend-dev/后端框架.md",
-        activeMatch: "/backend-dev/",
-        icon: "laptop-code",
+        link: "后端框架/",
+      },
+      // {
+      //   text: "数据库",
+      //   link: "数据库/",
+      // },
+      // {
+      //   text: "后端架构",
+      //   link: "后端架构/",
+      // },
+      // {
+      //   text: "后端面试题",
+      //   link: "后端面经/",
+      // }
+    ]
+  },
+  {
+    text: "前端",
+    prefix: "/frontend-dev/",
+    icon: "file-code",
+    children: [
+      {
+        text: "基础技术",
+        link: "基础技术/",
       },
       {
-        text: "数据库",
-        link: "/backend-dev/数据库.md",
-        activeMatch: "/backend-dev/",
-        icon: "laptop-code"
+        text: "前端框架",
+        link: "前端框架/",
+      },
+    ]
+  },
+  {
+    text: "关于",
+    icon: "circle-info",
+    children: [
+      {
+        text: "关于我",
+        link: "intro.md",
       },
       {
-        text: "后端架构",
-        link: "/backend-dev/后端架构.md",
-        activeMatch: "/backend-dev/",
-        icon: "laptop-code"
-      },
-      {
-        text: "后端面试题",
-        link: "/backend-dev/后端面试题.md",
-        activeMatch: "/backend-dev/",
-        icon: "laptop-code"
+        text: "关于博客",
+        link: "introblog.md",
       }
     ]
   }
