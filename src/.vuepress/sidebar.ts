@@ -4,26 +4,19 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "测试目录",
-      icon: "book",
-      prefix: "dada-blog/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
       text: "后端",
       icon: "laptop-code",
       prefix: "backend-dev/",
       collapsible: true,
       children: "structure",
     },
-    {
-      text: "前端",
-      icon: "file-code",
-      prefix: "frontend-dev/",
-      collapsible: true,
-      children: "structure",
-    },
+    // {
+    //   text: "前端",
+    //   icon: "file-code",
+    //   prefix: "frontend-dev/",
+    //   collapsible: true,
+    //   children: "structure",
+    // },
     {
       text: "关于",
       icon: "circle-info",
@@ -40,6 +33,14 @@ export default sidebar({
           link: "introblog.md",
         }
       ]
+    }
+  ],
+  "/backend-dev/后端框架/": [
+    {
+      text: "后端框架",
+      icon: "file-code",
+      collapsible: true,
+      children: "structure",
     }
   ],
 });
