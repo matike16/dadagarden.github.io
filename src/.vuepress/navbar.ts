@@ -9,6 +9,7 @@ export default navbar([
     children: [
       {
         text: "后端框架",
+        icon: "file-code",
         link: "后端框架/",
       }
     ]
@@ -16,6 +17,7 @@ export default navbar([
   {
     text: "关于",
     icon: "circle-info",
+    prefix: "about/",
     children: [
       {
         text: "关于我",
@@ -23,9 +25,9 @@ export default navbar([
         link: "intro.md",
       },
       {
-        text: "关于博客",
+        text: "博客搭建",
         icon: "blog",
-        link: "introblog.md",
+        link: "blog-building/",
       }
     ]
   },

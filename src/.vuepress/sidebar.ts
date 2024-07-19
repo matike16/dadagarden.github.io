@@ -20,6 +20,7 @@ export default sidebar({
     {
       text: "关于",
       icon: "circle-info",
+      prefix: "about/",
       collapsible: true,
       children: [
         {
@@ -28,10 +29,12 @@ export default sidebar({
           link: "intro.md",
         },
         {
-          text: "关于博客",
+          text: "博客搭建",
           icon: "blog",
-          link: "introblog.md",
-        }
+          prefix: "blog-building/",
+          collapsible: true,
+          children: "structure",
+        },
       ]
     }
   ],
@@ -39,6 +42,14 @@ export default sidebar({
     {
       text: "后端框架",
       icon: "file-code",
+      collapsible: true,
+      children: "structure",
+    }
+  ],
+  "/about/blog-building/": [
+    {
+      text: "博客搭建",
+      icon: "blog",
       collapsible: true,
       children: "structure",
     }

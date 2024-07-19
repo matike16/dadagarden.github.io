@@ -24,7 +24,7 @@ cover: /assets/images/cover2.jpg
     - 学习曲线，用户需要有一定的前端知识基础，包括vue
     - 插件可能会冲突
 
-![上一任博客站点图](images/the-first-blog.png)
+![上一任博客站点图](./images/the-first-blog.png)
 
 本人的上一个博客站点[哒哒的花园](https://www.dadagarden.fun/) ， 基于obsidian的插件Digital Garden实现： 
 

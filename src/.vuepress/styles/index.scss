@@ -319,7 +319,7 @@ body {
 }
 
 #main-content.vp-project-home {
-    // z-index: 2;
+    z-index: 2;
     backdrop-filter: saturate(150%) blur(0.5rem);
 }
 
@@ -333,6 +333,7 @@ body {
 }
 
 .page-cover {
+    width: 100% !important;
     margin-top: 1rem;
 }
 
