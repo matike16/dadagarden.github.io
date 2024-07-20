@@ -6,10 +6,12 @@ star: true
 category: 关于
 cover: /assets/images/cover2.jpg
 ---
+> [!tip]
+> 本博客基于vuepress-theme-hope主题，使用markdown语法进行写作
 
 ## 博客比较
 
-本博客基于vuepress-theme-hope主题，使用markdown语法进行编写：
+### 当前博客优缺点
 
 - 优点
     - 易于安装
@@ -24,9 +26,15 @@ cover: /assets/images/cover2.jpg
     - 学习曲线，用户需要有一定的前端知识基础，包括vue
     - 插件可能会冲突
 
+### OB插件站点
+
 ![上一任博客站点图](./images/the-first-blog.png)
 
-本人的上一个博客站点[哒哒的花园](https://www.dadagarden.fun/) ， 基于obsidian的插件Digital Garden实现： 
+本人的上一任博客站点[哒哒的花园](https://www.dadagarden.fun/) ， 基于
+obsidian的插件Digital Garden实现： 
+
+> [!tip]
+> OB本身提供了付费建站服务，该插件属于扩展，且可以免费使用。
 
 - 优点
     - 支持文章的双链功能
@@ -47,8 +55,24 @@ cover: /assets/images/cover2.jpg
 
 2. [墨七](https://blog.mo7.cc/)：本博客相关组件开发参考这位大佬。
 
-- 感谢以上大佬的帮助
+> [!important] 
+> 在此对以上博客大佬表示感谢!
 
+### 二次开发
+
+![时间一言组件](./images/时间一言组件.png)
+
+1. 添加了时间日期和底部一言切换组件
+
+	- 一言：原版的一言组件动态效果很好，但是对于有意思的话我觉得适合摘录下来，所以取消了原本的动画改为固定切换。
+	- 时间日期：添加大幅的时间日期显示想把网站当挂历或者时间使用，没事挂在旁边也挺养眼的，重要的是提醒自己认真学习和总结归纳。
+
+![组件切换与热点](./images/组件切换.png)
+
+2. 添加组件切换和热点模块
+
+	- 组件切换：暂时确定了四个模块，模块功能还在陆续开发中...
+	- 热点模块：日常刷B站刷的比较多，会看一下有啥热搜（虽然大部分不感兴趣）
 ## 未来规划
 
 - 增加评论功能

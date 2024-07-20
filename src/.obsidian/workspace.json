@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "8f70729393402619",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b21cb3f4c538d1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcefac70e7793dfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about/blog-building/introblog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bd9e1b72f44cb77",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c839cd05c0de30e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caccc7ec89482105",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2c52dc911c03a70c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "105ebf8fe00158d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6de518e37f642360",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bdbe6ccab9e9c0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8e569a5f2fb0a22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "about/blog-building/introblog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e0e2712ee2c6384",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "about/blog-building/introblog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "042fae23e2df140f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1bbc08978abbe74e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "about/blog-building/introblog.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "dcefac70e7793dfb",
+  "lastOpenFiles": [
+    "about/blog-building/images/组件切换.png",
+    "about/blog-building/images/时间一言组件.png",
+    "about/blog-building/blogintro.md",
+    "about/blog-building/introblog.md",
+    "about/blog-building/README.md",
+    "about/README.md",
+    "backend-dev/后端框架/README.md",
+    "README.md",
+    "frontend-dev/README.md",
+    "frontend-dev/前端框架/README.md",
+    "frontend-dev/基础技术/README.md",
+    "backend-dev/README.md",
+    "2024-07-17.md",
+    "about/blog-building/images/the-first-blog.png",
+    "about/intro.md"
+  ]
+}
