@@ -115,6 +115,7 @@ export default hopeTheme(
 
       // 此处开启了很多功能用于演示，你应仅保留用到的功能。
       mdEnhance: {
+        hint: true,
         alert: true,
         align: true,
         attrs: true,

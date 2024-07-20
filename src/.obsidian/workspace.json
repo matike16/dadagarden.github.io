@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/快速入门.md",
+                "file": "about/blog-building/Pages 部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/快速入门.md",
+                "file": "about/blog-building/Pages 部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/快速入门.md",
+                "file": "about/blog-building/Pages 部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/快速入门.md"
+                "file": "about/blog-building/Pages 部署.md"
               }
             }
           }
@@ -149,18 +149,19 @@
   },
   "active": "dcefac70e7793dfb",
   "lastOpenFiles": [
+    "about/blog-building/快速入门.md",
+    "about/blog-building/introblog.md",
+    "about/blog-building/Pages 部署.md",
+    "about/blog-building/README.md",
     "about/blog-building/images/快速入门6.png",
     "about/blog-building/images/快速入门5.png",
     "about/blog-building/images/快速入门4.png",
     "about/blog-building/images/快速入门3.png",
     "about/blog-building/images/快速入门2.png",
-    "about/blog-building/introblog.md",
-    "about/blog-building/快速入门.md",
     "about/blog-building/images/快速入门1.png",
     "about/blog-building/images/组件切换.png",
     "about/blog-building/images/时间一言组件.png",
     "about/blog-building/blogintro.md",
-    "about/blog-building/README.md",
     "about/README.md",
     "backend-dev/后端框架/README.md",
     "README.md",
