@@ -5,6 +5,7 @@ date: 2024-07-17
 star: true
 category: 关于
 cover: /assets/images/cover2.jpg
+order: "1"
 ---
 > [!tip]
 > 本博客基于vuepress-theme-hope主题，使用markdown语法进行写作
