@@ -50,17 +50,17 @@ order: "3"
 
 - 在Github个人首页点击右上角+号选择==New repository==
 
-![新建仓库](./images/Pages部署1.png)
+![新建仓库](./images/Pages部署/1.png)
 
 - 给仓库添加名称与描述
 > [!important]
 > 注意名称必须以.github.io结尾，这样Github就会将你的仓库部署到`https://username.github.io`这个子域名上，其中username是你的Github用户名。这个命名方式是必须的。
 
-![添加名称与描述](./images/Pages部署2.png)
+![添加名称与描述](./images/Pages部署/2.png)
 
 - 仓库类型默认公共(Public)即可
 
-![选择公共创建成功](./images/Pages部署3.png)
+![选择公共创建成功](./images/Pages部署/3.png)
 
 ### 配置工作流权限
 
@@ -69,11 +69,11 @@ order: "3"
 
 - 在项目仓库中依次打开Setting -> Actions -> General：
 
-![选择General](./images/Pages部署4.png)
+![选择General](./images/Pages部署/4.png)
 
 - 下拉在Workflow permissions中修改权限为"Read and write permissions"：
 
-![修改权限](./images/Pages部署5.png)
+![修改权限](./images/Pages部署/5.png)
 
 > [!tip]
 > 在 GitHub Actions 中，"Workflow permissions"（工作流权限）是指定义工作流在运行时对仓库资源的访问权限。这些权限可以控制工作流能够读取或修改仓库中的哪些数据。以下是对不同权限的解释：
@@ -100,15 +100,15 @@ order: "3"
 - src -> .vuepress -> config.ts
 - 使用编辑器VSCode打开config.ts，修改base为你在Github中创建的仓库名称：`/test.github.io/`
 
-![打开config.ts](./images/Pages部署15.png)
+![打开config.ts](./images/Pages部署/15.png)
 
-![修改base](./images/Pages部署16.png)
+![修改base](./images/Pages部署/16.png)
 
 ### 推送项目到Github仓库
 
 - 接着在文件资源管理器中打开我们的项目文件夹，在地址栏输入cmd并回车：
 
-![输入cmd并回车](./images/Pages部署6.png)
+![输入cmd并回车](./images/Pages部署/6.png)
 
 - 依次在终端中输入以下命令：
 
@@ -133,11 +133,11 @@ git push -u origin main
 
 - 以上命令在Github创建仓库的Code首页均有提供：
 
-![输入命令](./images/Pages部署7.png)
+![输入命令](./images/Pages部署/7.png)
 
 - 推送成功
 
-![推送成功](./images/Pages部署8.png)
+![推送成功](./images/Pages部署/8.png)
 
 - 此时刷新Github仓库地址就可以看到项目代码了。
 
@@ -149,11 +149,11 @@ git push -u origin main
 > [!warning]
 > 此处可能存在以下报错：
 > 
-> ![出现多个pnpm版本](./images/Pages部署9.png)
+> ![出现多个pnpm版本](./images/Pages部署/9.png)
 > 
 > - 此时我们打开本地文件资源管理器，找到项目中的./github/workflows文件夹中的`deploy-docs`文件打开，删除以下内容：
 > 
-> ![删除条目](./images/Pages部署10.png)
+> ![删除条目](./images/Pages部署/10.png)
 > 
 > - 回到终端再依次运行以下命令：
 > ```cmd
@@ -163,7 +163,7 @@ git push -u origin main
 > ```
 > - 此时重新回到Github查看，选择Actions：
 > 
-> ![workflow-runs成功](./images/Pages部署11.png)
+> ![workflow-runs成功](./images/Pages部署/11.png)
 > 
 
 
@@ -172,15 +172,15 @@ git push -u origin main
 - 接着在Github项目仓库中依次点击：
 - Settings -> Pages -> 选择gh-pages -> 点击Save
 
-![部署Pages](./images/Pages部署12.png)
+![部署Pages](./images/Pages部署/12.png)
 
 - 最后再次点击导航栏的Actions，会发现多了一个条目`pages-build-deployment`，单击它
 
-![pages-build-deployment](./images/Pages部署13.png)
+![pages-build-deployment](./images/Pages部署/13.png)
 
 - 最后点击网址查看，此时你的项目博客就已经成功部署到了Github Pages中了，你可以随时随地访问了。
 
-![单击网址查看部署好的网站](./images/Pages部署14.png)
+![单击网址查看部署好的网站](./images/Pages部署/14.png)
 
 
 
