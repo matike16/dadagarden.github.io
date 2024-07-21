@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/Vercel部署.md",
+                "file": "about/blog-building/introblog.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/Vercel部署.md",
+                "file": "about/blog-building/introblog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/Vercel部署.md",
+                "file": "about/blog-building/introblog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/Vercel部署.md"
+                "file": "about/blog-building/introblog.md"
               }
             }
           }
@@ -150,6 +149,7 @@
   },
   "active": "ddc6f88ed3b6e7b2",
   "lastOpenFiles": [
+    "about/blog-building/Vercel部署.md",
     "about/blog-building/images/Vercel部署/17.png",
     "about/blog-building/images/Vercel部署/16.png",
     "about/blog-building/images/Vercel部署/15.png",
@@ -157,11 +157,9 @@
     "about/blog-building/images/Vercel部署/13.png",
     "about/blog-building/images/Vercel部署/11.png",
     "about/blog-building/images/Vercel部署/12.png",
-    "about/blog-building/Vercel部署.md",
     "about/blog-building/images/Vercel部署/10.png",
     "about/blog-building/images/Vercel部署/9.png",
     "about/blog-building/images/Vercel部署/8.png",
-    "about/blog-building/images/Vercel部署/6.png",
     "about/blog-building/Pages部署.md",
     "about/blog-building/快速入门.md",
     "about/blog-building/introblog.md",

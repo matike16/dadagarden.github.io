@@ -80,5 +80,5 @@ obsidian的插件Digital Garden实现：
 - [ ] 优化搜索功能
 - [ ]  添加音乐播放器
 - [ ] 增加导航栏页面
-- [ ] 使用vercel配置博客
+- [x] 使用vercel配置博客
 - [ ]  ...
