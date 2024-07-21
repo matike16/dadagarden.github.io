@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://matike16.github.io/dadagarden.github.io/sitemap.xml
+Sitemap: https://matike16.github.io/dadagarden.github.io/dadagarden.github.io/sitemap.xml
