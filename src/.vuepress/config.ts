@@ -4,9 +4,11 @@ import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url);
+const base = (process.env.BASE_URL || "/") as "/" | `/${string}/`;
 
 export default defineUserConfig({
-  base: "/dadagarden.github.io/",
+  base,
+  dest: "src/.vuepress/dist",
 
   lang: "zh-CN",
   title: "哒哒的花园",
