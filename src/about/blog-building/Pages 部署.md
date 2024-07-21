@@ -91,6 +91,19 @@ order: "3"
 > [!important]
 > 在设置工作流权限时，始终建议遵循最小权限原则，即只为工作流提供完成其任务所必需的权限，以减少潜在的安全风险。
 
+### 修改base
+
+> [!important]
+> base如果配置不正确会导致css样式丢失
+
+- 接着我们来到本地项目文件夹，依次点击：
+- src -> .vuepress -> config.ts
+- 使用编辑器VSCode打开config.ts，修改base为你在Github中创建的仓库名称：`/test.github.io/`
+
+![打开config.ts](./images/Pages部署15.png)
+
+![修改base](./images/Pages部署16.png)
+
 ### 推送项目到Github仓库
 
 - 接着在文件资源管理器中打开我们的项目文件夹，在地址栏输入cmd并回车：
