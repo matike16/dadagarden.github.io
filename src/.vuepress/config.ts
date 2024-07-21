@@ -6,6 +6,9 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 const base = (process.env.BASE_URL || "/") as "/" | `/${string}/`;
 
+// 动态设置 favicon 的路径
+const faviconPath = `${base}favicon.ico`;
+
 export default defineUserConfig({
   base,
   dest: "src/.vuepress/dist",
@@ -18,7 +21,7 @@ export default defineUserConfig({
       "link",
       {
         rel: "icon",
-        href: "/dadagarden.github.io/favicon.ico",
+        href: faviconPath,
       },
     ],
   ],
