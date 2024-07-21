@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "711e73f936a7b292",
+        "id": "05eb0630cd984239",
         "type": "tabs",
         "children": [
           {
-            "id": "fb18463c1023d12b",
+            "id": "ddc6f88ed3b6e7b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,26 +148,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fb18463c1023d12b",
+  "active": "ddc6f88ed3b6e7b2",
   "lastOpenFiles": [
-    "about/blog-building/images/Vercel部署/5.png",
-    "about/blog-building/images/Vercel部署/4.png",
-    "about/blog-building/Pages部署.md",
+    "about/blog-building/images/Vercel部署/17.png",
+    "about/blog-building/images/Vercel部署/16.png",
+    "about/blog-building/images/Vercel部署/15.png",
+    "about/blog-building/images/Vercel部署/14.png",
+    "about/blog-building/images/Vercel部署/13.png",
+    "about/blog-building/images/Vercel部署/11.png",
+    "about/blog-building/images/Vercel部署/12.png",
     "about/blog-building/Vercel部署.md",
+    "about/blog-building/images/Vercel部署/10.png",
+    "about/blog-building/images/Vercel部署/9.png",
+    "about/blog-building/images/Vercel部署/8.png",
+    "about/blog-building/images/Vercel部署/6.png",
+    "about/blog-building/Pages部署.md",
     "about/blog-building/快速入门.md",
     "about/blog-building/introblog.md",
     "about/blog-building/README.md",
-    "about/blog-building/images/Vercel部署/3.png",
     "frontend-dev/基础技术/README.md",
-    "about/blog-building/images/Vercel部署/2.png",
-    "about/blog-building/images/Vercel部署/1.png",
     "about/blog-building/images/Vercel部署",
-    "about/blog-building/images/Pages部署/16.png",
-    "about/blog-building/images/Pages部署/9.png",
-    "about/blog-building/images/Pages部署/15.png",
-    "about/blog-building/images/Pages部署/14.png",
-    "about/blog-building/images/Pages部署/13.png",
-    "about/blog-building/images/Pages部署/12.png",
     "about/blog-building/images/Pages部署",
     "about/blog-building/images/快速入门",
     "about/blog-building/blogintro.md",

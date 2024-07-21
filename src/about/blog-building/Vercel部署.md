@@ -98,11 +98,71 @@ dest: "src/.vuepress/dist"
 
 ## 部署Github仓库到Vercel中
 
-- 进入[Vercel](https://vercel.com/),使用Github账户登录（必须）
+- 进入[Vercel](https://vercel.com/),使用Github账户登录（必须）：
 
 ![使用Github登录Velcel](./images/Vercel部署/4.png)
 
-- 在Overview下点击`Add New...`，选择`Project`
+- 在Overview下点击`Add New...`，选择`Project`：
 
 ![新建项目](./images/Vercel部署/5.png)
+
+- 接着在`Import Git Repository`下面找到自己对应的仓库，然后单击`Import`：
+
+![导入对应仓库](./images/Vercel部署/6.png)
+
+> [!warning]
+> - 如果没有出现对应的仓库就点击下方的`Adjust Github App Permissions`：
+> 
+> ![选择用户](./images/Vercel部署/7.png)
+> - 下拉找到`Repository access`，此处你可以选择`All repositories`，添加所有的仓库，也可以单独选择对应仓库，点击`Select repositories`，然后找到你的仓库，最后保存`Save`：
+> 
+> ![选择仓库](./images/Vercel部署/8.png)
+> - 此时回到`Import Git Repository`中就可以看到自己的仓库了，然后点击`Import`即可
+
+- 配置项目，如下图所示：
+
+![配置项目](./images/Vercel部署/9.png)
+
+- 单击完`Deploy`后项目开始自动创建，完成后会有成功与撒花弹窗。
+
+![创建成功](./images/Vercel部署/10.png)
+
+- 接着单击`Continue to Dashboard`，然后找到`Domains`下面的域名，单击即可访问部署好的项目了。
+
+![访问网站](./images/Vercel部署/11.png)
+
+## 绑定国内域名
+
+>[!tip]
+>首先你需要到国内域名服务商处注册并购买一个域名（此操作略过），下面以阿里云域名举例实现对国内域名的解析
+
+> [!important]
+> - 购买域名前根据阿里云的指引绑定邮箱并激活，重要的是一定要实名认证。
+>- 官方提示实名认证是3-5天左右，但是实际等几个小时就可以了。
+>- 购买后还需要等待审核一段时间。
+
+- 假设你购买的域名为`dadagarden.fun`，那么来到Vercel中你的对应项目里，点击`Settings`，选择`Domains`，输入你的域名（不需要添加www），单击`Add`：
+
+![添加域名](./images/Vercel部署/12.png)
+
+![默认推荐添加](./images/Vercel部署/16.png)
+
+- `Add`之后一般会出现两个域名地址，但都会显示`Invalid Configuration`。此时不要慌，因为还没有解析，你需要记住两个`Value`值，一个是`ip`值，另一个是`CNAME`值。ip对应的格式是`00.00.00.00`、`CNAME`对应的则是`网址`：
+
+![记住Value](./images/Vercel部署/13.png)
+
+- 接下来我们到阿里云域名控制台，找到自己的域名，点击`解析设置`：
+
+![单击解析设置](./images/Vercel部署/14.png)
+
+- 点击`添加记录`，此时右侧会出现弹窗，如果刚刚的`value`是一个`ip`，你就选择第一个(也是默认的)，如果刚刚的`value`是一个域名，你就选择第二个`CNAME`
+- 接下来是`主机记录`，如果你是访问`www`.dadagarden.com，`主机记录`填`www`即可。
+- 接着填写`记录值`，就是刚刚的`value`值。
+- 最后我们点击`确认`，域名解析就完成了。
+
+![添加记录](./images/Vercel部署/15.png)
+
+- 确认完成后，回到vercel刷新，可以看到www.dadagarden.fun这个网址已启用，此时你可以在国内正常访问网站了。
+
+![查看是否成功](./images/Vercel部署/17.png)
 
