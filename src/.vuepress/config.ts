@@ -6,7 +6,8 @@ import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  base: "/dadagarden.github.io/",
+  // base: "/dadagarden.github.io/",
+  dest: "src/.vuepress/dist",
 
   lang: "zh-CN",
   title: "哒哒的花园",
