@@ -104,6 +104,15 @@ export default hopeTheme(
       comment: {
         provider: "Waline",
         serverURL: "https://comments.dadagarden.fun",
+        emoji: [
+          'https://unpkg.com/@waline/emojis@1.2.0/alus',
+          'https://unpkg.com/@waline/emojis@1.2.0/bilibili',
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+          'https://unpkg.com/@waline/emojis@1.2.0/qq',
+          'https://unpkg.com/@waline/emojis@1.2.0/tieba',
+          'https://unpkg.com/@waline/emojis@1.2.0/weibo',
+          'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+        ]
       },
 
       // 搜索插件
