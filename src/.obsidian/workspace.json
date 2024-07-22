@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6de518e37f642360",
@@ -151,8 +150,10 @@
   "active": "ddc6f88ed3b6e7b2",
   "lastOpenFiles": [
     "about/blog-building/Vercel部署.md",
-    "about/blog-building/Waline评论部署.md",
+    "about/blog-building/README.md",
+    "about/blog-building/Pages部署.md",
     "about/blog-building/introblog.md",
+    "about/blog-building/Waline评论部署.md",
     "about/blog-building/images/Vercel部署/17.png",
     "about/blog-building/images/Vercel部署/16.png",
     "about/blog-building/images/Vercel部署/15.png",
@@ -163,9 +164,7 @@
     "about/blog-building/images/Vercel部署/10.png",
     "about/blog-building/images/Vercel部署/9.png",
     "about/blog-building/images/Vercel部署/8.png",
-    "about/blog-building/Pages部署.md",
     "about/blog-building/快速入门.md",
-    "about/blog-building/README.md",
     "frontend-dev/基础技术/README.md",
     "about/blog-building/images/Vercel部署",
     "about/blog-building/images/Pages部署",

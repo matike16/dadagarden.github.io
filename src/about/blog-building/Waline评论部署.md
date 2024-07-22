@@ -6,6 +6,7 @@ category: 博客搭建
 tags:
   - Waline
   - LeanCloud
+order: "5"
 ---
 > [!note]
 > 本篇文章将要介绍Waline评论及其如何部署到vuepress个人博客中。其中使用了LeanCloud作为Waline的后端服务。
