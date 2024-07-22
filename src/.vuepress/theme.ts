@@ -104,14 +104,14 @@ export default hopeTheme(
       comment: {
         provider: "Waline",
         serverURL: "https://comments.dadagarden.fun",
+        reaction: [
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_unavailble_doge.png',
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_give_love.png',
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_hmm.png',
+          'https://unpkg.com/@waline/emojis@1.2.0/bmoji/bmoji_wail.png',
+        ],
         emoji: [
-          'https://unpkg.com/@waline/emojis@1.2.0/alus',
-          'https://unpkg.com/@waline/emojis@1.2.0/bilibili',
           'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
-          'https://unpkg.com/@waline/emojis@1.2.0/qq',
-          'https://unpkg.com/@waline/emojis@1.2.0/tieba',
-          'https://unpkg.com/@waline/emojis@1.2.0/weibo',
-          'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji',
         ]
       },
 
