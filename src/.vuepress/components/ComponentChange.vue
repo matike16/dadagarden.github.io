@@ -91,11 +91,13 @@ const insertComponentChange = () => {
     tryInsertComponent();
 
     const router = useRouter();
-    router.beforeEach(() => {
-        setTimeout(() => {
-            insertComponentChange();
-        }, 50);
-    });
+    if (router && typeof router.beforeEach === 'function') {
+        router.beforeEach(() => {
+            setTimeout(() => {
+                insertComponentChange();
+            }, 50);
+        });
+    }
 };
 
 onMounted(insertComponentChange);
@@ -149,9 +151,11 @@ onMounted(insertComponentChange);
     padding: 20px 30px;
     overflow-y: auto;
     scrollbar-width: none;
+
     &::-webkit-scrollbar {
         display: none;
     }
+
     box-sizing: border-box;
 }
 
@@ -241,7 +245,11 @@ onMounted(insertComponentChange);
 
 /* 中等屏幕设备 */
 @media (min-width: 768px) and (max-width: 950px) {
-    #panel1, #panel2, #panel3, #panel4 {
+
+    #panel1,
+    #panel2,
+    #panel3,
+    #panel4 {
         width: 100%;
         height: 40%;
         margin: 10px 0;
@@ -250,15 +258,19 @@ onMounted(insertComponentChange);
 
 /* 小屏幕设备，面板纵向排列 */
 @media (max-width: 767px) {
-    .component-page{
+    .component-page {
         padding: 5px 15px;
     }
+
     #panel1 {
         width: 100%;
-        height:65%;
+        height: 65%;
         margin: 10px 0;
     }
-    #panel2, #panel3, #panel4 {
+
+    #panel2,
+    #panel3,
+    #panel4 {
         width: 100%;
         height: 50%;
         margin: 10px 0;

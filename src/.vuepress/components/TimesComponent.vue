@@ -163,11 +163,13 @@ const insertComponentTimes = () => {
     tryInsertComponent();
 
     const router = useRouter();
-    router.beforeEach(() => {
-        setTimeout(() => {
-            insertComponentTimes();
-        }, 50);
-    });
+    if (router && typeof router.beforeEach === 'function') {
+        router.beforeEach(() => {
+            setTimeout(() => {
+                tryInsertComponent();
+            }, 50);
+        });
+    }
 };
 
 onMounted(insertComponentTimes);
