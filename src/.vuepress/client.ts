@@ -25,6 +25,7 @@ const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 const ComponentChange = defineAsyncComponent(() => import('./components/ComponentChange.vue'));
 const TimesComponent = defineAsyncComponent(() => import('./components/TimesComponent.vue'));
 const BilibiliHot = defineAsyncComponent(() => import('./components/BilibiliHot.vue'));
+const SlideDownComponent = defineAsyncComponent(() => import('./components/SlideDownComponent.vue'));
 
 export default defineClientConfig({
   setup() {
@@ -45,5 +46,6 @@ export default defineClientConfig({
     ComponentChange,
     TimesComponent,
     BilibiliHot,
+    SlideDownComponent,
   ]
 });

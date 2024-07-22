@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md"
+                "file": "about/blog-building/introblog.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "ddc6f88ed3b6e7b2",
   "lastOpenFiles": [
+    "about/blog-building/Waline评论部署.md",
     "about/blog-building/Vercel部署.md",
     "about/blog-building/README.md",
     "about/blog-building/Pages部署.md",
     "about/blog-building/introblog.md",
-    "about/blog-building/Waline评论部署.md",
     "about/blog-building/images/Vercel部署/17.png",
     "about/blog-building/images/Vercel部署/16.png",
     "about/blog-building/images/Vercel部署/15.png",
