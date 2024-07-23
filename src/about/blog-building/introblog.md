@@ -31,7 +31,7 @@ order: "1"
 
 ![上一任博客站点图](./images/the-first-blog.png)
 
-本人的上一任博客站点[哒哒的花园](https://www.dadagarden.fun/) ， 基于
+本人的上一任博客站点[哒哒的花园](https://www.dadagarden.fun/) （现已重新绑点至此博客主题）， 基于
 obsidian的插件Digital Garden实现： 
 
 > [!tip]

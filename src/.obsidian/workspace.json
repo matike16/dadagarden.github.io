@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/blog-building/Waline评论部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/blog-building/Waline评论部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/blog-building/Waline评论部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/introblog.md"
+                "file": "about/blog-building/Waline评论部署.md"
               }
             }
           }
@@ -149,22 +150,23 @@
   },
   "active": "ddc6f88ed3b6e7b2",
   "lastOpenFiles": [
-    "about/blog-building/Waline评论部署.md",
     "about/blog-building/Vercel部署.md",
+    "about/blog-building/Waline评论部署.md",
+    "about/blog-building/images/Waline评论部署/4.png",
+    "about/blog-building/images/Waline评论部署/3.png",
+    "about/blog-building/快速入门.md",
+    "about/blog-building/introblog.md",
+    "about/blog-building/images/Waline评论部署/2.png",
+    "about/blog-building/images/Waline评论部署/1.png",
+    "about/blog-building/images/Waline评论部署",
     "about/blog-building/README.md",
     "about/blog-building/Pages部署.md",
-    "about/blog-building/introblog.md",
     "about/blog-building/images/Vercel部署/17.png",
     "about/blog-building/images/Vercel部署/16.png",
     "about/blog-building/images/Vercel部署/15.png",
     "about/blog-building/images/Vercel部署/14.png",
     "about/blog-building/images/Vercel部署/13.png",
     "about/blog-building/images/Vercel部署/11.png",
-    "about/blog-building/images/Vercel部署/12.png",
-    "about/blog-building/images/Vercel部署/10.png",
-    "about/blog-building/images/Vercel部署/9.png",
-    "about/blog-building/images/Vercel部署/8.png",
-    "about/blog-building/快速入门.md",
     "frontend-dev/基础技术/README.md",
     "about/blog-building/images/Vercel部署",
     "about/blog-building/images/Pages部署",
