@@ -15,9 +15,9 @@ projects:
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 个人导航
+    desc: 哒哒的个人实用分享
+    link: /quick-nav/
 
   - icon: book
     name: 书籍名称

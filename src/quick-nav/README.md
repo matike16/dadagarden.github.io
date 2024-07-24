@@ -4,11 +4,6 @@ title: 导航
 # 当前页面图标
 icon: link
 date: 2024-07-24
-category:
-  - 导航
-tag:
-  - 导航
-star: true
 article: false
 breadcrumb: false
 pageInfo: false
@@ -23,10 +18,8 @@ comment: false
 ## 搜索引擎
 
 <NavCard arr='[
-    {"title": "百度", "url": "https://www.baidu.com/", "desc": "中文搜索引擎", "icon": "/navicon/baidu.ico"},
     {"title": "必应", "url": "https://cn.bing.com/", "desc": "优秀的国内外搜索引擎", "icon": "/navicon/bing.ico"},
-    {"title": "谷歌", "url": "https://www.google.com/", "desc": "被墙的国内外搜索引擎", "icon": "/navicon/google.ico"},
-    {"title": "找代码", "url": "https://www.programcreek.com/java-api-examples/index.php", "desc": "搜一下某个类的使用方法", "icon": "/navicon/java.ico"}
+    {"title": "谷歌", "url": "https://www.google.com/", "desc": "被墙的国内外搜索引擎", "icon": "/navicon/google.ico"}
 ]'></NavCard>
 
 ## 开源社区
