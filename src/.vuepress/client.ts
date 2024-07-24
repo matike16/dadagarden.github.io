@@ -20,6 +20,8 @@ import "vuepress-theme-hope/presets/bounce-icon.scss";
 
 // 将所有hr替换为驾驶车
 // import "vuepress-theme-hope/presets/hr-driving-car.scss";
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css';
 
 const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 const ComponentChange = defineAsyncComponent(() => import('./components/ComponentChange.vue'));
@@ -28,6 +30,9 @@ const BilibiliHot = defineAsyncComponent(() => import('./components/BilibiliHot.
 const SlideDownComponent = defineAsyncComponent(() => import('./components/SlideDownComponent.vue'));
 
 export default defineClientConfig({
+  enhance: ({ app, router, siteData}) => {
+    app.use(ElementPlus);
+  },
   setup() {
     setupRunningTimeFooter(
       new Date("2024-07-16"),

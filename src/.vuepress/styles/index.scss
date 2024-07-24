@@ -355,13 +355,7 @@ body {
 .wl-panel {
     background: transparent;
     transition: all 0.3s ease-in-out;
-
-    html[data-theme="light"] & {
-        border: 3px solid rgba(0, 0, 0, 0.3);
-    }
-    html[data-theme="dark"] & {
-        border: 3px solid rgba(255, 255, 255, 0.3);
-    }
+    border: 3px solid var(--theme-color);
 }
 
 .wl-panel:hover {
@@ -374,10 +368,5 @@ body {
 }
 
 .wl-header {
-    html[data-theme="light"] & {
-        border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
-    }
-    html[data-theme="dark"] & {
-        border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-    }
+    border-bottom: 3px solid var(--theme-color);
 }

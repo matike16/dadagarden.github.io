@@ -3,6 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
+    text: "导航",
+    link: "/quick-nav/",
+    icon: "link",
+  },
+  {
     text: "后端",
     prefix: "/backend-dev/",
     icon: "laptop-code",

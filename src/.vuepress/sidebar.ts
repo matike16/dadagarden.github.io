@@ -4,6 +4,11 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "导航",
+      icon: "link",
+      link: "quick-nav/README.md",
+    },
+    {
       text: "后端",
       icon: "laptop-code",
       prefix: "backend-dev/",
