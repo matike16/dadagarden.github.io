@@ -8,6 +8,11 @@ export default navbar([
     icon: "link",
   },
   {
+    text: "项目",
+    link: "/navigation/",
+    icon: "feather",
+  },
+  {
     text: "后端",
     prefix: "/backend-dev/",
     icon: "laptop-code",

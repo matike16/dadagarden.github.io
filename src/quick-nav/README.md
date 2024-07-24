@@ -10,10 +10,14 @@ tag:
   - 导航
 star: true
 article: false
-timeline: true
 breadcrumb: false
 pageInfo: false
 editLink: false
+contributors: false
+lastUpdated: false
+prev: false
+next: false
+comment: false
 ---
 
 ## 搜索引擎

@@ -1,6 +1,6 @@
 <template>
     <el-row :gutter="30">
-        <el-col :xs="24" :sm="24" :md="12" :lg="8" :xl="8" v-for="(cardObj, index) in cardArr" :key="index"
+        <el-col :xs="24" :sm="12" :md="12" :lg="12" :xl="12" v-for="(cardObj, index) in cardArr" :key="index"
             style="margin-top:20px;height:100px;width:100%;overflow:auto;">
             <el-card shadow="never" :body-style="{ padding: '20px' }">
                 <el-row class="box-card-header">
@@ -10,10 +10,9 @@
                     </el-col>
                     <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding:0px;">
                         <div style="text-align:right;">
-                            <el-tooltip effect="dark" :content="cardObj.desc" placement="bottom">
-                                <el-button :type="type" plain
-                                    @click="gotoSite(cardObj.url)">{{ cardObj.title }}</el-button>
-                            </el-tooltip>
+                            <el-button :type="type" plain @click="gotoSite(cardObj.url)">
+                                {{ cardObj.title }}
+                            </el-button>
                         </div>
                     </el-col>
                 </el-row>
@@ -21,11 +20,9 @@
                     <div style="font-size:10px;">{{ cardObj.desc }}</div>
                 </el-row>
             </el-card>
-            <!-- </el-link> -->
         </el-col>
     </el-row>
 </template>
-
 
 <script>
 export default {
@@ -48,9 +45,7 @@ export default {
         },
     },
 }
-
 </script>
-
 
 <style>
 .link-style {

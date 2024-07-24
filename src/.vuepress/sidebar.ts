@@ -9,6 +9,11 @@ export default sidebar({
       link: "quick-nav/README.md",
     },
     {
+      text: "项目",
+      link: "/navigation/",
+      icon: "feather",
+    },
+    {
       text: "后端",
       icon: "laptop-code",
       prefix: "backend-dev/",

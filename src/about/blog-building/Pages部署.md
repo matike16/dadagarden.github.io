@@ -62,7 +62,7 @@ order: "3"
 
 ![选择公共创建成功](./images/Pages部署/3.png)
 
-### 配置工作流权限
+### 2. 配置工作流权限
 
 > [!important]
 > 在[快速入门](./快速入门)中我们已经确认选择了部署到Github Pages工作流，所以项目会自动为我们在.github/workflows文件夹中创建一个名为`deploy-docs`的yml文件，如果没有此文件请手动创建。
@@ -91,7 +91,7 @@ order: "3"
 > [!important]
 > 在设置工作流权限时，始终建议遵循最小权限原则，即只为工作流提供完成其任务所必需的权限，以减少潜在的安全风险。
 
-### 修改base
+### 3. 修改base
 
 > [!important]
 > base如果配置不正确会导致css样式丢失
@@ -104,7 +104,7 @@ order: "3"
 
 ![修改base](./images/Pages部署/16.png)
 
-### 推送项目到Github仓库
+### 4. 推送项目到Github仓库
 
 - 接着在文件资源管理器中打开我们的项目文件夹，在地址栏输入cmd并回车：
 
@@ -141,7 +141,7 @@ git push -u origin main
 
 - 此时刷新Github仓库地址就可以看到项目代码了。
 
-### 查看Action并处理报错
+### 5. 查看Action并处理报错
 
 - 接着我们点击项目导航栏中的Action，查看项目的部署情况：
 	- 如果在 commit 前面显示绿色对勾则代表成功！
@@ -167,7 +167,7 @@ git push -u origin main
 > 
 
 
-### 部署Pages
+### 6. 部署Pages
 
 - 接着在Github项目仓库中依次点击：
 - Settings -> Pages -> 选择gh-pages -> 点击Save
