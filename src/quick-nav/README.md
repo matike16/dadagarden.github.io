@@ -1,4 +1,4 @@
-<!-- ---
+---
 # 当前页面内容标题
 title: 导航
 # 当前页面图标
@@ -95,4 +95,4 @@ next: false
 
 <NavCard arr='[
     {"title": "Byruthub", "url": "https://byruthub.org/", "desc": "俄区盗版游戏资源网站", "icon": "/navicon/byruthub.png"}
-]'></NavCard> -->
+]'></NavCard>
