@@ -56,7 +56,8 @@ next: false
 <NavCard arr='[
     {"title": "uiverse", "url": "https://uiverse.io/", "desc": "一个开源免费的UI组件库", "icon": "/navicon/th.png"},
     {"title": "vercel", "url": "https://vercel.com/", "desc": "一个前端部署平台", "icon": "/navicon/vercel.png"},
-    {"title": "iconfont", "url": "https://www.iconfont.cn/", "desc": "一个丰富的矢量图标库", "icon": "/navicon/iconfont.png"}
+    {"title": "iconfont", "url": "https://www.iconfont.cn/", "desc": "一个丰富的矢量图标库", "icon": "/navicon/iconfont.png"},
+    {"title": "fontawesome", "url": "https://fontawesome.com/", "desc": "一个国外的矢量图标库", "icon": "/navicon/fontawesome.png"}
 ]'></NavCard>
 
 ### 技术框架
