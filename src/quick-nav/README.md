@@ -15,14 +15,23 @@ next: false
 comment: false
 ---
 
-## 搜索引擎
+## <HopeIcon icon="magnifying-glass" color="var(--theme-color)"/> 搜索引擎
+
+### 常规搜索
 
 <NavCard arr='[
     {"title": "必应", "url": "https://cn.bing.com/", "desc": "优秀的国内外搜索引擎", "icon": "/navicon/bing.ico"},
     {"title": "谷歌", "url": "https://www.google.com/", "desc": "被墙的国内外搜索引擎", "icon": "/navicon/google.ico"}
 ]'></NavCard>
 
-## 技术相关
+### AI搜索
+
+<NavCard arr='[
+    {"title": "ChatGPT", "url": "https://chatgpt.com/", "desc": "国外知名AI大模型", "icon": "/navicon/chatgpt.png"},
+    {"title": "Kimi", "url": "https://kimi.moonshot.cn/", "desc": "优秀的国内AI大模型", "icon": "/navicon/kimi.png"}
+]'></NavCard>
+
+## <HopeIcon icon="code" color="var(--theme-color)"/> 技术相关
 
 ### 开源社区
 
@@ -46,7 +55,15 @@ comment: false
 
 <NavCard arr='[
     {"title": "uiverse", "url": "https://uiverse.io/", "desc": "一个开源免费的UI组件库", "icon": "/navicon/th.png"},
-    {"title": "vercel", "url": "https://vercel.com/", "desc": "一个前端部署平台", "icon": "/navicon/vercel.png"}
+    {"title": "vercel", "url": "https://vercel.com/", "desc": "一个前端部署平台", "icon": "/navicon/vercel.png"},
+    {"title": "iconfont", "url": "https://www.iconfont.cn/", "desc": "一个丰富的矢量图标库", "icon": "/navicon/iconfont.png"}
+]'></NavCard>
+
+### 技术框架
+
+<NavCard arr='[
+    {"title": "Vuepress", "url": "https://vuepress.vuejs.org/zh/", "desc": "一个基于vue的静态网站生成器", "icon": "/navicon/vuepress.png"},
+    {"title": "ElementPlus", "url": "https://element-plus.org/zh-CN/", "desc": "一套基于 Vue 3.0 的桌面端组件库", "icon": "/navicon/element-plus.png"}
 ]'></NavCard>
 
 ### 技术博客
@@ -61,4 +78,20 @@ comment: false
 <NavCard arr='[
     {"title": "LeetCode", "url": "https://leetcode.cn/", "desc": "一个在线编程刷题平台", "icon": "/navicon/leetcode.ico"},
     {"title": "代码随想录", "url": "https://programmercarl.com/", "desc": "高效学习算法的网站", "icon": "/navicon/代码随想录.png"}
+]'></NavCard>
+
+## <HopeIcon icon="heart" color="var(--theme-color)"/> 个人兴趣
+
+### 影视网站
+
+<NavCard arr='[
+    {"title": "B站", "url": "https://www.bilibili.com/", "desc": "国内知名弹幕网站", "icon": "/navicon/bilibili.png"},
+    {"title": "HDmoli", "url": "https://www.hdmoli.pro/", "desc": "海外影视在线观看平台", "icon": "/navicon/HDmoli.png"},
+    {"title": "BTNULL", "url": "https://www.btnull.net/", "desc": "一个丰富的影视资源下载站", "icon": "/navicon/btnull.png"}
+]'></NavCard>
+
+### 游戏资源
+
+<NavCard arr='[
+    {"title": "Byruthub", "url": "https://byruthub.org/", "desc": "俄区盗版游戏资源网站", "icon": "/navicon/byruthub.png"}
 ]'></NavCard>
