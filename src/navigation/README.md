@@ -8,7 +8,7 @@ tagline: ✨我的项目示例与展示✨
 actions:
   - text: 博客主页
     link: /
-    icon: signs-post
+    icon: home
     type: primary
 
   - text: 个人导航
