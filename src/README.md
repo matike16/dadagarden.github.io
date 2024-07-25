@@ -29,5 +29,5 @@ projects:
     desc: 文章详细描述
     link: https://你的文章链接
 
-footer: Powered by <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
+footer: Powered by VuePress Theme Hope
 ---
