@@ -5,6 +5,7 @@ date: 2024-07-17
 star: true
 category: 关于
 cover: /assets/images/cover3.jpg
+excerpt: "在校本科生，热爱数码、科幻和音乐，正在学习前端和后端开发技术，掌握多种编程语言和开发工具。"
 ---
 
 # 关于我

@@ -6,6 +6,7 @@ star: true
 category: 关于
 cover: /assets/images/cover2.jpg
 order: "1"
+excerpt: "哒哒的花园是一个基于vuepress-theme-hope主题的博客，使用Markdown语法写作，具有易于安装、可定制页面、响应式布局等特点。"
 ---
 > [!tip]
 > 本博客基于vuepress-theme-hope主题，使用markdown语法进行写作
@@ -79,6 +80,6 @@ obsidian的插件Digital Garden实现：
 - [x] 增加评论功能（本博客已使用Waline评论）
 - [ ] 优化搜索功能
 - [ ]  添加音乐播放器
-- [ ] 增加导航栏页面
+- [x] 增加导航栏页面
 - [x] 使用vercel部署博客
 - [ ]  ...

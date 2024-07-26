@@ -7,6 +7,7 @@ tags:
   - Waline
   - LeanCloud
 order: "5"
+excerpt: "本篇文章将介绍如何使用LeanCloud作为后端服务，在Vercel上部署Waline评论系统，并将其集成到VuePress个人博客中。"
 ---
 > [!note]
 > 本篇文章将要介绍Waline评论及其如何部署到vuepress个人博客中。其中使用了LeanCloud作为Waline的后端服务。
