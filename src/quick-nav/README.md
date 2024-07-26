@@ -12,7 +12,7 @@ contributors: false
 lastUpdated: false
 prev: false
 next: false
-cover: http://img.netbian.com/file/2024/0713/003233UF4p2.jpg
+cover: https://github.com/matike16/dada-picture/blob/img/img/003233UF4p2.jpg?raw=true
 ---
 
 ## <HopeIcon icon="magnifying-glass" color="var(--theme-color)"/> 搜索引擎
