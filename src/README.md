@@ -9,10 +9,10 @@ heroFullScreen: true
 tagline: 这是我的一场文字旅行
 containerClass: dada-blog-home
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: feather
+    name: 我的项目
+    desc: 我的项目示例与展示
+    link: /project/
 
   - icon: link
     name: 个人导航
@@ -20,14 +20,14 @@ projects:
     link: /quick-nav/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 在读书籍
+    desc: 哒哒的阅读书库分享
+    link: /book/
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: box
+    name: 百宝箱
+    desc: 我的工具百宝箱
+    link: /my-box/
 
 footer: Powered by VuePress Theme Hope
 ---

@@ -12,7 +12,7 @@ contributors: false
 lastUpdated: false
 prev: false
 next: false
-# comment: false
+cover: http://img.netbian.com/file/2024/0713/003233UF4p2.jpg
 ---
 
 ## <HopeIcon icon="magnifying-glass" color="var(--theme-color)"/> 搜索引擎
@@ -95,4 +95,12 @@ next: false
 
 <NavCard arr='[
     {"title": "Byruthub", "url": "https://byruthub.org/", "desc": "俄区盗版游戏资源网站", "icon": "/navicon/byruthub.png"}
+]'></NavCard>
+
+### 图片资源
+
+<NavCard arr='[
+    {"title": "Pixiv", "url": "https://www.pixiv.net/", "desc": "国外知名绘画作品网站", "icon": "/navicon/pixiv.png"},
+    {"title": "Pixabay", "url": "https://pixabay.com/", "desc": "一个免费的图片网站", "icon": "/navicon/pixabay.png"},
+    {"title": "彼岸桌面", "url": "https://www.netbian.com/", "desc": "一个不错的壁纸网站", "icon": "/navicon/netbian.png"}
 ]'></NavCard>

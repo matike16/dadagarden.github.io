@@ -9,7 +9,7 @@ export default navbar([
   },
   {
     text: "项目",
-    link: "/navigation/",
+    link: "/project/",
     icon: "feather",
   },
   {
