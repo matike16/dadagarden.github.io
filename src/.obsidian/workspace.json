@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "6de518e37f642360",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/introblog.md",
+                "file": "about/intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/introblog.md"
+                "file": "about/intro.md"
               }
             }
           }
@@ -149,15 +149,17 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "about/blog-building/Pages部署.md",
+    "about/intro.md",
+    "frontend-dev/README.md",
+    "backend-dev/README.md",
+    "about/blog-building/introblog.md",
     "about/blog-building/images/cilicili.png",
     "about/blog-building/images/博客原型.png",
-    "about/intro.md",
     "about/blog-building/Waline评论部署.md",
     "about/blog-building/Vercel部署.md",
     "about/blog-building/README.md",
-    "about/blog-building/Pages部署.md",
     "about/blog-building/快速入门.md",
-    "about/blog-building/introblog.md",
     "about/blog-building/测试.md",
     "quick-nav/README.md",
     "about/blog-building/images/Waline评论部署/4.png",
@@ -169,7 +171,6 @@
     "about/blog-building/images/Vercel部署/16.png",
     "about/blog-building/images/Vercel部署/15.png",
     "about/blog-building/images/Vercel部署/14.png",
-    "about/blog-building/images/Vercel部署/13.png",
     "frontend-dev/基础技术/README.md",
     "about/blog-building/images/Vercel部署",
     "about/blog-building/images/Pages部署",
@@ -178,9 +179,7 @@
     "about/README.md",
     "backend-dev/后端框架/README.md",
     "README.md",
-    "frontend-dev/README.md",
     "frontend-dev/前端框架/README.md",
-    "backend-dev/README.md",
     "2024-07-17.md"
   ]
 }
