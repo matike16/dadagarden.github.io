@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "05eb0630cd984239",
+        "id": "77c28f6ef51a1e03",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc6f88ed3b6e7b2",
+            "id": "8829c84801b6237a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md",
+                "file": "about/blog-building/introblog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/blog-building/Waline评论部署.md"
+                "file": "about/blog-building/introblog.md"
               }
             }
           }
@@ -147,15 +147,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ddc6f88ed3b6e7b2",
+  "active": "8829c84801b6237a",
   "lastOpenFiles": [
-    "about/blog-building/Vercel部署.md",
+    "about/blog-building/images/cilicili.png",
+    "about/blog-building/images/博客原型.png",
     "about/intro.md",
+    "about/blog-building/Waline评论部署.md",
+    "about/blog-building/Vercel部署.md",
     "about/blog-building/README.md",
     "about/blog-building/Pages部署.md",
     "about/blog-building/快速入门.md",
     "about/blog-building/introblog.md",
-    "about/blog-building/Waline评论部署.md",
     "about/blog-building/测试.md",
     "quick-nav/README.md",
     "about/blog-building/images/Waline评论部署/4.png",
@@ -168,7 +170,6 @@
     "about/blog-building/images/Vercel部署/15.png",
     "about/blog-building/images/Vercel部署/14.png",
     "about/blog-building/images/Vercel部署/13.png",
-    "about/blog-building/images/Vercel部署/11.png",
     "frontend-dev/基础技术/README.md",
     "about/blog-building/images/Vercel部署",
     "about/blog-building/images/Pages部署",
