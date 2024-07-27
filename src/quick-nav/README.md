@@ -57,7 +57,9 @@ cover: /assets/images/cover4.jpg
     {"title": "uiverse", "url": "https://uiverse.io/", "desc": "一个开源免费的UI组件库", "icon": "/navicon/th.png"},
     {"title": "vercel", "url": "https://vercel.com/", "desc": "一个前端部署平台", "icon": "/navicon/vercel.png"},
     {"title": "iconfont", "url": "https://www.iconfont.cn/", "desc": "一个丰富的矢量图标库", "icon": "/navicon/iconfont.png"},
-    {"title": "fontawesome", "url": "https://fontawesome.com/", "desc": "一个国外的矢量图标库", "icon": "/navicon/fontawesome.png"}
+    {"title": "fontawesome", "url": "https://fontawesome.com/", "desc": "一个国外的矢量图标库", "icon": "/navicon/fontawesome.png"},
+    {"title": "docsmall", "url": "https://docsmall.com/", "desc": "免费的在线图片、PDF处理工具", "icon": "/navicon/docsmall.png"},
+    {"title": "ProcessOn", "url": "https://www.processon.com/", "desc": "一个在线流程图工具", "icon": "/navicon/processon.png"}
 ]'></NavCard>
 
 ### 技术框架
@@ -102,5 +104,5 @@ cover: /assets/images/cover4.jpg
 <NavCard arr='[
     {"title": "Pixiv", "url": "https://www.pixiv.net/", "desc": "国外知名绘画作品网站", "icon": "/navicon/pixiv.png"},
     {"title": "Pixabay", "url": "https://pixabay.com/", "desc": "一个免费的图片网站", "icon": "/navicon/pixabay.png"},
-    {"title": "彼岸桌面", "url": "https://www.netbian.com/", "desc": "一个不错的壁纸网站", "icon": "/navicon/netbian.png"}
+    {"title": "彼岸图网", "url": "http://pic.netbian.com/", "desc": "一个不错的壁纸网站", "icon": "/navicon/netbian.png"}
 ]'></NavCard>
