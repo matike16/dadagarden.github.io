@@ -99,6 +99,25 @@ export default hopeTheme(
         ]
       },
 
+      notice: [
+        {
+          path: "/",
+          title: "最近更新",
+          content: "修改了博客主页卡片布局，添加了新的工具类导航网站。",
+          // showOnce: false,
+          // fullscreen: true,
+          // confirm: false,
+          // actions: [
+          //   {
+          //     text: "Primary Action",
+          //     link: "https://theme-hope.vuejs.press/",
+          //     type: "primary",
+          //   },
+          //   { text: "Default Action" },
+          // ],
+        },
+      ],
+
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
       comment: {
