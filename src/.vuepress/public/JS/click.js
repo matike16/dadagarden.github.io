@@ -131,4 +131,7 @@ function clickEffect() {
         }
     }
 }
-clickEffect();//调用特效函数
+
+document.addEventListener("DOMContentLoaded", function () {
+    clickEffect();
+});
