@@ -24,6 +24,12 @@ export default defineUserConfig({
         href: faviconPath,
       },
     ],
+    [
+      "script",
+      {
+        src: "/JS/click.js",
+      },
+    ],
   ],
   
   port: 80,

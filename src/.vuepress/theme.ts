@@ -54,7 +54,7 @@ export default hopeTheme(
     // 博客相关
     blog: {
       description: "这是我的一场文字旅行",
-      intro: "/intro.html",
+      intro: "about/intro.html",
       medias: {
         BiliBili: "https://space.bilibili.com/20667502?spm_id_from=333.1007.0.0",
         Email: "https://mail.qq.com/cgi-bin/frame_html?sid=Mds1CNCkf4ocwVcx&r=f066bcca50ce63aca0d22965eb3f53d4&lang=zh",

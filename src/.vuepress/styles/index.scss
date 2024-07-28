@@ -247,7 +247,8 @@ body {
 }
 
 .vp-article-cover {
-    max-height: 30vh;
+    min-height: 220px;
+    max-height: 220px;
     object-fit: cover;
 }
 
@@ -340,8 +341,8 @@ body {
 
 .page-cover img{
     max-height: 30vh;
-    object-fit: cover;
-    object-position: top;
+    // object-fit: cover;
+    // object-position: top;
 }
 
 .vp-page-nav .prev,

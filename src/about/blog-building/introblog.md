@@ -4,7 +4,7 @@ icon: blog
 date: 2024-07-17
 star: true
 category: 关于
-cover: /assets/images/cover6.jpg
+cover: /assets/images/关于博客.jpg
 order: "1"
 excerpt: "哒哒的花园是一个基于vuepress-theme-hope主题的博客，使用Markdown语法写作，具有易于安装、可定制页面、响应式布局等特点。"
 ---

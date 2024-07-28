@@ -6,6 +6,7 @@ category: 博客搭建
 tags:
   - Github-Pages
 order: "3"
+cover: /assets/images/GithubPages部署.jpg
 excerpt: "本篇文章将介绍如何将个人或组织的博客项目部署到GitHub Pages上，包括创建仓库、配置工作流权限、修改配置文件、推送代码、处理部署错误以及完成部署的详细步骤。"
 ---
 > [!note]

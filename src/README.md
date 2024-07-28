@@ -8,6 +8,8 @@ heroText: 哒哒的花园
 heroFullScreen: true
 tagline: 这是我的一场文字旅行
 containerClass: dada-blog-home
+# head:
+#   - ["script", { src: "/JS/click.js"}]
 projects:
   - icon: feather
     name: 我的项目

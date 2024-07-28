@@ -12,7 +12,7 @@ contributors: false
 lastUpdated: false
 prev: false
 next: false
-cover: /assets/images/cover4.jpg
+cover: /assets/images/cover7.jpg
 ---
 
 ## <HopeIcon icon="magnifying-glass" color="var(--theme-color)"/> 搜索引擎

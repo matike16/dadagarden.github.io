@@ -10,8 +10,15 @@ export default sidebar({
     },
     {
       text: "项目",
-      link: "/navigation/",
+      link: "/project/",
       icon: "feather",
+    },
+    {
+      text: "知识快学",
+      prefix: "quick-learn/",
+      collapsible: true,
+      icon: "book-open-reader",
+      children: "structure",
     },
     {
       text: "后端",
@@ -64,4 +71,12 @@ export default sidebar({
       children: "structure",
     }
   ],
+  "/quick-learn/": [
+    {
+      text: "知识快学",
+      icon: "book-open-reader",
+      collapsible: true,
+      children: "structure",
+    }
+  ]
 });
