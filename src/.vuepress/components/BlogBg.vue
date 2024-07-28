@@ -74,6 +74,23 @@ onMounted(() => {
 
   animation: gradientBG 15s ease infinite;
   background-size: 300% 300%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#dada_BlogBg::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.5)1px,
+      transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.5)1px,
+      transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
 }
 
 #dada_BlogBg:after {
@@ -88,6 +105,7 @@ onMounted(() => {
 [data-theme="dark"] #dada_BlogBg:after {
   background-color: #1d2025b3;
 }
+
 [data-theme="light"] #dada_BlogBg:after {
   background-color: #ffffff1a;
 }
