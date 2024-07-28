@@ -54,7 +54,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
-#dada_BlogBg {
+[data-theme="light"] #dada_BlogBg {
   user-select: none;
   pointer-events: none;
   position: fixed;
@@ -79,7 +79,7 @@ onMounted(() => {
   overflow: hidden;
 }
 
-#dada_BlogBg::before {
+[data-theme="light"] #dada_BlogBg::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -91,6 +91,40 @@ onMounted(() => {
       transparent 1px);
   background-size: 20px 20px;
   pointer-events: none;
+}
+
+[data-theme="dark"] #dada_BlogBg {
+  user-select: none;
+  pointer-events: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  --s: 82px;
+  --c1: #b2b2b2;
+  --c2: #ffffff;
+  --c3: #d9d9d9;
+
+  --_g: var(--c3) 0 120deg, #0000 0;
+  background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),
+    conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),
+    conic-gradient(
+      from 60deg at calc(200% / 3),
+      var(--c3) 60deg,
+      var(--c2) 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),
+    linear-gradient(
+      90deg,
+      var(--c1) calc(100% / 6),
+      var(--c2) 0 50%,
+      var(--c1) 0 calc(500% / 6),
+      var(--c2) 0
+    );
+  background-size: calc(1.732 * var(--s)) var(--s);
 }
 
 #dada_BlogBg:after {
@@ -128,6 +162,10 @@ onMounted(() => {
 .random-shape {
   position: absolute;
   transform-origin: center;
+}
+
+[data-theme="dark"] .random-shape {
+  display: none;
 }
 
 .circle {
