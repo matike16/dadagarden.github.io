@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/Git快速了解.md",
+                "file": "quick-learn/Web快速认识.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/Git快速了解.md",
+                "file": "quick-learn/Web快速认识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/Git快速了解.md",
+                "file": "quick-learn/Web快速认识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/Git快速了解.md"
+                "file": "quick-learn/Web快速认识.md"
               }
             }
           }
@@ -149,6 +149,17 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "frontend-dev/基础技术/初识Web前端.md",
+    "frontend-dev/基础技术/初始Web前端.md",
+    "quick-learn/Web快速认识.md",
+    "quick-learn/images/Web快速认识/2.jpg",
+    "quick-learn/images/Web快速认识/1.jpg",
+    "quick-learn/images/Web快速认识",
+    "quick-learn/images/新建文件夹",
+    "quick-learn/Git快速了解.md",
+    "frontend-dev/基础技术/README.md",
+    "backend-dev/基础技术/README.md",
+    "backend-dev/基础技术",
     "quick-learn/images/Git快速了解/6.jpg",
     "quick-learn/images/Git快速了解/7.jpg",
     "quick-learn/images/Git快速了解/5.jpg",
@@ -157,11 +168,9 @@
     "quick-learn/images/Git快速了解/2.jpg",
     "quick-learn/images/Git快速了解/1.jpg",
     "quick-learn/images/Git快速了解",
-    "quick-learn/images/新建文件夹",
     "quick-learn/images",
     "quick-learn/新建文件夹",
     "quick-learn/README.md",
-    "quick-learn/Git快速了解.md",
     "README.md",
     "quick-lean/README.md",
     "quick-learn",
@@ -172,20 +181,14 @@
     "backend-dev/README.md",
     "about/blog-building/introblog.md",
     "about/blog-building/images/cilicili.png",
-    "about/blog-building/images/博客原型.png",
     "about/blog-building/Waline评论部署.md",
     "about/blog-building/Vercel部署.md",
     "about/blog-building/README.md",
     "about/blog-building/快速入门.md",
     "about/blog-building/测试.md",
     "quick-nav/README.md",
-    "about/blog-building/images/Waline评论部署/4.png",
-    "about/blog-building/images/Waline评论部署/3.png",
     "about/blog-building/images/Waline评论部署",
-    "frontend-dev/基础技术/README.md",
     "about/blog-building/images/Vercel部署",
-    "about/blog-building/images/Pages部署",
-    "about/blog-building/images/快速入门",
     "about/blog-building/blogintro.md",
     "about/README.md",
     "backend-dev/后端框架/README.md",

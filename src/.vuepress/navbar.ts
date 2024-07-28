@@ -18,9 +18,31 @@ export default navbar([
     icon: "laptop-code",
     children: [
       {
+        text: "基础技术",
+        icon: "code",
+        link: "基础技术/",
+      },
+      {
         text: "后端框架",
-        icon: "file-code",
+        icon: "folder-open",
         link: "后端框架/",
+      }
+    ]
+  },
+  {
+    text: "前端",
+    prefix: "/frontend-dev/",
+    icon: "file-code",
+    children: [
+      {
+        text: "基础技术",
+        icon: "code",
+        link: "基础技术/",
+      },
+      {
+        text: "前端框架",
+        icon: "folder-open",
+        link: "前端框架/",
       }
     ]
   },

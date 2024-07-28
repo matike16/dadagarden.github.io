@@ -27,13 +27,13 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
-    // {
-    //   text: "前端",
-    //   icon: "file-code",
-    //   prefix: "frontend-dev/",
-    //   collapsible: true,
-    //   children: "structure",
-    // },
+    {
+      text: "前端",
+      icon: "file-code",
+      prefix: "frontend-dev/",
+      collapsible: true,
+      children: "structure",
+    },
     {
       text: "关于",
       icon: "circle-info",
@@ -55,9 +55,17 @@ export default sidebar({
       ]
     }
   ],
-  "/backend-dev/后端框架/": [
+  "/backend-dev/": [
     {
-      text: "后端框架",
+      text: "后端",
+      icon: "laptop-code",
+      collapsible: true,
+      children: "structure",
+    }
+  ],
+  "/frontend-dev/": [
+    {
+      text: "前端",
       icon: "file-code",
       collapsible: true,
       children: "structure",

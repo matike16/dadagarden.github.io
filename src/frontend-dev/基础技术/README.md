@@ -6,3 +6,4 @@ index: false
 timeline: false
 article: false
 ---
+<Catalog />

@@ -1,7 +1,7 @@
 ---
-title: 前端框架
-icon: folder-open
-date: 2024-07-18
+title: 基础技术
+icon: code
+date: 2024-07-28
 index: false
 timeline: false
 article: false
