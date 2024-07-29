@@ -8,10 +8,10 @@ const BlogBg = () => {
     document.body.appendChild(bgDiv);
 
     const shapes = [
-      { type: 'circle', top: '10vh', left: '10vw' },
-      { type: 'triangle', top: '30vh', left: '80vw' },
-      { type: 'square', top: '60vh', left: '10vw' },
-      { type: 'circle1', top: '60vh', left: '80vw' },
+      { type: 'circle', top: '10vh', left: '5vw' },
+      { type: 'triangle', top: '30vh', left: '85vw' },
+      { type: 'square', top: '60vh', left: '5vw' },
+      { type: 'circle1', top: '60vh', left: '85vw' },
     ];
 
     shapes.forEach((shape) => {
@@ -172,7 +172,7 @@ onMounted(() => {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 1);
   animation: move 30s linear infinite;
 }
 
@@ -180,7 +180,7 @@ onMounted(() => {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: rgba(255, 0, 255, 0.5);
+  background-color: rgba(255, 0, 255, 1);
   animation: move1 30s linear infinite;
 }
 
@@ -223,7 +223,7 @@ onMounted(() => {
 .square {
   width: 200px;
   height: 200px;
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: rgba(100, 100, 255, 1);
   border-radius: 20px;
   animation: rotate 30s linear infinite;
 }
