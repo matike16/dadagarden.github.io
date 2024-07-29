@@ -103,7 +103,7 @@ export default hopeTheme(
         {
           path: "/",
           title: "最近更新",
-          content: "修改了博客主页卡片布局，添加了新的工具类导航网站。",
+          content: "添加了新的游戏类导航网站。",
           // showOnce: false,
           // fullscreen: true,
           // confirm: false,

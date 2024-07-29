@@ -96,7 +96,8 @@ cover: /assets/images/cover7.jpg
 ### 游戏资源
 
 <NavCard arr='[
-    {"title": "Byruthub", "url": "https://byruthub.org/", "desc": "俄区盗版游戏资源网站", "icon": "/navicon/byruthub.png"}
+    {"title": "Byruthub", "url": "https://byruthub.org/", "desc": "俄区盗版游戏资源网站", "icon": "/navicon/byruthub.png"},
+    {"title": "flysheep", "url": "https://www.flysheep6.com/", "desc": "游戏资源避难所", "icon": "/navicon/flysheep.png"}
 ]'></NavCard>
 
 ### 图片资源
