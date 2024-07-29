@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
+                "file": "frontend-dev/基础技术/JavaScript基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md"
+                "file": "frontend-dev/基础技术/JavaScript基础.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
+                "file": "frontend-dev/基础技术/JavaScript基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
+                "file": "frontend-dev/基础技术/JavaScript基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,6 +151,7 @@
   "active": "1bbc08978abbe74e",
   "lastOpenFiles": [
     "frontend-dev/基础技术/HTML与CSS快速入门.md",
+    "frontend-dev/基础技术/JavaScript基础.md",
     "frontend-dev/基础技术/初识Web前端.md",
     "quick-learn/Git快速了解.md",
     "frontend-dev/README.md",
@@ -194,7 +195,6 @@
     "about/blog-building/blogintro.md",
     "about/README.md",
     "backend-dev/后端框架/README.md",
-    "frontend-dev/前端框架/README.md",
-    "2024-07-17.md"
+    "frontend-dev/前端框架/README.md"
   ]
 }
