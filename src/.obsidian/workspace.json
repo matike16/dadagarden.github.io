@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/Web快速认识.md",
+                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,6 +43,16 @@
             }
           },
           {
+            "id": "1bbc08978abbe74e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md"
+              }
+            }
+          },
+          {
             "id": "2c52dc911c03a70c",
             "type": "leaf",
             "state": {
@@ -65,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/Web快速认识.md",
+                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/Web快速认识.md",
+                "file": "frontend-dev/基础技术/HTML与CSS快速入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,19 +129,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "1bbc08978abbe74e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "quick-learn/Web快速认识.md"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -147,16 +148,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8829c84801b6237a",
+  "active": "1bbc08978abbe74e",
   "lastOpenFiles": [
+    "frontend-dev/基础技术/HTML与CSS快速入门.md",
     "frontend-dev/基础技术/初识Web前端.md",
-    "frontend-dev/基础技术/初始Web前端.md",
+    "quick-learn/Git快速了解.md",
+    "frontend-dev/README.md",
     "quick-learn/Web快速认识.md",
+    "frontend-dev/基础技术/初始Web前端.md",
     "quick-learn/images/Web快速认识/2.jpg",
     "quick-learn/images/Web快速认识/1.jpg",
     "quick-learn/images/Web快速认识",
     "quick-learn/images/新建文件夹",
-    "quick-learn/Git快速了解.md",
     "frontend-dev/基础技术/README.md",
     "backend-dev/基础技术/README.md",
     "backend-dev/基础技术",
@@ -177,7 +180,6 @@
     "quick-lean",
     "about/intro.md",
     "about/blog-building/Pages部署.md",
-    "frontend-dev/README.md",
     "backend-dev/README.md",
     "about/blog-building/introblog.md",
     "about/blog-building/images/cilicili.png",

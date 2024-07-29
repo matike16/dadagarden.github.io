@@ -6,7 +6,8 @@ category: 前端基础
 tags:
   - Web开发
 cover: /assets/images/初识Web前端.jpg
-excerpt: "本篇文章是关于Web前端的基础知识介绍，包括网页组成部分、浏览器内核的作用、Web标准以及一些前端开发的高级技术。"
+excerpt: 本篇文章是关于Web前端的基础知识介绍，包括网页组成部分、浏览器内核的作用、Web标准以及一些前端开发的高级技术。
+order: "1"
 ---
 ## 初识Web前端
 
