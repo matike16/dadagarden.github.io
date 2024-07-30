@@ -52,6 +52,11 @@ export default sidebar({
           collapsible: true,
           children: "structure",
         },
+        {
+          text: "一言摘录",
+          icon: "heart",
+          link: "一言.md",
+        },
       ]
     }
   ],

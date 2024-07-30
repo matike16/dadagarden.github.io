@@ -18,117 +18,113 @@ library.add(fas);
 // 用于控制组件切换状态的引用
 const isToggled = ref(false);
 
+// 一言句子的数组
+const hitokotoList = ref([
+//   { text: "人生若只如初见，何事秋风悲画扇。", author: "纳兰性德" },
+//   { text: "海内存知己，天涯若比邻。", author: "王勃" },
+//   { text: "山有木兮木有枝，心悦君兮君不知。", author: "佚名" },
+//   { text: "春风得意马蹄疾，一日看尽长安花。", author: "孟郊" }
+]);
+
+let hitokotoIndex = 0;
+
 /**
  * 显示当前时间的函数
  * 该函数会每秒更新一次时间
  */
 function showTime() {
-    const date = new Date();
-    const hours = ('0' + date.getHours()).slice(-2);
-    const minutes = ('0' + date.getMinutes()).slice(-2);
-    const seconds = ('0' + date.getSeconds()).slice(-2);
-    const timeString = `${hours}:${minutes}:${seconds}`;
+  const date = new Date();
+  const hours = ('0' + date.getHours()).slice(-2);
+  const minutes = ('0' + date.getMinutes()).slice(-2);
+  const seconds = ('0' + date.getSeconds()).slice(-2);
+  const timeString = `${hours}:${minutes}:${seconds}`;
 
-    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-    const dateString = date.toLocaleDateString('zh-CN', options);
+  const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+  const dateString = date.toLocaleDateString('zh-CN', options);
 
-    const currentTimeElement = document.getElementById('currentTime');
-    const currentDateElement = document.getElementById('currentDate');
-    if (currentTimeElement && currentDateElement) {
-        currentTimeElement.innerHTML = timeString;
-        currentDateElement.innerHTML = dateString;
-        setTimeout(showTime, 1000);
-    }
+  const currentTimeElement = document.getElementById('currentTime');
+  const currentDateElement = document.getElementById('currentDate');
+  if (currentTimeElement && currentDateElement) {
+    currentTimeElement.innerHTML = timeString;
+    currentDateElement.innerHTML = dateString;
+    setTimeout(showTime, 1000);
+  }
 }
-
 
 /**
  * 切换页面元素的显示状态
  * 该函数用于在博客页面和组件页面之间切换
  */
 const toggleElements = () => {
-    const heroImage = document.querySelector('.vp-blog-hero-image');
-    const heroTitle = document.querySelector('.vp-blog-hero-title');
-    const heroDescription = document.querySelector('.vp-blog-hero-description');
-    const componentTimes = document.querySelector('.component-times');
-    const componentChange = document.querySelector('.component-button');
+  const heroImage = document.querySelector('.vp-blog-hero-image');
+  const heroTitle = document.querySelector('.vp-blog-hero-title');
+  const heroDescription = document.querySelector('.vp-blog-hero-description');
+  const componentTimes = document.querySelector('.component-times');
+  const componentChange = document.querySelector('.component-button');
 
-    if (isToggled.value) {
-        if (heroImage) heroImage.style.display = '';
-        if (heroTitle) heroTitle.style.display = '';
-        if (heroDescription) heroDescription.style.display = '';
-        if (componentChange) componentChange.style.display = '';
-        if (componentTimes) componentTimes.remove();
-    } else {
-        if (heroImage) heroImage.style.display = 'none';
-        if (heroTitle) heroTitle.style.display = 'none';
-        if (heroDescription) heroDescription.style.display = 'none';
-        if (componentChange) componentChange.style.display = 'none';
-        if (!componentTimes) {
-            const newComponentTimes = document.createElement('div');
-            newComponentTimes.className = 'component-times';
-            newComponentTimes.innerHTML = `
-            <div id="currentTime"></div>
-            <div id="currentDate"></div>
-            <div class="hitokoto-content">
-                <div class="Btn-out">
-                    <div id="hitokotoBtn"></div>
-                </div>
-                <div class="hitokoto-out">
-                    <span class="point">[ </span><span id="hitokoto"></span><span class="point"> ]</span>
-                </div>
-                <div class="author-content">
-                    —— <span id="author"></span> ——
-                </div>
-            </div>
-            `;
-            document.querySelector('.vp-blog-mask').appendChild(newComponentTimes);
-            showTime(); // 调用显示时间的函数
-            fetchHitokoto();// 调用获取一言函数
+  if (isToggled.value) {
+    if (heroImage) heroImage.style.display = '';
+    if (heroTitle) heroTitle.style.display = '';
+    if (heroDescription) heroDescription.style.display = '';
+    if (componentChange) componentChange.style.display = '';
+    if (componentTimes) componentTimes.remove();
+  } else {
+    if (heroImage) heroImage.style.display = 'none';
+    if (heroTitle) heroTitle.style.display = 'none';
+    if (heroDescription) heroDescription.style.display = 'none';
+    if (componentChange) componentChange.style.display = 'none';
+    if (!componentTimes) {
+      const newComponentTimes = document.createElement('div');
+      newComponentTimes.className = 'component-times';
+      newComponentTimes.innerHTML = `
+        <div id="currentTime"></div>
+        <div id="currentDate"></div>
+        <div class="hitokoto-content">
+          <div class="Btn-out">
+            <div id="hitokotoBtn"></div>
+          </div>
+          <div class="hitokoto-out">
+            <span class="point">[ </span><span id="hitokoto"></span><span class="point"> ]</span>
+          </div>
+          <div class="author-content">
+            —— <span id="author"></span> ——
+          </div>
+        </div>
+      `;
+      document.querySelector('.vp-blog-mask').appendChild(newComponentTimes);
+      showTime(); // 调用显示时间的函数
+      displayHitokoto(); // 显示一言
 
-            // document.getElementById('hitokotoBtn').addEventListener('click',fetchHitokoto);
-            const hitokotoBtn = document.getElementById('hitokotoBtn');
-            // hitokotoBtn.classList.add('rotate');
-            hitokotoBtn.addEventListener('click', () => {
-                hitokotoBtn.classList.add('rotate');
-                fetchHitokoto();
-                setTimeout(() => {
-                    hitokotoBtn.classList.remove('rotate');
-                }, 500);
-            });
-            const iconVNode2 = createVNode(FontAwesomeIcon, { icon: ['fas', 'rotate'] });
-            render(iconVNode2, hitokotoBtn);
-        }
+      const hitokotoBtn = document.getElementById('hitokotoBtn');
+      hitokotoBtn.addEventListener('click', () => {
+        hitokotoBtn.classList.add('rotate');
+        displayHitokoto();
+        setTimeout(() => {
+          hitokotoBtn.classList.remove('rotate');
+        }, 500);
+      });
+      const iconVNode2 = createVNode(FontAwesomeIcon, { icon: ['fas', 'rotate'] });
+      render(iconVNode2, hitokotoBtn);
     }
+  }
 
-    isToggled.value = !isToggled.value;
+  isToggled.value = !isToggled.value;
 };
 
 /**
- * 获取一言
+ * 显示一言
  */
-const fetchHitokoto = () => {
-    fetch('https://tenapi.cn/v2/yiyan', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: 'format=json',
-    })
-        .then(response => response.json())
-        .then(data => {
-            if (data && data.data) {
-                const hitokotoElement = document.getElementById('hitokoto');
-                const authorElement = document.getElementById('author');
-                if (hitokotoElement && authorElement) {
-                    hitokotoElement.innerHTML = data.data.hitokoto;
-                    authorElement.innerHTML = data.data.author;
-                }
-            }
-        })
-        .catch(error => {
-            console.error('Error fetching hitokoto:', error);
-        });
+const displayHitokoto = () => {
+  const hitokotoElement = document.getElementById('hitokoto');
+  const authorElement = document.getElementById('author');
+
+  if (hitokotoElement && authorElement) {
+    const { text, author } = hitokotoList.value[hitokotoIndex];
+    hitokotoElement.innerHTML = text;
+    authorElement.innerHTML = author;
+
+    hitokotoIndex = (hitokotoIndex + 1) % hitokotoList.value.length;
+  }
 };
 
 /**
@@ -136,43 +132,73 @@ const fetchHitokoto = () => {
  * 该函数负责动态插入组件切换按钮，并处理按钮的点击事件
  */
 const insertComponentTimes = () => {
-    const tryInsertComponent = () => {
-        const blogMask = document.querySelector('.vp-blog-mask');
-        if (blogMask && !document.querySelector('.component-button1')) {
-            const button1 = document.createElement('div');
-            button1.className = 'component-button1';
+  const tryInsertComponent = () => {
+    const blogMask = document.querySelector('.vp-blog-mask');
+    if (blogMask && !document.querySelector('.component-button1')) {
+      const button1 = document.createElement('div');
+      button1.className = 'component-button1';
 
-            // 创建 FontAwesomeIcon 组件的 VNode
-            const iconVNode1 = createVNode(FontAwesomeIcon, { icon: ['fas', 'fa-clock'] });
-            // 渲染组件到 button
-            render(iconVNode1, button1);
+      // 创建 FontAwesomeIcon 组件的 VNode
+      const iconVNode1 = createVNode(FontAwesomeIcon, { icon: ['fas', 'fa-clock'] });
+      // 渲染组件到 button
+      render(iconVNode1, button1);
 
-            // 添加点击事件处理程序
-            button1.addEventListener('click', () => {
-                toggleElements();
-                const newIcon1 = isToggled.value ? ['fas', 'fa-xmark'] : ['fas', 'fa-clock'];
-                const newIconVNode1 = createVNode(FontAwesomeIcon, { icon: newIcon1 });
-                render(newIconVNode1, button1);
-            });
+      // 添加点击事件处理程序
+      button1.addEventListener('click', () => {
+        toggleElements();
+        const newIcon1 = isToggled.value ? ['fas', 'fa-xmark'] : ['fas', 'fa-clock'];
+        const newIconVNode1 = createVNode(FontAwesomeIcon, { icon: newIcon1 });
+        render(newIconVNode1, button1);
+      });
 
-            blogMask.appendChild(button1);
-        }
-    };
-
-    // 在页面初始化时尝试插入按钮
-    tryInsertComponent();
-
-    const router = useRouter();
-    if (router && typeof router.beforeEach === 'function') {
-        router.beforeEach(() => {
-            setTimeout(() => {
-                tryInsertComponent();
-            }, 50);
-        });
+      blogMask.appendChild(button1);
     }
+  };
+
+  // 在页面初始化时尝试插入按钮
+  tryInsertComponent();
+
+  const router = useRouter();
+  if (router && typeof router.beforeEach === 'function') {
+    router.beforeEach(() => {
+      setTimeout(() => {
+        tryInsertComponent();
+      }, 50);
+    });
+  }
 };
 
-onMounted(insertComponentTimes);
+// Markdown 中定义的 hitokoto 组件数组
+const markdownHitokotos = ref([]);
+
+// 从 Markdown 文件中提取 hitokoto 组件
+const fetchMarkdownHitokotos = async () => {
+  try {
+    const response = await fetch(new URL('../../about/一言.md', import.meta.url));
+    const markdown = await response.text();
+    const hitokotos = parseMarkdownHitokotos(markdown);
+    markdownHitokotos.value = hitokotos;
+    hitokotoList.value = [...hitokotoList.value, ...hitokotos];
+  } catch (error) {
+    console.error('Error fetching markdown hitokotos:', error);
+  }
+};
+
+// 解析 Markdown 文件中的 hitokoto 组件
+const parseMarkdownHitokotos = (markdown) => {
+  const hitokotoRegex = /<Hitokoto text="(.+?)" author="(.+?)" \/>/g;
+  const hitokotos = [];
+  let match;
+  while ((match = hitokotoRegex.exec(markdown)) !== null) {
+    hitokotos.push({ text: match[1], author: match[2] });
+  }
+  return hitokotos;
+};
+
+onMounted(() => {
+  insertComponentTimes();
+  fetchMarkdownHitokotos();
+});
 </script>
 
 <style lang="scss">

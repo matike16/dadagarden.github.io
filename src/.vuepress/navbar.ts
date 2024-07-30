@@ -60,7 +60,12 @@ export default navbar([
         text: "博客搭建",
         icon: "blog",
         link: "blog-building/",
-      }
+      },
+      {
+        text: "一言摘录",
+        icon: "heart",
+        link: "一言.md",
+      },
     ]
   },
 ]);

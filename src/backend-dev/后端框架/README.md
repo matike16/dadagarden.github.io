@@ -5,5 +5,6 @@ icon: "folder-open"
 index: false
 article: false
 timeline: false
+order: 2
 ---
 <Catalog />
