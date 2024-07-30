@@ -19,7 +19,7 @@ import "vuepress-theme-hope/presets/bounce-icon.scss";
 // import "vuepress-theme-hope/presets/hide-sidebar-icon.scss";
 
 // 将所有hr替换为驾驶车
-// import "vuepress-theme-hope/presets/hr-driving-car.scss";
+import "vuepress-theme-hope/presets/hr-driving-car.scss";
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 
@@ -44,7 +44,7 @@ export default defineClientConfig({
     // 透明导航栏
     // setupTransparentNavbar({ type: "homepage" });
     // 雪花效果
-    // setupSnowFall();
+    setupSnowFall();
   },
   rootComponents: [
     BlogBg,
