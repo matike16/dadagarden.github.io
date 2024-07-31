@@ -86,11 +86,11 @@ export default hopeTheme(
     plugins: {
       blog: {
         type: [
-          getSlides({
-            locales: {
-              "/":"幻灯片",
-            },
-          }),
+          // getSlides({
+          //   locales: {
+          //     "/":"幻灯片",
+          //   },
+          // }),
           getRecentUpdatedArticles({
             locales:{
               "/":"最近更新",
@@ -103,7 +103,7 @@ export default hopeTheme(
         {
           path: "/",
           title: "最近更新",
-          content: "添加了新的游戏类导航网站。",
+          content: "新增“我的书籍”和“一言摘录”页面，“一言摘录”可同步首页组件。",
           // showOnce: false,
           // fullscreen: true,
           // confirm: false,
