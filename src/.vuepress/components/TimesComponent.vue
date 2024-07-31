@@ -26,7 +26,7 @@ const hitokotoList = ref([
 //   { text: "春风得意马蹄疾，一日看尽长安花。", author: "孟郊" }
 ]);
 
-let hitokotoIndex = 0;
+let previousHitokotoIndex = -1;
 
 /**
  * 显示当前时间的函数
@@ -119,11 +119,16 @@ const displayHitokoto = () => {
   const authorElement = document.getElementById('author');
 
   if (hitokotoElement && authorElement) {
-    const { text, author } = hitokotoList.value[hitokotoIndex];
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * hitokotoList.value.length);
+    } while (newIndex === previousHitokotoIndex);
+
+    const { text, author } = hitokotoList.value[newIndex];
     hitokotoElement.innerHTML = text;
     authorElement.innerHTML = author;
 
-    hitokotoIndex = (hitokotoIndex + 1) % hitokotoList.value.length;
+    previousHitokotoIndex = newIndex;
   }
 };
 
