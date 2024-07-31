@@ -24,7 +24,7 @@ projects:
   - icon: book
     name: 在读书籍
     desc: 哒哒的阅读书库分享
-    link: /book/
+    link: /about/我的书籍.md
 
   - icon: box
     name: 百宝箱

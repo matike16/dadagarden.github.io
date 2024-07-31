@@ -83,6 +83,11 @@ export default navbar([
         icon: "heart",
         link: "一言.md",
       },
+      {
+        text: "我的书籍",
+        icon: "book-bookmark",
+        link: "我的书籍.md",
+      },
     ]
   },
 ]);
