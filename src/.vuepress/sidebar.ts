@@ -21,21 +21,28 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "后端",
-      icon: "laptop-code",
-      prefix: "backend-dev/",
+      text: "技术",
+      prefix: "technology/",
+      icon: "wand-magic-sparkles",
       collapsible: true,
       children: "structure",
     },
+    // {
+    //   text: "后端",
+    //   icon: "laptop-code",
+    //   prefix: "backend-dev/",
+    //   collapsible: true,
+    //   children: "structure",
+    // },
+    // {
+    //   text: "前端",
+    //   icon: "file-code",
+    //   prefix: "frontend-dev/",
+    //   collapsible: true,
+    //   children: "structure",
+    // },
     {
-      text: "前端",
-      icon: "file-code",
-      prefix: "frontend-dev/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "关于",
+      text: "哒哒",
       icon: "circle-info",
       prefix: "about/",
       collapsible: true,
@@ -60,7 +67,7 @@ export default sidebar({
       ]
     }
   ],
-  "/backend-dev/": [
+  "/technology/backend-dev/": [
     {
       text: "后端",
       icon: "laptop-code",
@@ -68,7 +75,7 @@ export default sidebar({
       children: "structure",
     }
   ],
-  "/frontend-dev/": [
+  "/technology/frontend-dev/": [
     {
       text: "前端",
       icon: "file-code",

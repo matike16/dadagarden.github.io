@@ -13,41 +13,58 @@ export default navbar([
     icon: "feather",
   },
   {
-    text: "后端",
-    prefix: "/backend-dev/",
-    icon: "laptop-code",
+    text: "技术",
+    prefix: "/technology/",
+    icon: "wand-magic-sparkles",
     children: [
       {
-        text: "基础技术",
-        icon: "code",
-        link: "基础技术/",
+        text: "后端",
+        icon: "laptop-code",
+        link: "backend-dev/",
       },
       {
-        text: "后端框架",
-        icon: "folder-open",
-        link: "后端框架/",
-      }
-    ]
-  },
-  {
-    text: "前端",
-    prefix: "/frontend-dev/",
-    icon: "file-code",
-    children: [
-      {
-        text: "基础技术",
-        icon: "code",
-        link: "基础技术/",
+        text: "前端",
+        icon: "file-code",
+        link: "frontend-dev/",
       },
-      {
-        text: "前端框架",
-        icon: "folder-open",
-        link: "前端框架/",
-      }
     ]
   },
+  // {
+  //   text: "后端",
+  //   prefix: "/backend-dev/",
+  //   icon: "laptop-code",
+  //   children: [
+  //     {
+  //       text: "基础技术",
+  //       icon: "code",
+  //       link: "基础技术/",
+  //     },
+  //     {
+  //       text: "后端框架",
+  //       icon: "folder-open",
+  //       link: "后端框架/",
+  //     }
+  //   ]
+  // },
+  // {
+  //   text: "前端",
+  //   prefix: "/frontend-dev/",
+  //   icon: "file-code",
+  //   children: [
+  //     {
+  //       text: "基础技术",
+  //       icon: "code",
+  //       link: "基础技术/",
+  //     },
+  //     {
+  //       text: "前端框架",
+  //       icon: "folder-open",
+  //       link: "前端框架/",
+  //     }
+  //   ]
+  // },
   {
-    text: "关于",
+    text: "哒哒",
     icon: "circle-info",
     prefix: "about/",
     children: [
