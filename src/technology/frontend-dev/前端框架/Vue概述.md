@@ -34,7 +34,7 @@ MVVM：（Model--View-ViewModel）的缩写，有以下三个单词，具体解�
 
 - Model: 数据模型，特指前端中通过请求从后台获取的数据
 - View: 视图，用于展示数据的页面，可以理解成我们的html+css搭建的页面，但是没有数据
-- ViewModel: 数据绑定到视图，负责将数据（Model）通过JavaScript的DOM技术，将数据展 示到视图（View）上
+- ViewModel: 数据绑定到视图，负责将数据（Model）通过JavaScript的DOM技术，将数据展示到视图（View）上
 
 示例：
 
