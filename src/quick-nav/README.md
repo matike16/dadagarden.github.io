@@ -59,7 +59,8 @@ cover: /assets/images/cover7.jpg
     {"title": "iconfont", "url": "https://www.iconfont.cn/", "desc": "一个丰富的矢量图标库", "icon": "/navicon/iconfont.png"},
     {"title": "fontawesome", "url": "https://fontawesome.com/", "desc": "一个国外的矢量图标库", "icon": "/navicon/fontawesome.png"},
     {"title": "docsmall", "url": "https://docsmall.com/", "desc": "免费的在线图片、PDF处理工具", "icon": "/navicon/docsmall.png"},
-    {"title": "ProcessOn", "url": "https://www.processon.com/", "desc": "一个在线流程图工具", "icon": "/navicon/processon.png"}
+    {"title": "ProcessOn", "url": "https://www.processon.com/", "desc": "一个在线流程图工具", "icon": "/navicon/processon.png"},
+    {"title": "百度统计", "url": "https://tongji.baidu.com/web/welcome/login", "desc": "一站式智能数据分析与应用平台", "icon": "/navicon/baidu.png"}
 ]'></NavCard>
 
 ### 技术框架
