@@ -33,14 +33,36 @@ body {
 }
 
 // hover后旋转
-.vp-social-media,
+// .vp-social-media,
 .vp-nav-logo {
     transition: transform 0.5s ease-in-out;
 }
 
-.vp-social-media:hover,
+// .vp-social-media:hover,
 .vp-nav-logo:hover {
     transform: rotate(360deg);
+}
+
+.vp-social-media:hover {
+    animation: jump 0.4s linear;
+}
+
+@keyframes jump {
+    40% {
+        transform: scale(1.4);
+      }
+    
+      60% {
+        transform: scale(0.8);
+      }
+    
+      80% {
+        transform: scale(1.2);
+      }
+    
+      100% {
+        transform: scale(1);
+      }
 }
 
 .icon-wrapper::before {

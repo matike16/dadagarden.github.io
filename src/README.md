@@ -26,10 +26,10 @@ projects:
     desc: 哒哒的阅读书库分享
     link: /about/我的书籍.md
 
-  - icon: box
-    name: 百宝箱
-    desc: 我的工具百宝箱
-    link: /my-box/
+  - icon: heart
+    name: 一言摘录
+    desc: 我的一言美文美句摘录
+    link: /about/一言.md
 
 footer: Powered by VuePress Theme Hope
 ---

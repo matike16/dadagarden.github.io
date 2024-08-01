@@ -29,7 +29,7 @@ const bookArr = JSON.parse(props.arr);
 <style scoped lang="scss">
 .bookcard-container {
   column-count: 3;
-  column-gap: 15px;
+  column-gap: 20px;
 }
 
 .bookcard {
@@ -37,14 +37,15 @@ const bookArr = JSON.parse(props.arr);
   width: 100%;
   margin-bottom: 20px;
   break-inside: avoid;
-  border: 3px solid rgba(0, 0, 0, 0.2);
+  border: 3px solid var(--theme-color);
+  border-radius: 1rem;
 
   html[data-theme="light"] & {
-    border: 3px solid rgba(0, 0, 0, 0.2);
+    background: #f0f0f0;
   }
 
   html[data-theme="dark"] & {
-    border: 3px solid rgba(255, 255, 255, 0.2);
+    background: #333333;
   }
 }
 
@@ -52,10 +53,12 @@ const bookArr = JSON.parse(props.arr);
   width: 100%;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  border-radius: 0.7rem 0.7rem 0 0;
 }
 
 .bookcard-image:hover {
   transform: scale(1.05);
+  border-radius: 0;
 
   html[data-theme="light"] & {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -97,6 +100,8 @@ const bookArr = JSON.parse(props.arr);
   margin-top: 10px;
   font-size: 0.9rem;
   color: #666666;
+  //首行空两字符
+  text-indent: 2em;
 }
 
 @media (max-width: 1024px) {
