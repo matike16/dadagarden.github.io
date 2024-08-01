@@ -5,6 +5,7 @@ import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url);
 const base = (process.env.BASE_URL || "/") as "/" | `/${string}/`;
+const InfoPanel = path.resolve(__dirname, './components/InfoPanel/index.vue');
 
 // 动态设置 favicon 的路径
 const faviconPath = `${base}favicon.ico`;
@@ -44,6 +45,9 @@ export default defineUserConfig({
     // 注册全局组件的插件
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, "./components"),
+      components: {
+        BlogClock: path.resolve(__dirname, "./components/BlogClock/index.vue"),
+      }
     }),
   ],
 
@@ -55,5 +59,6 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue",
     ),
+    '@theme-hope/modules/blog/components/InfoPanel': InfoPanel,
   },
 });
