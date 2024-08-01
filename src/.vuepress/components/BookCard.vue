@@ -2,6 +2,7 @@
   <div class="bookcard-container">
     <div v-for="(book, index) in bookArr" :key="index" class="bookcard">
       <div class="bookcard-image">
+        <div class="tags">{{ book.tag }}</div>
         <img :src="book.img" :alt="book.title" />
       </div>
       <div class="bookcard-content">
@@ -54,6 +55,21 @@ const bookArr = JSON.parse(props.arr);
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   border-radius: 0.7rem 0.7rem 0 0;
+  position: relative;
+}
+
+.tags {
+  position: absolute;
+  top: 15px;
+  right: -45px;
+  // 旋转45度
+  transform: rotate(45deg);
+  width: 150px;
+  height: 30px;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 30px;
 }
 
 .bookcard-image:hover {
