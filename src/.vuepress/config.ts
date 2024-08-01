@@ -30,6 +30,12 @@ export default defineUserConfig({
         src: "/JS/click.js",
       },
     ],
+    [
+      "script",
+      {
+        src: "/JS/Baidutongji.js",
+      },
+    ],
   ],
   
   port: 80,
