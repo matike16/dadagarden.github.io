@@ -279,6 +279,8 @@ JavaScript提供了许多内置的基本对象，这些对象是语言的核心�
 
 这些基本对象提供了大量的方法和属性，用于执行常见的操作，如字符串处理、数值计算、数组操作等。
 
+- 常用对象有：`Array`、`String`、`JSON`
+
 ### BOM（浏览器对象模型）
 
 BOM是浏览器提供的一个API，它允许JavaScript与浏览器交互。BOM的核心是`window`对象，它是所有浏览器全局对象的父对象。通过BOM，可以：
@@ -288,6 +290,16 @@ BOM是浏览器提供的一个API，它允许JavaScript与浏览器交互。BOM�
 - 与浏览器的导航功能交互（`location`对象）。
 - 访问和操作浏览器的会话存储和本地存储。
 - 响应浏览器事件，如点击、滚动等。
+
+BOM提供以下5个对象：
+
+| 对象名称      | 描述      |
+| --------- | ------- |
+| Window    | 浏览器窗口对象 |
+| Navigator | 浏览器对象   |
+| Screen    | 屏幕对象    |
+| History   | 历史记录对象  |
+| Location  | 地址栏对象   |
 
 ### DOM（文档对象模型）
 
@@ -299,4 +311,25 @@ DOM是HTML和XML文档的编程接口，它将文档的结构表示为一个节�
 - **事件处理**：可以为元素添加事件监听器，响应用户的交互。
 - **DOM操作**：可以创建、删除、移动节点，从而动态地修改文档结构。
 
-通过结合BOM和DOM，JavaScript能够实现丰富的客户端功能，如动态内容更新、表单验证、动画效果等。
+获取DOM对象
+
+| 函数                                | 描述                         |
+| --------------------------------- | -------------------------- |
+| `document.getElementById`         | 根据id属性值获取，返回单个Element对象    |
+| `document.getElementByTagName`    | 根据标签名称获取，返回Element对象数组     |
+| `document.getElementsByName`      | 根据name属性值获取，返回Element对象数组  |
+| `document.getElementsByClassName` | 根据class属性值获取，返回Element对象数组 |
+
+- 我们可以通过div标签对象的innerHTML属性来修改标签的内容
+
+## 常见事件
+
+| 事件属性名       | 说明           |
+| ----------- | ------------ |
+| onclick     | 鼠标单击事件       |
+| onblur      | 元素失去焦点       |
+| onfocus     | 元素获得焦点       |
+| onload      | 某个页面或图像被完成加载 |
+| onsubmit    | 当表单提交时触发该事件  |
+| onmouseover | 鼠标被移到某元素之上   |
+| onmouseout  | 鼠标从某元素移开     |
