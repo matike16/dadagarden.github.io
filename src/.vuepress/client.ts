@@ -22,6 +22,7 @@ import "vuepress-theme-hope/presets/bounce-icon.scss";
 // import "vuepress-theme-hope/presets/hr-driving-car.scss";
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
+import HeatmapLayout from './layouts/HeatmapLayout/index.vue'
 
 const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 const ComponentChange = defineAsyncComponent(() => import('./components/ComponentChange.vue'));
@@ -30,6 +31,9 @@ const BilibiliHot = defineAsyncComponent(() => import('./components/BilibiliHot.
 const SlideDownComponent = defineAsyncComponent(() => import('./components/SlideDownComponent.vue'));
 
 export default defineClientConfig({
+  layouts: {
+    HeatmapLayout,
+  },
   enhance: ({ app, router, siteData}) => {
     app.use(ElementPlus);
   },

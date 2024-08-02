@@ -47,6 +47,7 @@ export default defineUserConfig({
       componentsDir: path.resolve(__dirname, "./components"),
       components: {
         BlogClock: path.resolve(__dirname, "./components/BlogClock/index.vue"),
+        Heatmap: path.resolve(__dirname, "./components/Heatmap/index.vue"),
       }
     }),
   ],

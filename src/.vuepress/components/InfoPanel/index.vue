@@ -4,9 +4,9 @@
       <BloggerInfo />
     </div>
 
-    <!-- <div class="vp-blogger-info">
+    <div class="vp-blogger-info">
       <Heatmap />
-    </div> -->
+    </div>
 
     <div class="vp-blogger-info blog-clock-box">
       <BlogClock />
