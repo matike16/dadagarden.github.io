@@ -75,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +148,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8829c84801b6237a",
+  "active": "1bbc08978abbe74e",
   "lastOpenFiles": [
     "heatmap/README.md",
     "heatmap",
