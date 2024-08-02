@@ -104,7 +104,7 @@ MVVM：（Model--View-ViewModel）的缩写，有以下三个单词，具体解�
 
 ### v-bind和v-model
 
-- v-bind：为HTML标签绑定属性值，如设置 href , css样式等。当vue对象中的数据模型发 生变化时，标签的属性值会随之发生变化。
+- v-bind：为HTML标签绑定属性值，如设置 href , css样式等。当vue对象中的数据模型发生变化时，标签的属性值会随之发生变化。
 - v-model：在表单元素上创建双向数据绑定。什么是双向？
 
 	- vue对象的data属性中的数据变化，视图展示会一起变化
@@ -229,7 +229,7 @@ MVVM：（Model--View-ViewModel）的缩写，有以下三个单词，具体解�
 
 ### v-if和v-show
 
-- `v-if` 用于根据条件渲染元素。如果条件为真（truthy），Vue 将确保元素渲染到 DOM 中；如果条件为假（falsy），元素不会被渲染。
+- `v-if` 用于根据条件渲染元素。如果条件为真（true），Vue 将确保元素渲染到 DOM 中；如果条件为假（false），元素不会被渲染。
 
 ```vue
 <!DOCTYPE html>

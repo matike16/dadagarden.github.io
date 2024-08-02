@@ -125,9 +125,9 @@ excerpt: 本篇文章将简单介绍一下Web前端开发中的JavaScript。包�
 
 ### 3. 数据类型
 
-	- 原始类型：Undefined、Null、Boolean、Number、BigInt、Symbol 和 String。
+- 原始类型：Undefined、Null、Boolean、Number、BigInt、Symbol 和 String。
 
-	- 引用类型：Object、Array、Function 等。
+- 引用类型：Object、Array、Function 等。
 
 | 数据类型      | 描述                          |
 | --------- | --------------------------- |
@@ -313,12 +313,12 @@ DOM是HTML和XML文档的编程接口，它将文档的结构表示为一个节�
 
 获取DOM对象
 
-| 函数                                | 描述                         |
-| --------------------------------- | -------------------------- |
-| `document.getElementById`         | 根据id属性值获取，返回单个Element对象    |
-| `document.getElementByTagName`    | 根据标签名称获取，返回Element对象数组     |
-| `document.getElementsByName`      | 根据name属性值获取，返回Element对象数组  |
-| `document.getElementsByClassName` | 根据class属性值获取，返回Element对象数组 |
+| 函数                              | 描述                         |
+| ------------------------------- | -------------------------- |
+| document.getElementById         | 根据id属性值获取，返回单个Element对象    |
+| document.getElementByTagName    | 根据标签名称获取，返回Element对象数组     |
+| document.getElementsByName      | 根据name属性值获取，返回Element对象数组  |
+| document.getElementsByClassName | 根据class属性值获取，返回Element对象数组 |
 
 - 我们可以通过div标签对象的innerHTML属性来修改标签的内容
 
