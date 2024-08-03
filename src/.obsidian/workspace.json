@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/前后端分离开发.md",
+                "file": "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/前后端分离开发.md"
+                "file": "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/前后端分离开发.md",
+                "file": "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/前后端分离开发.md",
+                "file": "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,10 +149,13 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "quick-learn/前后端分离开发.md",
+    "quick-nav/README.md",
+    "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md",
+    "quick-learn/Web快速认识.md",
+    "technology/frontend-dev/基础技术/初识Web前端.md",
     "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "technology/frontend-dev/基础技术/Ajax介绍.md",
-    "quick-learn/前后端分离开发.md",
-    "quick-learn/Web快速认识.md",
     "technology/frontend-dev/前端框架/Vue概述.md",
     "heatmap/README.md",
     "heatmap",
@@ -160,7 +163,6 @@
     "about/intro.md",
     "about/blog-building/introblog.md",
     "about/blog-building/Waline评论部署.md",
-    "quick-nav/README.md",
     "about/README.md",
     "technology/frontend-dev/基础技术/JavaScript基础.md",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
@@ -184,8 +186,6 @@
     "quick-learn/images/Web快速认识/1.jpg",
     "quick-learn/images/Web快速认识",
     "quick-learn/images/新建文件夹",
-    "frontend-dev/基础技术/README.md",
-    "backend-dev/基础技术/README.md",
     "backend-dev/基础技术",
     "quick-learn/images/Git快速了解/6.jpg",
     "quick-learn/images/Git快速了解/7.jpg",
