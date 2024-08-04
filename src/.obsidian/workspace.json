@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -149,10 +150,14 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.png",
+    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/2.png",
+    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/1.png",
+    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
+    "quick-learn/前端包管理器.md",
     "quick-learn/前后端分离开发.md",
     "quick-learn/Git快速了解.md",
-    "quick-learn/前端包管理器.md",
-    "technology/frontend-dev/基础技术/前端工程化 Vue-cli.md",
     "quick-nav/README.md",
     "quick-learn/Web快速认识.md",
     "technology/frontend-dev/基础技术/初识Web前端.md",
@@ -181,7 +186,6 @@
     "frontend-dev/基础技术/JavaScript基础.md",
     "frontend-dev/基础技术/HTML与CSS快速入门.md",
     "frontend-dev/基础技术/初识Web前端.md",
-    "frontend-dev/README.md",
     "quick-learn/images/Web快速认识/2.jpg",
     "quick-learn/images/Web快速认识/1.jpg",
     "quick-learn/images/Web快速认识",
@@ -190,10 +194,6 @@
     "quick-learn/images/Git快速了解/6.jpg",
     "quick-learn/images/Git快速了解/7.jpg",
     "quick-learn/images/Git快速了解/5.jpg",
-    "quick-learn/images/Git快速了解/4.jpg",
-    "quick-learn/images/Git快速了解/3.jpg",
-    "quick-learn/images/Git快速了解/2.jpg",
-    "quick-learn/images/Git快速了解",
-    "quick-learn/images"
+    "quick-learn/images/Git快速了解"
   ]
 }
