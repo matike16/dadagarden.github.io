@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md"
+                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,10 +147,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8829c84801b6237a",
+  "active": "caccc7ec89482105",
   "lastOpenFiles": [
-    "technology/frontend-dev/前端框架/Vue概述.md",
     "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+    "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+    "technology/frontend-dev/前端框架/Vue概述.md",
     "quick-learn/前后端分离开发.md",
     "quick-learn/前端包管理器.md",
     "technology/frontend-dev/基础技术/JavaScript基础.md",
@@ -190,7 +191,6 @@
     "about/一言.md",
     "frontend-dev/基础技术/JavaScript基础.md",
     "frontend-dev/基础技术/HTML与CSS快速入门.md",
-    "frontend-dev/基础技术/初识Web前端.md",
     "quick-learn/images/Web快速认识",
     "quick-learn/images/新建文件夹",
     "backend-dev/基础技术",
