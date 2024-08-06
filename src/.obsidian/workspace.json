@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md"
+                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md"
               }
             }
           },
@@ -75,11 +75,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,10 +149,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "caccc7ec89482105",
+  "active": "8829c84801b6237a",
   "lastOpenFiles": [
-    "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
+    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/1.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
+    "technology/backend-dev/后端框架/images/未命名.md",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+    "technology/backend-dev/后端框架/images",
     "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+    "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
     "technology/frontend-dev/前端框架/Vue概述.md",
     "quick-learn/前后端分离开发.md",
     "quick-learn/前端包管理器.md",
@@ -163,7 +173,6 @@
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.jpg",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.png",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/2.png",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/1.png",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
     "quick-learn/Git快速了解.md",
     "quick-nav/README.md",
@@ -180,20 +189,13 @@
     "about/README.md",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
     "technology/frontend-dev/基础技术/HTML与CSS快速入门.md",
-    "technology/frontend-dev/前端框架/images/Vue概述/2.png",
     "about/blog-building/快速入门.md",
-    "technology/frontend-dev/前端框架/images/Vue概述/1.png",
     "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述",
     "technology/frontend-dev/前端框架/images",
     "technology/frontend-dev/README.md",
     "about/阅读.md",
-    "about/一言.md",
-    "frontend-dev/基础技术/JavaScript基础.md",
-    "frontend-dev/基础技术/HTML与CSS快速入门.md",
     "quick-learn/images/Web快速认识",
-    "quick-learn/images/新建文件夹",
-    "backend-dev/基础技术",
-    "quick-learn/images/Git快速了解"
+    "quick-learn/images/新建文件夹"
   ]
 }
