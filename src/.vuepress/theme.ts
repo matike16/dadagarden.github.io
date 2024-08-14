@@ -99,24 +99,24 @@ export default hopeTheme(
         ]
       },
 
-      notice: [
-        {
-          path: "/",
-          title: "最近更新",
-          content: "新增“我的书籍”和“一言摘录”页面，“一言摘录”可同步首页组件。",
-          // showOnce: false,
-          // fullscreen: true,
-          // confirm: false,
-          // actions: [
-          //   {
-          //     text: "Primary Action",
-          //     link: "https://theme-hope.vuejs.press/",
-          //     type: "primary",
-          //   },
-          //   { text: "Default Action" },
-          // ],
-        },
-      ],
+      // notice: [
+      //   {
+      //     path: "/",
+      //     title: "最近更新",
+      //     content: "新增“我的书籍”和“一言摘录”页面，“一言摘录”可同步首页组件。",
+      //     // showOnce: false,
+      //     // fullscreen: true,
+      //     // confirm: false,
+      //     // actions: [
+      //     //   {
+      //     //     text: "Primary Action",
+      //     //     link: "https://theme-hope.vuejs.press/",
+      //     //     type: "primary",
+      //     //   },
+      //     //   { text: "Default Action" },
+      //     // ],
+      //   },
+      // ],
 
       // 启用之前需安装 @waline/client
       // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！

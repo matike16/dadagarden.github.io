@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+                "file": "about/一言.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md"
+                "file": "about/一言.md"
               }
             }
           },
@@ -75,13 +75,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+                "file": "about/一言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+                "file": "about/一言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,13 +149,15 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "about/我的书籍.md",
+    "about/一言.md",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/1.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
     "technology/backend-dev/后端框架/images/未命名.md",
-    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images",
     "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
     "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
@@ -172,7 +172,6 @@
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/4.jpg",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.jpg",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.png",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/2.png",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
     "quick-learn/Git快速了解.md",
     "quick-nav/README.md",
@@ -194,7 +193,6 @@
     "technology/frontend-dev/前端框架/images/Vue概述",
     "technology/frontend-dev/前端框架/images",
     "technology/frontend-dev/README.md",
-    "about/阅读.md",
     "quick-learn/images/Web快速认识",
     "quick-learn/images/新建文件夹"
   ]
