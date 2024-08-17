@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+                "file": "about/一言.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md"
+                "file": "about/一言.md"
               }
             }
           },
@@ -75,13 +75,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+                "file": "about/一言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+                "file": "about/一言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,8 +149,8 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
-    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "about/一言.md",
     "about/我的书籍.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
