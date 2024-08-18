@@ -69,6 +69,11 @@ export default sidebar({
           icon: "book-bookmark",
           link: "我的书籍.md",
         },
+        {
+          text: "碎碎念",
+          icon: "star",
+          link: "碎碎念.md",
+        },
       ]
     }
   ],

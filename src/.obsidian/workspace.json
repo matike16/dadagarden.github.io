@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/Figma快速入门.md",
+                "file": "about/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/Figma快速入门.md"
+                "file": "about/README.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/Figma快速入门.md",
+                "file": "about/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/Figma快速入门.md",
+                "file": "about/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,16 +149,18 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "about/intro.md",
+    "about/一言.md",
+    "about/我的书籍.md",
+    "about/碎碎念.md",
+    "quick-learn/Figma快速入门.md",
     "quick-learn/Git快速了解.md",
     "quick-learn/README.md",
     "quick-learn/Web快速认识.md",
-    "quick-learn/Figma快速入门.md",
     "quick-learn/前端包管理器.md",
     "quick-learn/前后端分离开发.md",
-    "about/一言.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
-    "about/我的书籍.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
@@ -185,10 +187,8 @@
     "heatmap/README.md",
     "heatmap",
     "technology/frontend-dev/前端框架/测试文章.md",
-    "about/intro.md",
     "about/blog-building/introblog.md",
     "about/blog-building/Waline评论部署.md",
-    "about/README.md",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述",
