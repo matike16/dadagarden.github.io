@@ -6,7 +6,8 @@ category: 知识快学
 tags:
   - Web开发
 cover: /assets/images/Web快速认识.jpg
-excerpt: "本篇文章是关于Web开发基础知识的介绍，包括Web的概念、Web开发的定义、网站工作流程、前后端开发模式以及Web开发所需的技术栈。"
+excerpt: 本篇文章是关于Web开发基础知识的介绍，包括Web的概念、Web开发的定义、网站工作流程、前后端开发模式以及Web开发所需的技术栈。
+order: "2"
 ---
 ## 什么是Web？
 

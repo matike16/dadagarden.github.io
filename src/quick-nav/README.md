@@ -12,7 +12,6 @@ contributors: false
 lastUpdated: false
 prev: false
 next: false
-cover: /assets/images/cover7.jpg
 ---
 
 ## <HopeIcon icon="magnifying-glass" color="var(--theme-color)"/> 搜索引擎
@@ -60,7 +59,8 @@ cover: /assets/images/cover7.jpg
     {"title": "fontawesome", "url": "https://fontawesome.com/", "desc": "一个国外的矢量图标库", "icon": "/navicon/fontawesome.png"},
     {"title": "docsmall", "url": "https://docsmall.com/", "desc": "免费的在线图片、PDF处理工具", "icon": "/navicon/docsmall.png"},
     {"title": "ProcessOn", "url": "https://www.processon.com/", "desc": "一个在线流程图工具", "icon": "/navicon/processon.png"},
-    {"title": "百度统计", "url": "https://tongji.baidu.com/web/welcome/login", "desc": "一站式智能数据分析与应用平台", "icon": "/navicon/baidu.png"}
+    {"title": "百度统计", "url": "https://tongji.baidu.com/web/welcome/login", "desc": "一站式智能数据分析与应用平台", "icon": "/navicon/baidu.png"},
+    {"title": "Figma", "url": "https://www.figma.com", "desc": "基于浏览器的界面和UI设计工具。", "icon": "/navicon/figma.png"}
 ]'></NavCard>
 
 ### 技术框架

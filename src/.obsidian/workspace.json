@@ -15,7 +15,7 @@
               "state": {
                 "file": "quick-learn/Figma快速入门.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -149,8 +149,12 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
-    "quick-learn/前后端分离开发.md",
+    "quick-learn/Git快速了解.md",
+    "quick-learn/README.md",
+    "quick-learn/Web快速认识.md",
     "quick-learn/Figma快速入门.md",
+    "quick-learn/前端包管理器.md",
+    "quick-learn/前后端分离开发.md",
     "about/一言.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
@@ -165,7 +169,6 @@
     "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
     "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
     "technology/frontend-dev/前端框架/Vue概述.md",
-    "quick-learn/前端包管理器.md",
     "technology/frontend-dev/基础技术/JavaScript基础.md",
     "technology/frontend-dev/前端框架/README.md",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/7.jpg",
@@ -175,9 +178,7 @@
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.jpg",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.png",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
-    "quick-learn/Git快速了解.md",
     "quick-nav/README.md",
-    "quick-learn/Web快速认识.md",
     "technology/frontend-dev/基础技术/初识Web前端.md",
     "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "technology/frontend-dev/基础技术/Ajax介绍.md",
@@ -189,7 +190,6 @@
     "about/blog-building/Waline评论部署.md",
     "about/README.md",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
-    "technology/frontend-dev/基础技术/HTML与CSS快速入门.md",
     "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述",
     "technology/frontend-dev/前端框架/images",

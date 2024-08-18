@@ -7,6 +7,7 @@ tags:
   - Git
 cover: /assets/images/Git快速了解.jpg
 excerpt: 本篇文章是一份关于Git版本控制系统的快速入门指南，涵盖了Git的基本概念、工作流程、常用命令和配置，以及如何使用Git进行版本控制和多人协作开发。
+order: "1"
 ---
 
 
