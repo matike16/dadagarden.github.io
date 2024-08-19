@@ -44,12 +44,12 @@ const talkArr = JSON.parse(props.arr);
     transition: all 0.3s ease-in-out;
 
     html[data-theme="light"] & {
-    background: #f0f0f0;
-  }
+        background: #f0f0f0;
+    }
 
-  html[data-theme="dark"] & {
-    background: #333333;
-  }
+    html[data-theme="dark"] & {
+        background: #333333;
+    }
 }
 
 .time {
@@ -99,5 +99,11 @@ const talkArr = JSON.parse(props.arr);
 
 .talk-card:hover .content {
     padding-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .little-talk {
+        column-count: 1;
+    }
 }
 </style>
