@@ -14,6 +14,7 @@
     "@types/three": "^0.166.0",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-blog": "2.0.0-rc.38",
+    "@vuepress/plugin-pwa": "2.0.0-rc.42",
     "@vuepress/plugin-register-components": "^2.0.0-beta.51",
     "@vuepress/plugin-search": "2.0.0-rc.37",
     "@vuepress/utils": "2.0.0-rc.2",
