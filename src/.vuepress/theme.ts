@@ -70,7 +70,7 @@ export default hopeTheme(
     // 加密配置
     encrypt: {
       config: {
-        "/quick-learn/中级软考-软件设计师.html": ["1234"],
+        "/quick-learn/中级软考-软件设计师.html": ["0405"],
       },
     },
 
