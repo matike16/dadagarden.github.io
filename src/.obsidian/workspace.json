@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/碎碎念.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/碎碎念.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/碎碎念.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/碎碎念.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,19 +147,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8829c84801b6237a",
+  "active": "caccc7ec89482105",
   "lastOpenFiles": [
-    "quick-learn/Figma快速入门.md",
     "quick-learn/Git快速了解.md",
+    "quick-learn/中级软考-软件设计师.md",
+    "about/碎碎念.md",
+    "about/一言.md",
+    "about/我的书籍.md",
+    "quick-learn/Figma快速入门.md",
     "quick-learn/images/Figma快速入门/1.jpg",
     "quick-learn/images/Figma快速入门/file_1724066873916_399.png",
     "quick-learn/images/Figma快速入门/8b61bea6-9fdc-4621-8897-185a5d3fc41d.png",
     "quick-learn/images/Figma快速入门",
     "about/README.md",
     "about/intro.md",
-    "about/一言.md",
-    "about/我的书籍.md",
-    "about/碎碎念.md",
     "quick-learn/README.md",
     "quick-learn/Web快速认识.md",
     "quick-learn/前端包管理器.md",
