@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "quick-learn/中级软考-软件设计师.md",
     "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
-    "about/碎碎念.md",
+    "about/思碎集.md",
     "about/一言.md",
     "quick-learn/Web快速认识.md",
-    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/Git快速了解.md",
     "about/我的书籍.md",
     "quick-learn/Figma快速入门.md",

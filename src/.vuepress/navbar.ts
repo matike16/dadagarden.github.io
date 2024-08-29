@@ -89,9 +89,9 @@ export default navbar([
         link: "我的书籍.md",
       },
       {
-        text: "碎碎念",
+        text: "思碎集",
         icon: "star",
-        link: "碎碎念.md",
+        link: "思碎集.md",
       },
     ]
   },
