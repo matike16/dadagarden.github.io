@@ -79,6 +79,49 @@ excerpt: Spring Boot是一个基于Spring框架的快速开发工具，它提供
 > [!tip]
 > 使用@ConfigurationProperties批量注入属性值时，要保证配置文件中的属性与对应实体类的属性名一致，否则无法正确获取并注入属性值。
 
+::: important 通俗解释
+举个例子，假设你有一个配置文件application.properties，里面有这样的配置：
+
+```application.properties
+app.name=MyApp
+app.version=1.0.0
+```
+
+你可以创建一个类，使用@ConfigurationProperties注解来自动将这些配置值注入到类的属性中：
+
+```java
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix="app")
+public class AppConfig {
+    private String name;
+    private String version;
+
+    // getters and setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+}
+```
+
+在这个例子中，`@ConfigurationProperties(prefix="app")`告诉Spring Boot，去查找所有以”app.“为前缀的属性，并把它们注入当AppConfig类的相应属性中。这样，当你的应用程序启动时，AppConfig类的name和version属性就会自动被设置为”MyApp“和”1.0.0“。
+
+简而言之，`@ConfigurationProperties`注解就像是一个快捷方式，让你能够轻松地将配置文件中的属性值映射到java对象中，而不需要手动编写代码来处理每个属性。
+:::
 ### @Value
 
 用于读取配置文件中的属性值并逐个注入Bean对象的对应属性中。
@@ -106,6 +149,9 @@ excerpt: Spring Boot是一个基于Spring框架的快速开发工具，它提供
 - @PropertySource注解可以指定自定义配置文件的位置和名称
 - @Configuration注解可以将实体类指定为自定义配置类
 
+::: important 简而言之
+简单来说，@PropertySource注解是一个方便的工具，它允许你告诉Spring框架除了默认的配置文件外，还应该加载哪些额外的配置文件。
+:::
 ### @ImportResource
 
 传统的Spring项目配置主要基于XML文件。Spring Boot框架在Spring 4.x基础上进行改进，默认不在使用XML文件配置项目，且XML配置文件不会加载到Spring容器中。如果希望将外部的XML文件加载到程序中，可以使用这个注解。
@@ -120,3 +166,53 @@ excerpt: Spring Boot是一个基于Spring框架的快速开发工具，它提供
 @Configuration注解可以将实体类指定为自定义配置类
 
 - 这个注解标记一个类作为配置类，它允许你使用Java代码来定义bean。在配置类中，你可以使用@Bean注解来声明bean，也可以使用其他注解来导入其他配置类或组件。
+
+### Profile多环境配置
+
+#### 使用Profile文件进行多环境配置
+
+对应的配置文件：
+
+- application-dev.properties：开发环境配置文件
+- application-test.properties：测试环境配置文件
+- application-prod.properties：生产环境配置文件
+
+控制台输入如下命令激活对应的环境：
+
+```cmd
+java -jar xxx.jar --spring.profiles.active=dev
+```
+
+也可以在全局中配置激活对应的环境：
+
+```cmd
+spring.profiles.active=dev
+```
+
+#### 使用@Profile注解进行多环境配置
+
+@Profile注解用于定义一个Bean的激活条件。当Spring容器启动时，它会检查@Profile注解指定的条件，如果条件满足，那么带有该注解的Bean就会注册到Spring容器中。
+
+@Profile注解的基本用法如下：
+
+```java
+@Configuration
+@Profile("dev")
+public class DevConfig {
+	// 配置只有在开发环境中才会使用的Bean
+}
+```
+
+上面例子中，只有当全局配置`spring.profiles.active`指定为dev时，DevConfig类才会被加载。
+
+@Profile也可以用于指定多个激活配置，利用数组：
+
+```java
+@Configuration
+@Profile({"dev", "test"})
+public class DevAndTestConfig {
+	// 配置在开发和测试环境都可以使用的Bean
+}
+```
+
+@Profile注解是Spring框架中实现条件化Bean注册的强大工具，它允许开发者根据不同的运行环境或条件定制应用程序的行为。

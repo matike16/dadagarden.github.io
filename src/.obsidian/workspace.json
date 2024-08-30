@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md"
               }
             }
           }
@@ -149,8 +148,11 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
-    "about/blog-building/Waline评论部署.md",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+    "quick-learn/前后端分离开发.md",
     "quick-learn/中级软考-软件设计师.md",
+    "about/blog-building/Waline评论部署.md",
     "about/思碎集.md",
     "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "about/一言.md",
@@ -166,9 +168,6 @@
     "about/intro.md",
     "quick-learn/README.md",
     "quick-learn/前端包管理器.md",
-    "quick-learn/前后端分离开发.md",
-    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
-    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
