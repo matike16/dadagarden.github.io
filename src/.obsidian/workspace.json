@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/思碎集.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           }
@@ -148,9 +149,10 @@
   },
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
+    "about/blog-building/Waline评论部署.md",
     "quick-learn/中级软考-软件设计师.md",
-    "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "about/思碎集.md",
+    "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "about/一言.md",
     "quick-learn/Web快速认识.md",
     "quick-learn/Git快速了解.md",
@@ -188,7 +190,6 @@
     "technology/frontend-dev/基础技术/Ajax介绍.md",
     "heatmap/README.md",
     "heatmap",
-    "technology/frontend-dev/前端框架/测试文章.md",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述",
