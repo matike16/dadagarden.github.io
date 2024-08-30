@@ -26,10 +26,10 @@ projects:
     desc: 哒哒的阅读书库分享
     link: /about/我的书籍.md
 
-  - icon: heart
-    name: 一言摘录
-    desc: 我的一言美文美句摘录
-    link: /about/一言.md
+  - icon: star
+    name: 思碎集
+    desc: 个人反思与碎碎念
+    link: /about/思碎集.md
 
 footer: Powered by VuePress Theme Hope
 ---
