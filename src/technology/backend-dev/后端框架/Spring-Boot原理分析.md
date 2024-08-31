@@ -8,6 +8,7 @@ tags:
   - Web开发
 cover: /assets/images/Spring-Boot原理分析.jpg
 excerpt: 传统的Spring框架实现一个Web项目，需要手动导入各类依赖包和编写对应的XML配置文件，而Spring Boot框架则更加高效、便利和快捷。
+order: "1"
 ---
 传统的Spring框架实现一个Web项目，需要手动导入各类依赖包和编写对应的XML配置文件，而Spring Boot框架则更加高效、便利和快捷。
 

@@ -8,6 +8,7 @@ tags:
   - Web开发
 cover: /assets/images/Spring-Boot原理分析.jpg
 excerpt: Spring Boot是一个基于Spring框架的快速开发工具，它提供了大量的自动配置、简化的依赖管理和监控功能，使得开发者可以快速构建基于Spring的应用。
+order: "2"
 ---
 ## 核心配置文件
 
@@ -219,4 +220,53 @@ public class DevAndTestConfig {
 
 > [!tip]
 > 同时使用Profile文件和@Profile注解来进行多环境配置是可以的，二者之间不会相互干扰。
+
+## 随机值设置及参数间引用
+
+在Spring Boot配置文件中，可以使用随机值和参数见引用对属性值进行设置。
+
+### 随机值设置
+
+随机值设置使用到了Spring Boot内嵌的RandomValuePropertySource类，对一些隐秘属性值或者测试用例属性值进行随机值注入。
+
+格式：
+- ${random.xx}
+- xx表示需要指定生成的随机数类型和范围。
+
+示例：
+
+```application.properties
+//生成随机字符串
+my.string=${random.value}
+
+//生成随机正数
+my.number=${random.int}
+
+//生成随机long类型数
+my.number=${random.long}
+
+//生成随机UUID类型数
+my.number=${random.uuid}
+
+//配置小于10的随机整数
+my.number.less.than.ten=${random.int(10)}
+
+//配置范围在[1024,65536]之间的随机整数
+my.number.in.range=${random.int[1024,65536]}
+```
+
+### 参数间引用
+
+在配置文件中，只需要对其中一处属性进行预先配置，其他地方都可以进行引用，节约了后续多处修改的麻烦。
+
+格式：
+- ${xx}
+- xx表示先前在配置文件中已经配置过的属性名。
+
+示例：
+
+```application.properties
+app.name=MyApp
+app.description=${app.name} is a Spring Boot application
+```
 
