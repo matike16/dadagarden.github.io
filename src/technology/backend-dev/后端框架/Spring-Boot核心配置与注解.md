@@ -118,7 +118,7 @@ public class AppConfig {
 }
 ```
 
-在这个例子中，`@ConfigurationProperties(prefix="app")`告诉Spring Boot，去查找所有以”app.“为前缀的属性，并把它们注入当AppConfig类的相应属性中。这样，当你的应用程序启动时，AppConfig类的name和version属性就会自动被设置为”MyApp“和”1.0.0“。
+在这个例子中，`@ConfigurationProperties(prefix="app")`告诉Spring Boot，去查找所有以”app.“为前缀的属性，并把它们注入到AppConfig类的相应属性中。这样，当你的应用程序启动时，AppConfig类的name和version属性就会自动被设置为”MyApp“和”1.0.0“。
 
 简而言之，`@ConfigurationProperties`注解就像是一个快捷方式，让你能够轻松地将配置文件中的属性值映射到java对象中，而不需要手动编写代码来处理每个属性。
 :::
@@ -154,7 +154,7 @@ public class AppConfig {
 :::
 ### @ImportResource
 
-传统的Spring项目配置主要基于XML文件。Spring Boot框架在Spring 4.x基础上进行改进，默认不在使用XML文件配置项目，且XML配置文件不会加载到Spring容器中。如果希望将外部的XML文件加载到程序中，可以使用这个注解。
+传统的Spring项目配置主要基于XML文件。Spring Boot框架在Spring 4.x基础上进行改进，默认不再使用XML文件配置项目，且XML配置文件不会加载到Spring容器中。如果希望将外部的XML文件加载到程序中，可以使用这个注解。
 
 - 用于导入XML配置文件到Spring的注解配置中。它允许你将XML配置和基于Java的配置结合起来使用。
 
@@ -216,3 +216,7 @@ public class DevAndTestConfig {
 ```
 
 @Profile注解是Spring框架中实现条件化Bean注册的强大工具，它允许开发者根据不同的运行环境或条件定制应用程序的行为。
+
+> [!tip]
+> 同时使用Profile文件和@Profile注解来进行多环境配置是可以的，二者之间不会相互干扰。
+

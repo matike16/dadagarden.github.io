@@ -79,7 +79,13 @@ body {
 }
 
 .icon-wrapper:hover {
-    background-color: #409EFF;
+    html[data-theme="light"] & {
+        background-color: var(--theme-color);
+    }
+
+    html[data-theme="dark"] & {
+        background-color: var(--theme-color);
+    }
 }
 
 .vp-blog-hero.fullscreen {
@@ -377,6 +383,17 @@ body {
 .vp-page-nav .next:hover .hint {
     color: #fff;
     transition: all 0.3s ease-in-out;
+}
+
+.vp-page-nav .prev:hover .link,
+.vp-page-nav .next:hover .link {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.vp-page-nav .prev:not(:disabled):hover,
+.vp-page-nav .next:not(:disabled):hover {
+    background-color: var(--theme-color);
 }
 
 .has-toc .vp-navbar {
