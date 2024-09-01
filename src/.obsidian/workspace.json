@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   "active": "8829c84801b6237a",
   "lastOpenFiles": [
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "about/思碎集.md",
     "quick-learn/中级软考-软件设计师.md",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "quick-learn/前后端分离开发.md",
     "about/blog-building/Waline评论部署.md",

@@ -109,6 +109,56 @@ spring.datasource.password=密码
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ```
 
+::: important 关于数据源
+数据源，简单来说就是应用程序与数据库之间的桥梁。它负责提供数据库连接，允许应用程序执行查询、更新、插入和删除等操作。在数据库编程中，数据源通常包括以下关键要素：
+- 数据库连接信息
+- 提供连接池
+- 配置参数
+- 事务处理
+
+在 Spring Boot 中，默认情况下，如果没有特别指定，它会使用内置的 Tomcat JDBC 连接池。但是，Spring Boot 支持多种数据库连接池，包括 HikariCP、DBCP2、Tomcat JDBC 等，你可以根据需要配置使用不同的连接池。
+
+例如使用阿里巴巴的 Druid 数据源。
+- 先在`pom.xml`文件中添加依赖
+```xml
+<dependency>
+	<groupId>com.alibaba</groupId>
+	<artifictId>druid-spring-boot-starter</artifictId>
+	<version>版本号</version>
+</dependency>
+```
+
+- 接着在配置文件中添加数据源信息和参数配置
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/数据库名
+spring.datasource.username=用户名
+spring.datasource.password=密码
+
+#添加第三方数据源Druid配置参数。
+spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+spring.datasource.initialSize=20
+spring.datasource.minIdle=10
+spring.datasource.maxActive=100
+```
+
+- 自定义Druid配置类
+在config包下创建一个配置类：DataSourceConfig
+```java
+import com.alibaba.druid.pool.DruidDataSource;
+//import ... 略
+
+@Configuration
+public class DataSourceConfig {
+	@Bean
+	@ConfigurationProperties(prefix = "spring.datasource")
+	public DataSource getDruid() {
+		return new DruidDataSource();
+	}
+}
+```
+
+:::
+
 **4.创建实体类**
 
 创建一个domain的包，用于存放实体类。在包中定义与数据库表对应的Java实体类。
@@ -124,3 +174,12 @@ public class User {
 }
 ```
 
+### 使用注解的方式整合MyBatis
+
+相比 Spring 与 MyBatis 的整合，Spring Boot 与 MyBatis 的整合会使项目开发更加简便，同时支持XML和注解两种配置方式。
+
+根据上述基础环境搭建完成后我们继续：
+
+**5.创建Mapper接口文件**
+
+- 创建Mapper包，定义一个接口类，例如UserMapper
