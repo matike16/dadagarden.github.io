@@ -230,7 +230,7 @@ public class DevAndTestConfig {
 随机值设置使用到了Spring Boot内嵌的RandomValuePropertySource类，对一些隐秘属性值或者测试用例属性值进行随机值注入。
 
 格式：
-- ${random.xx}
+- `${random.xx}`
 - xx表示需要指定生成的随机数类型和范围。
 
 示例：
@@ -260,7 +260,7 @@ my.number.in.range=${random.int[1024,65536]}
 在配置文件中，只需要对其中一处属性进行预先配置，其他地方都可以进行引用，节约了后续多处修改的麻烦。
 
 格式：
-- ${xx}
+- `${xx}`
 - xx表示先前在配置文件中已经配置过的属性名。
 
 示例：
