@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -149,9 +148,9 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
+    "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "quick-learn/Figma快速入门.md",
-    "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/README.md",
     "quick-learn/前后端分离开发.md",
