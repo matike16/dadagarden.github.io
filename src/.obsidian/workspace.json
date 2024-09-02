@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
+    "quick-learn/计算机网络基本知识.md",
     "quick-learn/Git快速了解.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
     "quick-learn/前端包管理器.md",
-    "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/交换机.png",
     "quick-learn/images/计算机网络基础/星形拓扑结构.png",
     "quick-learn/images/计算机网络基础/总线结构.png",
