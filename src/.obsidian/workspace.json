@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "77c28f6ef51a1e03",
+        "id": "e5a72011a688a44c",
         "type": "tabs",
         "children": [
           {
-            "id": "8829c84801b6237a",
+            "id": "9ce8a87af3198a45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md"
+                "file": "quick-learn/计算机网络基本知识.md"
               }
             }
           }
@@ -147,21 +146,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8829c84801b6237a",
+  "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
+    "quick-learn/Git快速了解.md",
+    "quick-learn/Figma快速入门.md",
+    "quick-learn/中级软考-软件设计师.md",
+    "quick-learn/前端包管理器.md",
+    "quick-learn/计算机网络基本知识.md",
+    "quick-learn/images/计算机网络基础/交换机.png",
+    "quick-learn/images/计算机网络基础/星形拓扑结构.png",
+    "quick-learn/images/计算机网络基础/总线结构.png",
+    "quick-learn/images/计算机网络基础/点到点通信.png",
+    "quick-learn/images/计算机网络基础",
+    "README.md",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "about/思碎集.md",
-    "quick-learn/中级软考-软件设计师.md",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "quick-learn/前后端分离开发.md",
     "about/blog-building/Waline评论部署.md",
     "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "about/一言.md",
     "quick-learn/Web快速认识.md",
-    "quick-learn/Git快速了解.md",
     "about/我的书籍.md",
-    "quick-learn/Figma快速入门.md",
     "quick-learn/images/Figma快速入门/1.jpg",
     "quick-learn/images/Figma快速入门/file_1724066873916_399.png",
     "quick-learn/images/Figma快速入门/8b61bea6-9fdc-4621-8897-185a5d3fc41d.png",
@@ -169,11 +176,9 @@
     "about/README.md",
     "about/intro.md",
     "quick-learn/README.md",
-    "quick-learn/前端包管理器.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
-    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/1.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
     "technology/backend-dev/后端框架/images/未命名.md",
     "technology/backend-dev/后端框架/images",
@@ -182,18 +187,11 @@
     "technology/frontend-dev/前端框架/Vue概述.md",
     "technology/frontend-dev/基础技术/JavaScript基础.md",
     "technology/frontend-dev/前端框架/README.md",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/7.jpg",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/6.jpg",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/5.jpg",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
-    "quick-nav/README.md",
-    "technology/frontend-dev/基础技术/初识Web前端.md",
-    "technology/frontend-dev/基础技术/Ajax介绍.md",
     "heatmap",
     "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
     "technology/frontend-dev/前端框架/images/Vue概述",
-    "technology/frontend-dev/前端框架/images",
-    "quick-learn/images/Web快速认识"
+    "technology/frontend-dev/前端框架/images"
   ]
 }
