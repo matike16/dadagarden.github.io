@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/algorithm/算法入门——概论.md",
+                "file": "technology/algorithm/算法概论.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/algorithm/算法入门——概论.md",
+                "file": "technology/algorithm/算法概论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/algorithm/算法入门——概论.md",
+                "file": "technology/algorithm/算法概论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/algorithm/算法入门——概论.md"
+                "file": "technology/algorithm/算法概论.md"
               }
             }
           }
@@ -150,7 +150,7 @@
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
     "about/我的书籍.md",
-    "technology/algorithm/算法入门——概论.md",
+    "technology/algorithm/算法概论.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "about/思碎集.md",
     "technology/algorithm/README.md",
