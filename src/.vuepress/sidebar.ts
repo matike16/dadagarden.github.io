@@ -93,6 +93,14 @@ export default sidebar({
       children: "structure",
     }
   ],
+  "/technology/algorithm/": [
+    {
+      text: "算法",
+      icon: "code",
+      collapsible: true,
+      children: "structure",
+    }
+  ],
   "/about/blog-building/": [
     {
       text: "博客搭建",

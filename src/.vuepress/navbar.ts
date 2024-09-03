@@ -27,6 +27,11 @@ export default navbar([
         icon: "file-code",
         link: "frontend-dev/",
       },
+      {
+        text: "算法",
+        icon: "code",
+        link: "algorithm/",
+      },
     ]
   },
   // {
