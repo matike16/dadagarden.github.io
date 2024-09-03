@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/algorithm/算法概论.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           }
@@ -149,14 +149,21 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
-    "about/我的书籍.md",
+    "quick-learn/images/中级软考/流水线计算.jpg",
+    "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
+    "quick-nav/README.md",
+    "quick-learn/中级软考-软件设计师.md",
+    "quick-learn/images/中级软考/CPU.jpg",
+    "quick-learn/images/中级软考/计算机结构.jpg",
+    "quick-learn/images/中级软考",
+    "quick-learn/images/未命名.md",
     "technology/algorithm/算法概论.md",
+    "about/我的书籍.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "about/思碎集.md",
     "technology/algorithm/README.md",
     "technology/algorithm/README.MD",
     "technology/algorithm",
-    "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "quick-learn/Figma快速入门.md",
     "technology/backend-dev/README.md",
@@ -183,17 +190,10 @@
     "about/README.md",
     "about/intro.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析/4.png",
-    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/3.png",
-    "technology/backend-dev/后端框架/images/Spring-Boot原理分析/2.png",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
-    "technology/backend-dev/后端框架/images/未命名.md",
     "technology/backend-dev/后端框架/images",
-    "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
-    "technology/frontend-dev/前端框架/前端工程化 Vue-cli.md",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
     "heatmap",
-    "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload",
-    "technology/frontend-dev/前端框架/images/Vue概述/1.png.crdownload",
-    "technology/frontend-dev/前端框架/images/Vue概述"
+    "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload"
   ]
 }
