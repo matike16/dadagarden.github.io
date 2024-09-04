@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           }
@@ -149,13 +149,15 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
+    "quick-learn/images/中级软考/公式对比.jpg",
+    "quick-learn/images/中级软考/公式对比.jpg.crdownload",
+    "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/6.png",
     "quick-learn/images/计算机网络基础/5.png",
     "quick-learn/images/计算机网络基础/4.png",
     "quick-learn/images/计算机网络基础/3.png",
     "quick-learn/images/计算机网络基础/2.png",
     "quick-learn/images/计算机网络基础/1.png",
-    "quick-learn/计算机网络基本知识.md",
     "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
@@ -192,7 +194,6 @@
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
     "technology/backend-dev/后端框架/images",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
-    "heatmap",
-    "technology/frontend-dev/前端框架/images/Vue概述/2.png.crdownload"
+    "heatmap"
   ]
 }
