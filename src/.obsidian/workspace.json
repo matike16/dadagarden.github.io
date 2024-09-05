@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "about/我的书籍.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "about/我的书籍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/algorithm/算法概论.md",
+                "file": "about/我的书籍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/algorithm/算法概论.md"
+                "file": "about/我的书籍.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
-    "quick-learn/中级软考-软件设计师.md",
     "technology/algorithm/算法概论.md",
+    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/images/中级软考/公式对比.jpg",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
     "quick-learn/计算机网络基本知识.md",
