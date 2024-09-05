@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/我的书籍.md",
+                "file": "quick-learn/虚拟机入门.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/我的书籍.md",
+                "file": "quick-learn/虚拟机入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/我的书籍.md",
+                "file": "quick-learn/虚拟机入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/我的书籍.md"
+                "file": "quick-learn/虚拟机入门.md"
               }
             }
           }
@@ -149,38 +149,41 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
-    "technology/algorithm/算法概论.md",
+    "quick-learn/images/虚拟机入门/14.jpg",
+    "quick-learn/images/虚拟机入门/13.jpg",
+    "quick-learn/images/虚拟机入门/12.jpg",
+    "quick-learn/images/虚拟机入门/11.jpg",
+    "quick-learn/images/虚拟机入门/10.jpg",
+    "quick-learn/images/虚拟机入门/9.jpg",
+    "quick-learn/images/虚拟机入门/8.jpg",
+    "quick-learn/images/虚拟机入门/7.jpg",
+    "quick-learn/images/虚拟机入门/6.jpg",
+    "quick-learn/images/虚拟机入门/5.jpg",
+    "quick-learn/images/虚拟机入门/4.jpg",
+    "quick-learn/虚拟机入门.md",
+    "quick-learn/images/虚拟机入门",
     "quick-learn/中级软考-软件设计师.md",
-    "quick-learn/images/中级软考/公式对比.jpg",
-    "quick-learn/images/中级软考/公式对比.jpg.crdownload",
+    "quick-learn/Git快速了解.md",
+    "quick-learn/Figma快速入门.md",
+    "quick-learn/前后端分离开发.md",
+    "quick-learn/前端包管理器.md",
     "quick-learn/计算机网络基本知识.md",
-    "quick-learn/images/计算机网络基础/6.png",
-    "quick-learn/images/计算机网络基础/5.png",
-    "quick-learn/images/计算机网络基础/4.png",
-    "quick-learn/images/计算机网络基础/3.png",
-    "quick-learn/images/计算机网络基础/2.png",
-    "quick-learn/images/计算机网络基础/1.png",
+    "about/我的书籍.md",
+    "technology/algorithm/算法概论.md",
+    "quick-learn/images/中级软考/公式对比.jpg.crdownload",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
-    "quick-learn/images/中级软考/流水线计算.jpg",
     "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
     "quick-nav/README.md",
-    "quick-learn/images/中级软考/CPU.jpg",
-    "quick-learn/images/中级软考/计算机结构.jpg",
     "quick-learn/images/中级软考",
     "quick-learn/images/未命名.md",
-    "about/我的书籍.md",
     "about/思碎集.md",
     "technology/algorithm/README.md",
     "technology/algorithm/README.MD",
     "technology/algorithm",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
-    "quick-learn/Figma快速入门.md",
     "technology/backend-dev/README.md",
-    "quick-learn/前后端分离开发.md",
     "quick-learn/README.md",
-    "quick-learn/Git快速了解.md",
-    "quick-learn/前端包管理器.md",
     "quick-learn/images/计算机网络基础",
     "README.md",
     "about/blog-building/Waline评论部署.md",
@@ -189,10 +192,8 @@
     "quick-learn/Web快速认识.md",
     "quick-learn/images/Figma快速入门",
     "about/README.md",
-    "about/intro.md",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
     "technology/backend-dev/后端框架/images",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli",
-    "heatmap"
+    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli"
   ]
 }
