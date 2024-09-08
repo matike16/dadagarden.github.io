@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "about/一言.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "about/一言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "about/一言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/思碎集.md"
+                "file": "about/一言.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "9ce8a87af3198a45",
   "lastOpenFiles": [
+    "about/思碎集.md",
     "about/一言.md",
     "technology/backend-dev/后端框架/README.md",
     "technology/backend-dev/README.md",
@@ -182,7 +183,6 @@
     "quick-nav/README.md",
     "quick-learn/images/中级软考",
     "quick-learn/images/未命名.md",
-    "about/思碎集.md",
     "technology/algorithm/README.MD",
     "technology/algorithm",
     "quick-learn/README.md",
