@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "about/一言.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "about/一言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md",
+                "file": "about/一言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/计算机网络基本知识.md"
+                "file": "about/一言.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "148fdddeae8358af",
   "lastOpenFiles": [
-    "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/计算机网络基本知识.md",
+    "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/images/计算机网络基础/套接字编程接口.png",
     "Pasted image 20240910213216.png",
     "quick-learn/中级软考-软件设计师.md",
