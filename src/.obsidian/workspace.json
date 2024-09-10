@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e5a72011a688a44c",
+        "id": "790af3d683c75d22",
         "type": "tabs",
         "children": [
           {
-            "id": "9ce8a87af3198a45",
+            "id": "148fdddeae8358af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "quick-learn/计算机网络基本知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "quick-learn/计算机网络基本知识.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,9 +147,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9ce8a87af3198a45",
+  "active": "148fdddeae8358af",
   "lastOpenFiles": [
+    "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/计算机网络基本知识.md",
+    "quick-learn/images/计算机网络基础/套接字编程接口.png",
+    "Pasted image 20240910213216.png",
+    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/Web快速认识.md",
     "about/一言.md",
     "about/思碎集.md",
@@ -166,11 +171,7 @@
     "quick-learn/images/虚拟机入门/19.jpg",
     "quick-learn/images/虚拟机入门/18.jpg",
     "quick-learn/images/虚拟机入门/17.jpg",
-    "quick-learn/images/虚拟机入门/16.jpg",
-    "quick-learn/images/虚拟机入门/15.jpg",
-    "quick-learn/images/虚拟机入门/14.jpg",
     "quick-learn/images/虚拟机入门",
-    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/Git快速了解.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/前后端分离开发.md",
@@ -189,7 +190,6 @@
     "quick-learn/images/计算机网络基础",
     "README.md",
     "about/blog-building/Waline评论部署.md",
-    "technology/frontend-dev/基础技术/Axios-基于Ajax的封装库.md",
     "quick-learn/images/Figma快速入门",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
     "technology/backend-dev/后端框架/images",
