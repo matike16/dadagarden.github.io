@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/一言.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/一言.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/一言.md",
+                "file": "quick-learn/中级软考-软件设计师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/一言.md"
+                "file": "quick-learn/中级软考-软件设计师.md"
               }
             }
           }
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,13 +148,15 @@
   },
   "active": "148fdddeae8358af",
   "lastOpenFiles": [
+    "quick-learn/images/中级软考/浮点数的表示2.png",
+    "quick-learn/中级软考-软件设计师.md",
+    "quick-learn/images/中级软考/浮点数的表示1.png",
+    "about/一言.md",
     "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/images/计算机网络基础/套接字编程接口.png",
     "Pasted image 20240910213216.png",
-    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/Web快速认识.md",
-    "about/一言.md",
     "about/思碎集.md",
     "technology/backend-dev/后端框架/README.md",
     "technology/backend-dev/README.md",
@@ -169,8 +170,6 @@
     "quick-learn/images/虚拟机入门/21.jpg",
     "quick-learn/images/虚拟机入门/20.jpg",
     "quick-learn/images/虚拟机入门/19.jpg",
-    "quick-learn/images/虚拟机入门/18.jpg",
-    "quick-learn/images/虚拟机入门/17.jpg",
     "quick-learn/images/虚拟机入门",
     "quick-learn/Git快速了解.md",
     "quick-learn/Figma快速入门.md",
