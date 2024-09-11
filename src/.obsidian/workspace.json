@@ -146,10 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "148fdddeae8358af",
+  "active": "caccc7ec89482105",
   "lastOpenFiles": [
-    "quick-learn/images/中级软考/浮点数的表示2.png",
+    "quick-learn/images/中级软考/实例计算.png",
     "quick-learn/中级软考-软件设计师.md",
+    "quick-learn/images/中级软考/定点补码减法运算.png",
+    "quick-learn/images/中级软考/定点补码加法运算.png",
+    "quick-learn/images/中级软考/定点补码减法运算2.png",
+    "quick-learn/images/中级软考/浮点数的表示2.png",
     "quick-learn/images/中级软考/浮点数的表示1.png",
     "about/一言.md",
     "quick-learn/计算机网络基本知识.md",
@@ -166,10 +170,6 @@
     "quick-learn/虚拟机入门.md",
     "答案.md",
     "quick-learn/images/虚拟机入门/23.jpg",
-    "quick-learn/images/虚拟机入门/22.jpg",
-    "quick-learn/images/虚拟机入门/21.jpg",
-    "quick-learn/images/虚拟机入门/20.jpg",
-    "quick-learn/images/虚拟机入门/19.jpg",
     "quick-learn/images/虚拟机入门",
     "quick-learn/Git快速了解.md",
     "quick-learn/Figma快速入门.md",
