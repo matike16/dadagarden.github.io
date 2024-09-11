@@ -159,6 +159,14 @@ public class DataSourceConfig {
 
 :::
 
+::: tip 驼峰命名映射
+- 为了避免数据库的字段名称与实体类中的映射出现问题，可以开启驼峰命名匹配映射配置
+
+```properties
+mybatis.configuration.map-underscore-to-camel-case=true
+```
+:::
+
 **4.创建实体类**
 
 创建一个domain的包，用于存放实体类。在包中定义与数据库表对应的Java实体类。
@@ -183,3 +191,98 @@ public class User {
 **5.创建Mapper接口文件**
 
 - 创建Mapper包，定义一个接口类，例如UserMapper
+
+```java
+@Mapper
+public interface UserMapper {
+    @Select("SELECT * FROM user WHERE id = #{id}")
+    User findById(Integer id); 
+
+    @Insert("INSERT INTO user(name, age) VALUES (#{name}, #{age})")
+    int insertUser(User user); 
+}
+```
+
+### 使用配置文件的方式整合MyBatis
+
+举例：
+
+- 使用刚刚的User实体类，我们重新创建一个UserMapper（删除原先的数据库语句）
+
+```java
+@Mapper
+public interface UserMapper {
+	public User findById(Integer id);
+	public int insertUser(User user);
+}
+```
+
+- 创建XML映射文件
+- 在resources文件夹下创建一个统一管理映射文件的包mapper
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.example.demo.Mapper.UserMapper">  
+    <select id="findById" parameterType="int" resultType="com.example.demo.domain.User">  
+        select * from user where id = #{id}  
+    </select>  
+    <insert id="insertUser" parameterType="com.example.demo.domain.User">  
+        insert into user(name,age) values(#{name},#{age})  
+    </insert>  
+</mapper>
+```
+
+::: important 关于XML映射文件
+- `namespace`：指定对应的Mapper接口的全限定名，MyBatis会根据这个namespace将SQL语句与Mapper接口的方法关联起来。
+- 具体SQL语句语法，请查阅MyBatis官方文档。
+:::
+
+- 在全局配置文件`application.properties`中配置映射文件路径
+
+```properties
+# MyBatis配置XML文件路径
+mybatis.mapper-locations=classpath:mapper/*.xml
+# 配置XML文件中指定的实体类别名路径
+mybatis.type-aliases-package=com.example.demo.domain
+```
+
+::: tip 关于实体类别名路径的全局配置
+如果XML文件中使用的都是类的全路径名称，则不需要配置此项。
+:::
+
+::: important 关于两种整合方式
+1. **配置和维护的便捷性**
+- **注解**：
+    - 优点：注解直接在Java代码中定义，无需额外文件，便于维护和查看。
+    - 缺点：对于复杂的SQL语句和映射关系，代码会变得冗长且难以维护。
+- **配置文件**：
+    - 优点：SQL语句和映射关系分离，使得代码更加清晰，易于维护。
+    - 缺点：需要维护额外的XML文件，可能会增加项目复杂度。
+
+2. **灵活性**
+- **注解**：
+    - 优点：可以直接在方法上定义SQL，方便快速开发和原型设计。
+    - 缺点：不适用于复杂的SQL和动态SQL，注解的表达能力有限。
+- **配置文件**：
+    - 优点：支持复杂的SQL语句，包括动态SQL，提供了更高的灵活性。
+    - 缺点：对于简单的SQL，可能显得有些繁琐。
+
+3. **性能**
+- 在性能上，注解和配置文件没有本质的区别，因为它们最终都会被解析成相同的SQL语句。性能差异主要取决于SQL语句本身和数据库的优化。
+
+4. **可读性和可维护性**
+- **注解**：
+    - 由于注解和代码在一起，可能不利于其他开发者理解SQL逻辑。
+- **配置文件**：
+    - XML配置文件提供了更加清晰的结构，使得SQL逻辑更加易于理解和维护。
+
+5. **适用场景**
+- **注解**：
+    - 适用于简单或者数量较少的SQL操作。
+    - 适用于快速原型开发或小项目。
+- **配置文件**：
+    - 适用于复杂的SQL操作，尤其是涉及多表联合查询、存储过程等。
+    - 适用于大型项目，有利于分工合作和后期维护。
+:::
+
