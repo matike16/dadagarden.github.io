@@ -286,3 +286,56 @@ mybatis.type-aliases-package=com.example.demo.domain
     - 适用于大型项目，有利于分工合作和后期维护。
 :::
 
+## Spring Boot 整合 JPA
+
+JPA是SUN公司提出的Java持久化规范，为开发者提供了一种对象/关系映射的工具管理Java中的关系型数据，其主要目的是简化现有的持久化开发工作和整合ORM技术。
+
+### Spring Data JPA介绍
+
+- Spring Data JPA 是 Spring 在 ORM 框架、JPA 规范的基础上封装的一套 JPA 应用框架。
+- 使开发者可以使用较少的代码实现数据操作，同时易于扩展。
+
+举例：
+
+**1. 编写ORM实体类**
+
+```java
+@Entity(name = "user")
+public class User (
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+	@Column(name = "name")
+	private String name;
+	//省略get和set方法
+)
+```
+
+- @Entity：标注要与数据库做映射的实体类，默认情况，数据表的名称就是首字母小写的类名。也可以使用name属性指定映射的表名。
+- @Id：表示对应表中的主键。
+- @GeneratedValue：与@Id注解标注在同一位置，用于表示属性对应主键的生成策略，可以省略。
+- @Column：标注在属性上，当类属性与表字段名不同时，使用name属性表示对应的表字段名即可。
+
+**2. 编写Repository接口**
+
+- 在Spring Data JPA中，有两种主要的方式来生成SQL查询：
+
+- (1) 基于命名的方法：Spring Data JPA可以根据你在Repository接口中定义的方法名自动生成SQL查询。这种方式不需要编写任何SQL语句，Spring Data JPA会根据方法名的约定来推断出相应的查询。（具体规则请查阅官方）
+
+- 如果你有一个名为`UserRepository`的接口，并定义了一个方法`findByName`，Spring Data JPA会自动生成一个查询来查找`name`字段匹配的记录。
+
+```java
+public interface UserRepository extends JpaRepository<User, Integer> {
+    User findByName(String name);
+}
+```
+
+- (2) 使用`@Query`注解：如果你需要执行更复杂的查询，或者基于命名的方法无法满足你的需求，你可以使用`@Query`注解来显式地定义SQL查询。这种方式允许你直接编写JPQL（Java Persistence Query Language）或者原生SQL语句。
+
+```java
+public interface UserRepository extends JpaRepository<User, Integer> {
+    @Query("SELECT u FROM User u WHERE u.name = ?1")
+    User findUserByName(String name);
+}
+```
+
