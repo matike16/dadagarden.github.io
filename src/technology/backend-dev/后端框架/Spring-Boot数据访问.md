@@ -6,6 +6,9 @@ category: 后端框架
 tags:
   - SpringBoot
   - Web开发
+  - Mybatis
+  - JPA
+  - Redis
 cover: /assets/images/Spring-Boot原理分析.jpg
 excerpt: Spring Boot对于关系型数据库和非关系型数据库的访问操作都提供了非常好的整合支持，Spring Boot整合了Spring的Spring Data用于简化数据库访问。
 order: "3"
@@ -339,3 +342,117 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 }
 ```
 
+- 数据更新或者删除操作的方法上需要使用@Modifying和@Transactional注解
+- @Modifying表示支持数据变更
+- @Transactional表示支持事务管理。
+
+::: tip 关于自定义的Repository接口
+- 在自定义的Repository接口中，针对数据的变更操作（修改、删除），无论是否使用了@Query注解，都必须在方法上添加@Transactional注解进行事务管理，否则程序就会出现`InvaildDataAccessApiUsageException`异常。如果在调用Repository接口方法的业务层Service类上已经添加了@Transactional注解进行事务管理，那么Repository接口文件就可以省略@Transactional注解
+- 使用@Query注解方式执行数据变更操作（修改、删除），除了要使用@Query注解，还必须添加@Modifying注解表示数据变更。
+:::
+
+### 使用 Spring Boot 整合 JPA
+
+**1. 添加Spring Data JPA依赖**
+
+```pom.xml
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-data-jpa</artifactId>  
+</dependency>
+```
+
+**2. 编写ORM实体类**
+
+```java
+@Entity(name = "user")  
+public class User {  
+    @Id  
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  
+    private Integer id;  
+    private String name;  
+    @Column(name = "age")  
+    private Integer age;  
+}
+```
+
+**3. 编写Repository接口**
+
+```java  
+package com.example.demo.Repository;  
+
+import com.example.demo.domain.User;  
+import org.springframework.data.jpa.repository.JpaRepository;  
+import org.springframework.data.jpa.repository.Modifying;  
+import org.springframework.data.jpa.repository.Query;  
+  
+public interface UserRepository extends JpaRepository<User, Integer> {  
+    //采用默认的名称  
+    User findByName(String name);  
+    User findByNameAndAge(String name, Integer age);  
+  
+    //根据id删除用户  
+    @Modifying
+    @Query("update user u set u.name = ?1 where u.id = ?2")  
+    int updateName(String name, Integer id);  
+  
+    //根据用户名删除用户  
+    @Modifying
+    @Query("delete from user u where u.name = ?1")  
+    int deleteByName(String name);  
+}
+```
+
+
+## Spring Boot 整合 Redis
+
+除了对关系型数据库的整合支持外，Spring Boot 对非关系型数据库也提供了非常好的支持。
+
+### Redis介绍
+
+Redis 是一个开源（BSD许可）的、内存中的数据结构存储系统，它可以用作数据库、缓存和消息中间件，并提供多种语言API。
+
+> [!tip]
+>此处不做安装Redis安装介绍
+#### 特点
+
+- 存取速度快
+- 支持丰富的数据类型
+- 操作具有原子性
+- 提供多种功能
+
+#### 基本操作
+
+- 开启Redis服务
+```cmd
+redis-server.exe
+```
+
+![Redis服务启动](./images/Spring-Boot数据访问/Redis服务启动.png)
+
+- 开启客户端工具
+
+```cmd
+redis-cli.exe
+```
+
+- 推荐使用Redis客户端可视化管理工具，此处推荐使用 `another redis desktop Manager`
+
+![可视化工具](./images/Spring-Boot数据访问/可视化工具.png)
+
+- 具体连接操作不做介绍
+
+### 使用 Spring Boot 整合 Redis
+
+**1. 添加 Spring Data Redis 依赖启动器**
+
+```properties
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-data-redis</artifactId>  
+</dependency>
+```
+
+**2. 编写实体类**
+
+...待续

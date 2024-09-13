@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -135,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,10 +148,13 @@
   },
   "active": "148fdddeae8358af",
   "lastOpenFiles": [
+    "technology/backend-dev/后端框架/images/Spring-Boot数据访问/Redis服务启动.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot数据访问/可视化工具.png",
+    "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/algorithm/算法概论.md",
     "technology/algorithm/未命名.md",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "quick-learn/中级软考-软件设计师.md",
     "quick-learn/images/中级软考/实例计算.png",
     "quick-learn/images/中级软考/定点补码减法运算.png",
@@ -165,7 +166,6 @@
     "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/images/计算机网络基础/套接字编程接口.png",
-    "Pasted image 20240910213216.png",
     "quick-learn/Web快速认识.md",
     "about/思碎集.md",
     "technology/backend-dev/后端框架/README.md",
@@ -173,7 +173,6 @@
     "technology/algorithm/README.md",
     "quick-learn/虚拟机入门.md",
     "答案.md",
-    "quick-learn/images/虚拟机入门/23.jpg",
     "quick-learn/images/虚拟机入门",
     "quick-learn/Git快速了解.md",
     "quick-learn/Figma快速入门.md",
@@ -191,10 +190,8 @@
     "quick-learn/README.md",
     "quick-learn/images/计算机网络基础",
     "README.md",
-    "about/blog-building/Waline评论部署.md",
     "quick-learn/images/Figma快速入门",
     "technology/backend-dev/后端框架/images/Spring-Boot原理分析",
-    "technology/backend-dev/后端框架/images",
-    "technology/frontend-dev/前端框架/images/前端工程化Vue-cli"
+    "technology/backend-dev/后端框架/images"
   ]
 }
