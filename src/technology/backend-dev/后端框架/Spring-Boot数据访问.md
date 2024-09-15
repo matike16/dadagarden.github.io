@@ -413,7 +413,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 Redis 是一个开源（BSD许可）的、内存中的数据结构存储系统，它可以用作数据库、缓存和消息中间件，并提供多种语言API。
 
 > [!tip]
->此处不做安装Redis安装介绍
+>此处不做Redis安装介绍
 
 
 #### 特点
@@ -425,7 +425,7 @@ Redis 是一个开源（BSD许可）的、内存中的数据结构存储系统�
 
 #### 基本操作
 
-- 开启Redis服务
+- 开启Redis服务（项目测试和开启前要执行这一步，若使用Redis）
 ```cmd
 redis-server.exe
 ```
@@ -448,13 +448,68 @@ redis-cli.exe
 
 **1. 添加 Spring Data Redis 依赖启动器**
 
-```properties
+```pom.xml
 <dependency>  
     <groupId>org.springframework.boot</groupId>  
     <artifactId>spring-boot-starter-data-redis</artifactId>  
 </dependency>
 ```
 
+**2. 全局配置文件**
+
+```properties
+spring.application.name=demo5  
+spring.datasource.url=jdbc:mysql://localhost:3306/demo  
+spring.datasource.username=root  
+spring.datasource.password=123456  
+  
+spring.data.redis.password=  
+spring.data.redis.host=127.0.0.1  
+spring.data.redis.port=6379
+```
+
+- Spring Boot 内部默认Redis服务地址为本机（localhost或127.0.0.1），服务端口号为6379，所以一般情况下可以省略对redis的全局配置也可以访问本地开启的Redis服务。
+
 **2. 编写实体类**
 
-...待续
+```java
+package com.example.demo.domain;  
+  
+import org.springframework.data.annotation.Id;  
+import org.springframework.data.redis.core.RedisHash;  
+import org.springframework.data.redis.core.index.Indexed;  
+  
+@RedisHash("user")  //标识操作实体类对象在Redis数据库中的存储空间  
+public class User {  
+    @Id //标识主键  
+    private String id;  
+    @Indexed  
+    private String name;  
+    @Indexed  
+    private Integer age;  
+    //省略get和set方法以及toString方法
+```
+
+- @RedisHash("user")：用于指定操作实体类对象在Redis数据库中的存储空间
+- @Indexed：用于标识对应属性在Redis数据库中生成二级索引。使用该注解后会在Redis数据库中生成属性对应的二级索引，索引名称就是属性名称，可以方便地进行数据条件查询。
+
+**3. 编写Repository接口**
+
+```java
+package com.example.demo.repository;  
+  
+import com.example.demo.domain.User;  
+import org.springframework.data.repository.CrudRepository;  
+  
+public interface UserRepository extends CrudRepository<User, String> {  
+    User findByName(String name);  
+    User findByAge(Integer age);  
+    User findByNameAndAge(String name, Integer age);  
+}
+```
+
+- 与JPA类似，可以使用方法名关键字进行数据库操作。
+- UserRepository继承自CrudRepository接口，该接口定义了若干查询方法
+- 在操作Redis数据库时编写的Repository接口文件需要继承自CrudRepository接口，而不是JpaRepository，这是因为JpaRepository接口是Spring Boot接口整合JPA特有的。
+- 也可以在项目的pom文件同时引入JPA依赖和Redis依赖，可以用于编写一个继承字JpaRepository接口操作的Redis数据库。
+

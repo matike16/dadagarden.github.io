@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot数据访问.md"
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,10 +149,14 @@
   },
   "active": "148fdddeae8358af",
   "lastOpenFiles": [
+    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+    "about/思碎集.md",
+    "about/一言.md",
+    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/Redis服务启动.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/可视化工具.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/algorithm/算法概论.md",
     "technology/algorithm/未命名.md",
@@ -162,12 +167,10 @@
     "quick-learn/images/中级软考/定点补码减法运算2.png",
     "quick-learn/images/中级软考/浮点数的表示2.png",
     "quick-learn/images/中级软考/浮点数的表示1.png",
-    "about/一言.md",
     "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/本机路由表.png",
     "quick-learn/images/计算机网络基础/套接字编程接口.png",
     "quick-learn/Web快速认识.md",
-    "about/思碎集.md",
     "technology/backend-dev/后端框架/README.md",
     "technology/backend-dev/README.md",
     "technology/algorithm/README.md",
@@ -180,7 +183,6 @@
     "quick-learn/前端包管理器.md",
     "about/我的书籍.md",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
-    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
     "quick-nav/README.md",
     "quick-learn/images/中级软考",
