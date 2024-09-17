@@ -13,9 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ecee15596a50764b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af34da53010eae9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about/一言.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -149,12 +167,12 @@
   },
   "active": "148fdddeae8358af",
   "lastOpenFiles": [
-    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "about/一言.md",
-    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
-    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "about/思碎集.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/Redis服务启动.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/可视化工具.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
