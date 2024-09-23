@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/中级软考-软件设计师.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "1a0028f1e30ed8f4",
   "lastOpenFiles": [
+    "about/一言.md",
     "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/algorithm/算法概论.md",
-    "about/一言.md",
     "about/思碎集.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/Redis服务启动.png",
