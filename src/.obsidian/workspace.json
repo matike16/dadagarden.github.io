@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -149,6 +148,7 @@
   },
   "active": "1a0028f1e30ed8f4",
   "lastOpenFiles": [
+    "quick-learn/中级软考-软件设计师.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
@@ -160,7 +160,6 @@
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/可视化工具.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
     "technology/algorithm/未命名.md",
-    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/images/中级软考/实例计算.png",
     "quick-learn/images/中级软考/定点补码减法运算.png",
     "quick-learn/images/中级软考/定点补码加法运算.png",
