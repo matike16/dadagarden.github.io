@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/思碎集.md"
+                "file": "technology/backend-dev/后端框架/Spring-Boot视图技术.md"
               }
             }
           }
@@ -148,13 +149,14 @@
   },
   "active": "1a0028f1e30ed8f4",
   "lastOpenFiles": [
-    "about/一言.md",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "quick-learn/中级软考-软件设计师.md",
+    "about/思碎集.md",
+    "about/我的书籍.md",
+    "about/一言.md",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "technology/algorithm/算法概论.md",
-    "about/思碎集.md",
     "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/Redis服务启动.png",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问/可视化工具.png",
@@ -180,7 +182,6 @@
     "quick-learn/Figma快速入门.md",
     "quick-learn/前后端分离开发.md",
     "quick-learn/前端包管理器.md",
-    "about/我的书籍.md",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
     "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
     "quick-nav/README.md",
