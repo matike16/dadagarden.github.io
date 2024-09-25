@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -149,8 +148,8 @@
   },
   "active": "1a0028f1e30ed8f4",
   "lastOpenFiles": [
-    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
     "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
+    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
     "quick-learn/中级软考-软件设计师.md",
     "about/思碎集.md",
