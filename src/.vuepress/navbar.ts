@@ -32,6 +32,11 @@ export default navbar([
         icon: "code",
         link: "algorithm/",
       },
+      {
+        text: "DEMO",
+        icon: "palette",
+        link: "demo/",
+      }
     ]
   },
   // {

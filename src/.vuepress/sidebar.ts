@@ -101,6 +101,14 @@ export default sidebar({
       children: "structure",
     }
   ],
+  "/technology/demo/": [
+    {
+      text: "DEMO",
+      icon: "palette",
+      collapsible: true,
+      children: "structure",
+    }
+  ],
   "/about/blog-building/": [
     {
       text: "博客搭建",
