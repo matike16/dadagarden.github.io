@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "6de518e37f642360",
@@ -149,8 +150,11 @@
   },
   "active": "7db3a3e7353b5d43",
   "lastOpenFiles": [
-    "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+    "technology/demo/images/文件上传与下载/1.png",
     "technology/demo/文件上传与下载.md",
+    "technology/demo/images/文件上传与下载",
+    "technology/demo/images",
+    "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
     "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
     "technology/demo/README.md",
     "README.md",
@@ -182,18 +186,14 @@
     "quick-learn/images/中级软考/浮点数的表示1.png",
     "quick-learn/计算机网络基本知识.md",
     "quick-learn/images/计算机网络基础/本机路由表.png",
-    "quick-learn/images/计算机网络基础/套接字编程接口.png",
     "quick-learn/Web快速认识.md",
     "technology/backend-dev/后端框架/README.md",
     "technology/algorithm/README.md",
     "quick-learn/虚拟机入门.md",
     "答案.md",
     "quick-learn/images/虚拟机入门",
-    "quick-learn/Git快速了解.md",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
     "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
-    "quick-learn/images/中级软考",
-    "technology/algorithm",
-    "quick-learn/images/计算机网络基础"
+    "quick-learn/images/中级软考"
   ]
 }
