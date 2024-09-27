@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4f74abfc14867a57",
+        "id": "e85e4bbe2bacdc17",
         "type": "tabs",
         "children": [
           {
-            "id": "1a0028f1e30ed8f4",
+            "id": "7db3a3e7353b5d43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "technology/demo/文件上传与下载.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,13 +147,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1a0028f1e30ed8f4",
+  "active": "7db3a3e7353b5d43",
   "lastOpenFiles": [
+    "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
+    "technology/demo/文件上传与下载.md",
+    "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
+    "technology/demo/README.md",
+    "README.md",
+    "frontend-dev/前端框架/前端工程化 Vue-cli.md",
+    "frontend-dev/前端框架/前端工程化.md",
+    "frontend-dev/前端框架",
+    "frontend-dev",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/README.md",
-    "technology/demo/文件上传与下载.md",
     "about/思碎集.md",
-    "technology/demo/README.md",
     "technology/demo",
     "about/我的书籍.md",
     "about/一言.md",
@@ -182,17 +190,10 @@
     "答案.md",
     "quick-learn/images/虚拟机入门",
     "quick-learn/Git快速了解.md",
-    "quick-learn/Figma快速入门.md",
-    "quick-learn/前后端分离开发.md",
-    "quick-learn/前端包管理器.md",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
     "quick-learn/images/中级软考/流水线计算.jpg.crdownload",
-    "quick-nav/README.md",
     "quick-learn/images/中级软考",
-    "quick-learn/images/未命名.md",
     "technology/algorithm",
-    "quick-learn/images/计算机网络基础",
-    "quick-learn/images/Figma快速入门",
-    "technology/backend-dev/后端框架/images/Spring-Boot原理分析"
+    "quick-learn/images/计算机网络基础"
   ]
 }
