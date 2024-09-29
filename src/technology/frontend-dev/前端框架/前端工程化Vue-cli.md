@@ -65,6 +65,9 @@ Vue-cli特点：
 
     - 选择3.x
 
+> [!tip]
+> 如果选择Vue3进行项目开发的话，最好对TypeScript进行一个了解，TypeScript是一种强类型的JavaScript超集，可以帮助我们在编写代码时避免许多错误，提高代码的可维护性。Vue3官方也推荐使用TS，并且如果要使用到ElementPlus作为组件开发的话，官方也仅提供TS代码示例。
+
     - 使用历史模式
 
     - 使用CSS预处理语言 选择SCSS
