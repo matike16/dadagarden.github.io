@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technology/demo/文件上传与下载.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "technology/demo/文件上传与下载.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "technology/demo/文件上传与下载.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "technology/demo/文件上传与下载.md"
+                "file": "about/思碎集.md"
               }
             }
           }
@@ -135,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,8 +148,9 @@
   },
   "active": "7db3a3e7353b5d43",
   "lastOpenFiles": [
-    "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
+    "about/一言.md",
     "technology/demo/文件上传与下载.md",
+    "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
     "technology/demo/images/文件上传与下载/1.png",
     "technology/demo/images/文件上传与下载",
     "technology/demo/images",
@@ -167,7 +166,6 @@
     "about/思碎集.md",
     "technology/demo",
     "about/我的书籍.md",
-    "about/一言.md",
     "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
     "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
     "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
