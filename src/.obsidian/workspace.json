@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/思碎集.md"
+                "file": "technology/frontend-dev/前端框架/前端工程化Vue-cli.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "9ad4573b402e0551",
   "lastOpenFiles": [
+    "quick-learn/前后端分离开发.md",
+    "quick-learn/虚拟机入门.md",
+    "about/思碎集.md",
     "about/我的书籍.md",
     "about/一言.md",
     "technology/frontend-dev/前端框架/images/前端工程化Vue-cli/3.png",
-    "about/思碎集.md",
     "technology/demo/文件上传与下载.md",
     "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
     "technology/demo/images/文件上传与下载/1.png",
@@ -187,7 +189,6 @@
     "quick-learn/Web快速认识.md",
     "technology/backend-dev/后端框架/README.md",
     "technology/algorithm/README.md",
-    "quick-learn/虚拟机入门.md",
     "答案.md",
     "quick-learn/images/虚拟机入门",
     "quick-learn/images/中级软考/公式对比.jpg.crdownload",
