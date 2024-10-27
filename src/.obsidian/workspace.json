@@ -8,29 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ad4573b402e0551",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "quick-learn/images/视频行为分析/9.png"
-              }
-            }
-          },
-          {
             "id": "5e8b34302e6943ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/视频行为分析系统试玩.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "思碎集"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -65,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -73,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "quick-learn/视频行为分析系统试玩.md",
+                "file": "about/思碎集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "思碎集 的反向链接列表"
             }
           },
           {
@@ -113,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "quick-learn/视频行为分析系统试玩.md",
+                "file": "about/思碎集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "思碎集 的出链列表"
             }
           },
           {
@@ -127,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -136,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/视频行为分析系统试玩.md"
-              }
+                "file": "about/思碎集.md"
+              },
+              "icon": "lucide-list",
+              "title": "思碎集 的大纲"
             }
           }
         ],
@@ -160,9 +165,10 @@
   },
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
-    "quick-learn/中级软考-软件设计师.md",
-    "quick-learn/视频行为分析系统试玩.md",
     "quick-learn/images/视频行为分析/9.png",
+    "about/思碎集.md",
+    "quick-learn/视频行为分析系统试玩.md",
+    "quick-learn/中级软考-软件设计师.md",
     "quick-learn/images/视频行为分析/8.png",
     "quick-learn/images/视频行为分析/7.png",
     "quick-learn/images/视频行为分析/6.png",
@@ -178,7 +184,6 @@
     "Pasted image 20241012124325.png",
     "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
     "quick-learn/前后端分离开发.md",
-    "about/思碎集.md",
     "about/我的书籍.md",
     "about/一言.md",
     "technology/demo/images/文件上传与下载",
