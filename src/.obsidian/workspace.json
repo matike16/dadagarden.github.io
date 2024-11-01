@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/README.md",
+                "file": "project/智能蹭课系统/README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -166,11 +166,11 @@
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
     "project/智能蹭课系统/项目概览.md",
+    "project/README.md",
     "project/智能蹭课系统.md",
     "project/智能蹭课系统/智能蹭课系统.md",
     "project/智能蹭课系统/README.md",
     "project/智能蹭课系统",
-    "project/README.md",
     "quick-nav/README.md",
     "quick-learn/计算机网络基本知识.md",
     "about/思碎集.md",
