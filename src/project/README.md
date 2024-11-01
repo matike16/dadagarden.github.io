@@ -1,7 +1,7 @@
 ---
 home: true
-title: 项目
-icon: home
+title: 项目扉页
+icon: feather
 heroImage: /logo1.png
 heroText: 哒哒的花园
 tagline: ✨我的项目示例与展示✨
@@ -20,13 +20,13 @@ actions:
 #     link: /zh/demo/
 
 features:
-  - title: 项目名称
-    icon: fab fa-markdown
+  - title: 智能蹭课系统
+    icon: person-chalkboard
     details: 项目描述
-    link: /zh/guide/markdown/
+    link: /project/智能蹭课系统/项目概览.html
 
   - title: 项目名称
-    icon: person-chalkboard
+    icon: fab fa-markdown
     details: 项目描述
     link: /zh/guide/layout/slides
 
@@ -103,3 +103,4 @@ features:
 copyright: false
 footer: false
 ---
+ 

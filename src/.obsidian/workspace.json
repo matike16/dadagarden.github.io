@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "project/README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "思碎集"
+              "title": "README"
             }
           }
         ]
@@ -165,10 +165,22 @@
   },
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
-    "quick-learn/images/视频行为分析/9.png",
+    "project/智能蹭课系统/项目概览.md",
+    "project/智能蹭课系统.md",
+    "project/智能蹭课系统/智能蹭课系统.md",
+    "project/智能蹭课系统/README.md",
+    "project/智能蹭课系统",
+    "project/README.md",
+    "quick-nav/README.md",
+    "quick-learn/计算机网络基本知识.md",
     "about/思碎集.md",
+    "quick-learn/前后端分离开发.md",
     "quick-learn/视频行为分析系统试玩.md",
+    "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
+    "quick-learn/虚拟机入门.md",
+    "quick-learn/Web快速认识.md",
+    "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
     "quick-learn/images/视频行为分析/7.png",
     "quick-learn/images/视频行为分析/6.png",
@@ -179,11 +191,9 @@
     "quick-learn/images/视频行为分析/1.png",
     "quick-learn/images/视频行为分析",
     "2024-09-05.md",
-    "quick-learn/虚拟机入门.md",
     "technology/demo/文件上传与下载.md",
     "Pasted image 20241012124325.png",
     "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
-    "quick-learn/前后端分离开发.md",
     "about/我的书籍.md",
     "about/一言.md",
     "technology/demo/images/文件上传与下载",
@@ -198,17 +208,8 @@
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/backend-dev/README.md",
     "technology/demo",
-    "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
-    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
-    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
-    "technology/algorithm/算法概论.md",
-    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
-    "technology/algorithm/未命名.md",
-    "quick-learn/计算机网络基本知识.md",
-    "quick-learn/Web快速认识.md",
     "quick-learn/images/虚拟机入门",
-    "quick-learn/images/中级软考/公式对比.jpg.crdownload",
-    "quick-learn/images/中级软考/流水线计算.jpg.crdownload"
+    "quick-learn/images/中级软考/公式对比.jpg.crdownload"
   ]
 }

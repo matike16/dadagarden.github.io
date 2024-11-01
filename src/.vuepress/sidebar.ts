@@ -124,5 +124,13 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     }
+  ],
+  "/project/": [
+    {
+      text: "项目目录",
+      icon: "link",
+      collapsible: true,
+      children: "structure",
+    }
   ]
 });
