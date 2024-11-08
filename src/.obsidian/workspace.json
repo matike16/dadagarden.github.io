@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/视频行为分析系统试玩.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "视频行为分析系统试玩"
+              "title": "思碎集"
             }
           }
         ]
@@ -165,21 +165,23 @@
   },
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
-    "project/智能蹭课系统/README.md",
+    "README.md",
     "project/智能蹭课系统/项目概览.md",
+    "quick-learn/Web快速认识.md",
+    "quick-learn/计算机网络基本知识.md",
+    "quick-learn/前端包管理器.md",
+    "quick-learn/前后端分离开发.md",
+    "quick-learn/视频行为分析系统试玩.md",
+    "project/智能蹭课系统/README.md",
     "project/README.md",
     "project/智能蹭课系统.md",
     "project/智能蹭课系统/智能蹭课系统.md",
     "project/智能蹭课系统",
     "quick-nav/README.md",
-    "quick-learn/计算机网络基本知识.md",
     "about/思碎集.md",
-    "quick-learn/前后端分离开发.md",
-    "quick-learn/视频行为分析系统试玩.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
     "quick-learn/虚拟机入门.md",
-    "quick-learn/Web快速认识.md",
     "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
     "quick-learn/images/视频行为分析/7.png",
@@ -200,13 +202,11 @@
     "technology/demo/images",
     "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
     "technology/demo/README.md",
-    "README.md",
     "frontend-dev/前端框架/前端工程化 Vue-cli.md",
     "frontend-dev/前端框架/前端工程化.md",
     "frontend-dev/前端框架",
     "frontend-dev",
     "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
-    "technology/backend-dev/README.md",
     "technology/demo",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
     "quick-learn/images/虚拟机入门",
