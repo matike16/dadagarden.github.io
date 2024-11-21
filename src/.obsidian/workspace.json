@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/思碎集.md",
+                "file": "project/智能蹭课系统/需求分析.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "思碎集"
+              "title": "需求分析"
             }
           }
         ]
@@ -165,20 +165,21 @@
   },
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
-    "README.md",
     "project/智能蹭课系统/项目概览.md",
+    "project/智能蹭课系统/需求分析.md",
+    "project/智能蹭课系统/README.md",
+    "about/思碎集.md",
+    "README.md",
     "quick-learn/Web快速认识.md",
     "quick-learn/计算机网络基本知识.md",
     "quick-learn/前端包管理器.md",
     "quick-learn/前后端分离开发.md",
     "quick-learn/视频行为分析系统试玩.md",
-    "project/智能蹭课系统/README.md",
     "project/README.md",
     "project/智能蹭课系统.md",
     "project/智能蹭课系统/智能蹭课系统.md",
     "project/智能蹭课系统",
     "quick-nav/README.md",
-    "about/思碎集.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
     "quick-learn/虚拟机入门.md",
@@ -206,7 +207,6 @@
     "frontend-dev/前端框架/前端工程化.md",
     "frontend-dev/前端框架",
     "frontend-dev",
-    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
     "technology/demo",
     "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
     "quick-learn/images/虚拟机入门",
