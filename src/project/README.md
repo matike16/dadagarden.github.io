@@ -20,10 +20,10 @@ actions:
 #     link: /zh/demo/
 
 features:
-  - title: 智能蹭课系统
-    icon: person-chalkboard
+  - title: 项目名称
+    icon: fab fa-markdown
     details: 项目描述
-    link: /project/智能蹭课系统/项目概览.html
+    link: /zh/guide/layout/slides
 
   - title: 项目名称
     icon: fab fa-markdown

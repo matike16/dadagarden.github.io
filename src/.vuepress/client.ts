@@ -25,9 +25,9 @@ import 'element-plus/dist/index.css';
 import HeatmapLayout from './layouts/HeatmapLayout/index.vue'
 
 const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
-const ComponentChange = defineAsyncComponent(() => import('./components/ComponentChange.vue'));
+// const ComponentChange = defineAsyncComponent(() => import('./components/ComponentChange.vue'));
 const TimesComponent = defineAsyncComponent(() => import('./components/TimesComponent.vue'));
-const BilibiliHot = defineAsyncComponent(() => import('./components/BilibiliHot.vue'));
+// const BilibiliHot = defineAsyncComponent(() => import('./components/BilibiliHot.vue'));
 const SlideDownComponent = defineAsyncComponent(() => import('./components/SlideDownComponent.vue'));
 
 export default defineClientConfig({
@@ -52,9 +52,9 @@ export default defineClientConfig({
   },
   rootComponents: [
     BlogBg,
-    ComponentChange,
+    // ComponentChange,
     TimesComponent,
-    BilibiliHot,
+    // BilibiliHot,
     SlideDownComponent,
   ]
 });

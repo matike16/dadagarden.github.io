@@ -72,7 +72,6 @@ export default hopeTheme(
       config: {
         "/quick-learn/中级软考-软件设计师.html": ["0405"],
         "/quick-learn/计算机网络基本知识.html": ["0405"],
-        "/project/智能蹭课系统/项目概览.html": ["0405"],
       },
     },
 

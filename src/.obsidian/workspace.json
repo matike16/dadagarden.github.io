@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/智能蹭课系统/需求分析.md",
+                "file": "about/思碎集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "需求分析"
+              "title": "思碎集"
             }
           }
         ]
@@ -165,8 +165,11 @@
   },
   "active": "5e8b34302e6943ab",
   "lastOpenFiles": [
+    "about/一言.md",
+    "about/我的书籍.md",
     "project/智能蹭课系统/项目概览.md",
     "project/智能蹭课系统/需求分析.md",
+    "project/智能蹭课系统/未命名.md",
     "project/智能蹭课系统/README.md",
     "about/思碎集.md",
     "README.md",
@@ -197,14 +200,11 @@
     "technology/demo/文件上传与下载.md",
     "Pasted image 20241012124325.png",
     "technology/frontend-dev/前端框架/前端工程化Vue-cli.md",
-    "about/我的书籍.md",
-    "about/一言.md",
     "technology/demo/images/文件上传与下载",
     "technology/demo/images",
     "technology/frontend-dev/前端框架/Element与ElementPlus入门.md",
     "technology/demo/README.md",
     "frontend-dev/前端框架/前端工程化 Vue-cli.md",
-    "frontend-dev/前端框架/前端工程化.md",
     "frontend-dev/前端框架",
     "frontend-dev",
     "technology/demo",
