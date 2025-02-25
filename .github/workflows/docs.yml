@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -15,24 +14,37 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
           submodules: true
 
+      # 显式指定 pnpm 版本，绕过 Corepack 自动安装
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: 8.6.5  # 指定明确的 pnpm 版本
 
+      # 升级 Node.js 到最新小版本（修复 Corepack 密钥问题）
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 20.19.0  # 使用 Node.js 20 的最新稳定版
           cache: pnpm
 
+      # 配置 pnpm 缓存路径（解决缓存未找到问题）
+      - name: 缓存 pnpm 依赖
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+            **/node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      # 禁用 Corepack 并安装依赖（解决签名验证错误）
       - name: 安装依赖
         run: |
-          npm install -g corepack@latest
-          corepack enable
+          corepack disable  # 禁用 Corepack 的签名验证
           pnpm install --frozen-lockfile
 
       - name: 构建文档
@@ -46,7 +58,6 @@ jobs:
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
           token: ${{ secrets.GITHUB_TOKEN }}
