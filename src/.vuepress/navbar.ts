@@ -101,7 +101,7 @@ export default navbar([
       {
         text: "思碎集",
         icon: "star",
-        link: "思碎集.md",
+        link: "thinking/",
       },
     ]
   },

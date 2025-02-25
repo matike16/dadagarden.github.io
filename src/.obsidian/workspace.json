@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "372f33b903362af0",
+        "id": "36dd02367dadc31b",
         "type": "tabs",
         "children": [
           {
-            "id": "5e8b34302e6943ab",
+            "id": "8bba8af5a4084e1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-learn/YOLO11学习和使用.md",
+                "file": "about/thinking/2024思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "YOLO11学习和使用"
+              "title": "2024思碎集"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d20da351b991a1c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55c8c2a2c704eff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about/我的书籍.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "我的书籍"
             }
           }
         ]
@@ -40,7 +60,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -77,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "6de518e37f642360",
@@ -140,10 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-learn/YOLO11学习和使用.md"
+                "file": "about/我的书籍.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "YOLO11学习和使用 的大纲"
+              "title": "我的书籍 的大纲"
             }
           }
         ],
@@ -163,10 +186,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5e8b34302e6943ab",
+  "active": "55c8c2a2c704eff8",
   "lastOpenFiles": [
-    "2024-10-17.md",
+    "about/thinking/2025思碎集.md",
+    "about/thinking/2024思碎集.md",
+    "about/thinking/README.md",
+    "about/thinking/2024.md",
+    "technology/backend-dev/基础技术/README.md",
+    "about/thinking/思碎集.md",
+    "about/thinking",
+    "technology/backend-dev/后端框架/Spring-Boot原理分析.md",
+    "technology/backend-dev/后端框架/Spring-Boot数据访问.md",
+    "technology/backend-dev/后端框架/Spring-Boot视图技术.md",
+    "technology/backend-dev/后端框架/Spring-Boot实现Web常用功能.md",
+    "technology/backend-dev/后端框架/Spring-Boot核心配置与注解.md",
+    "technology/algorithm/算法概论.md",
     "quick-learn/YOLO11学习和使用.md",
+    "2024-10-17.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
     "quick-learn/视频行为分析系统试玩.md",
@@ -181,17 +217,7 @@
     "about/思碎集.md",
     "about/README.md",
     "about/一言.md",
-    "about/我的书籍.md",
-    "project/智能蹭课系统/项目概览.md",
-    "project/智能蹭课系统/需求分析.md",
-    "project/智能蹭课系统/未命名.md",
-    "project/智能蹭课系统/README.md",
-    "README.md",
-    "project/README.md",
-    "project/智能蹭课系统.md",
-    "project/智能蹭课系统/智能蹭课系统.md",
     "project/智能蹭课系统",
-    "quick-nav/README.md",
     "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
     "quick-learn/images/视频行为分析/7.png",
@@ -202,14 +228,11 @@
     "quick-learn/images/视频行为分析/2.png",
     "quick-learn/images/视频行为分析/1.png",
     "quick-learn/images/视频行为分析",
-    "2024-09-05.md",
-    "technology/demo/文件上传与下载.md",
     "technology/demo/images/文件上传与下载",
     "technology/demo/images",
     "frontend-dev/前端框架",
     "frontend-dev",
     "technology/demo",
-    "technology/backend-dev/后端框架/images/Spring-Boot数据访问",
-    "quick-learn/images/虚拟机入门"
+    "technology/backend-dev/后端框架/images/Spring-Boot数据访问"
   ]
 }

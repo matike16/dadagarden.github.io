@@ -60,6 +60,13 @@ export default sidebar({
           children: "structure",
         },
         {
+          text: "思碎集",
+          icon: "star",
+          prefix: "thinking/",
+          collapsible: true,
+          children: "structure",
+        },
+        {
           text: "一言摘录",
           icon: "heart",
           link: "一言.md",
