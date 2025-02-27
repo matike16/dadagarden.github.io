@@ -13,18 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/thinking/2024思碎集.md",
+                "file": "about/thinking/2025思碎集.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024思碎集"
+              "title": "2025思碎集"
             }
           }
         ]
       },
       {
-        "id": "d20da351b991a1c8",
+        "id": "edfe3bd519e93b38",
         "type": "tabs",
         "children": [
           {
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/我的书籍.md",
+                "file": "about/thinking/2025思碎集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "我的书籍 的大纲"
+              "title": "2025思碎集 的大纲"
             }
           }
         ],
@@ -186,10 +186,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "55c8c2a2c704eff8",
+  "active": "8bba8af5a4084e1d",
   "lastOpenFiles": [
-    "about/thinking/2025思碎集.md",
     "about/thinking/2024思碎集.md",
+    "about/我的书籍.md",
+    "about/thinking/2025思碎集.md",
     "about/thinking/README.md",
     "about/thinking/2024.md",
     "technology/backend-dev/基础技术/README.md",
@@ -216,7 +217,6 @@
     "quick-learn/计算机网络基本知识.md",
     "about/思碎集.md",
     "about/README.md",
-    "about/一言.md",
     "project/智能蹭课系统",
     "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
