@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/school-shuttle-analysis/项目介绍.md",
+                "file": "about/thinking/2025思碎集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "项目介绍"
+              "title": "2025思碎集"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "project/school-shuttle-analysis/项目介绍.md",
+                "file": "about/thinking/2025思碎集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目介绍 的大纲"
+              "title": "2025思碎集 的大纲"
             }
           }
         ],
@@ -188,8 +188,8 @@
   },
   "active": "8bba8af5a4084e1d",
   "lastOpenFiles": [
-    "project/README.md",
     "project/school-shuttle-analysis/项目介绍.md",
+    "project/README.md",
     "project/school-shuttle-analysis/README.md",
     "project/school-shuttle-analysis",
     "project/校园毽球可视化分析平台/README.md",
