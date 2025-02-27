@@ -10,8 +10,18 @@ export default sidebar({
     },
     {
       text: "项目",
-      link: "/project/",
       icon: "feather",
+      prefix: "project/",
+      collapsible: true,
+      children: [
+        {
+          text: "校园毽球可视化分析平台",
+          icon: "feather",
+          prefix: "school-shuttle-analysis/",
+          collapsible: true,
+          children: "structure",
+        }
+      ]
     },
     {
       text: "知识快学",
@@ -82,7 +92,7 @@ export default sidebar({
           link: "思碎集.md",
         },
       ]
-    }
+    },
   ],
   "/technology/backend-dev/": [
     {
@@ -132,12 +142,12 @@ export default sidebar({
       children: "structure",
     }
   ],
-  "/project/": [
+  "/project/school-shuttle-analysis/": [
     {
-      text: "项目目录",
-      icon: "link",
+      text: "校园毽球可视化分析平台",
+      icon: "feather",
       collapsible: true,
       children: "structure",
     }
-  ]
+  ],
 });

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/thinking/2025思碎集.md",
+                "file": "project/school-shuttle-analysis/项目介绍.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025思碎集"
+              "title": "项目介绍"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/thinking/2025思碎集.md",
+                "file": "project/school-shuttle-analysis/项目介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025思碎集 的大纲"
+              "title": "项目介绍 的大纲"
             }
           }
         ],
@@ -188,9 +188,16 @@
   },
   "active": "8bba8af5a4084e1d",
   "lastOpenFiles": [
+    "project/README.md",
+    "project/school-shuttle-analysis/项目介绍.md",
+    "project/school-shuttle-analysis/README.md",
+    "project/school-shuttle-analysis",
+    "project/校园毽球可视化分析平台/README.md",
+    "project/校园毽球可视化分析平台/项目介绍.md",
+    "project/校园毽球可视化分析平台",
+    "about/thinking/2025思碎集.md",
     "about/thinking/2024思碎集.md",
     "about/我的书籍.md",
-    "about/thinking/2025思碎集.md",
     "about/thinking/README.md",
     "about/thinking/2024.md",
     "technology/backend-dev/基础技术/README.md",
@@ -212,11 +219,6 @@
     "quick-learn/images/YOLO11学习和使用/1.png",
     "quick-learn/images/YOLO11学习和使用",
     "quick-learn/images/未命名.md",
-    "quick-learn/Web快速认识.md",
-    "quick-learn/前后端分离开发.md",
-    "quick-learn/计算机网络基本知识.md",
-    "about/思碎集.md",
-    "about/README.md",
     "project/智能蹭课系统",
     "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
@@ -231,8 +233,6 @@
     "technology/demo/images/文件上传与下载",
     "technology/demo/images",
     "frontend-dev/前端框架",
-    "frontend-dev",
-    "technology/demo",
-    "technology/backend-dev/后端框架/images/Spring-Boot数据访问"
+    "frontend-dev"
   ]
 }

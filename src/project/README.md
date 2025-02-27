@@ -20,10 +20,10 @@ actions:
 #     link: /zh/demo/
 
 features:
-  - title: 项目名称
+  - title: 校园毽球可视化分析平台
     icon: fab fa-markdown
     details: 项目描述
-    link: /zh/guide/layout/slides
+    link: /project/school-shuttle-analysis/项目介绍
 
   - title: 项目名称
     icon: fab fa-markdown
