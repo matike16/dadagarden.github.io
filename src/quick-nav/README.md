@@ -28,7 +28,8 @@ next: false
 <NavCard arr='[
     {"title": "ChatGPT", "url": "https://chatgpt.com/", "desc": "国外知名AI大模型", "icon": "/navicon/chatgpt.png"},
     {"title": "Kimi", "url": "https://kimi.moonshot.cn/", "desc": "优秀的国内AI大模型", "icon": "/navicon/kimi.png"},
-    {"title":"智谱清言", "url":"https://chatglm.cn/main/alltoolsdetail?lang=zh", "desc":"基于GLM模型开发的国内AI", "icon":"/navicon/ChatGLM.png"}
+    {"title":"智谱清言", "url":"https://chatglm.cn/main/alltoolsdetail?lang=zh", "desc":"基于GLM模型开发的国内AI", "icon":"/navicon/ChatGLM.png"},
+    {"title": "Deepseek", "url": "https://www.deepseek.com", "desc": "开源低成本优秀大模型", "icon": "/navicon/deepseek.png"}
 ]'></NavCard>
 
 ## <HopeIcon icon="code" color="var(--theme-color)"/> 技术相关

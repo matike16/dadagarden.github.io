@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/thinking/2025思碎集.md",
+                "file": "quick-nav/README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025思碎集"
+              "title": "README"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/thinking/2025思碎集.md",
+                "file": "quick-nav/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025思碎集 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -188,6 +188,8 @@
   },
   "active": "8bba8af5a4084e1d",
   "lastOpenFiles": [
+    "about/我的书籍.md",
+    "about/thinking/2025思碎集.md",
     "project/school-shuttle-analysis/项目介绍.md",
     "project/README.md",
     "project/school-shuttle-analysis/README.md",
@@ -195,9 +197,7 @@
     "project/校园毽球可视化分析平台/README.md",
     "project/校园毽球可视化分析平台/项目介绍.md",
     "project/校园毽球可视化分析平台",
-    "about/thinking/2025思碎集.md",
     "about/thinking/2024思碎集.md",
-    "about/我的书籍.md",
     "about/thinking/README.md",
     "about/thinking/2024.md",
     "technology/backend-dev/基础技术/README.md",
