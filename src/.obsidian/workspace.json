@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick-nav/README.md",
+                "file": "about/thinking/2025思碎集.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025思碎集"
             }
           }
         ]
@@ -160,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "quick-nav/README.md",
+                "file": "about/thinking/2025思碎集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "2025思碎集 的大纲"
             }
           }
         ],
@@ -189,6 +189,10 @@
   "active": "8bba8af5a4084e1d",
   "lastOpenFiles": [
     "about/我的书籍.md",
+    "about/README.md",
+    "about/intro.md",
+    "about/一言.md",
+    "quick-nav/README.md",
     "about/thinking/2025思碎集.md",
     "project/school-shuttle-analysis/项目介绍.md",
     "project/README.md",
@@ -213,12 +217,8 @@
     "2024-10-17.md",
     "quick-learn/Figma快速入门.md",
     "quick-learn/中级软考-软件设计师.md",
-    "quick-learn/视频行为分析系统试玩.md",
-    "quick-learn/虚拟机入门.md",
-    "quick-learn/前端包管理器.md",
     "quick-learn/images/YOLO11学习和使用/1.png",
     "quick-learn/images/YOLO11学习和使用",
-    "quick-learn/images/未命名.md",
     "project/智能蹭课系统",
     "quick-learn/images/视频行为分析/9.png",
     "quick-learn/images/视频行为分析/8.png",
